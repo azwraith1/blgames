@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLHallPointItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:bjle="bjle.*" width="22" height="160">
+	<e:Group width="22" height="160">
+	</e:Group>
+</e:Skin>

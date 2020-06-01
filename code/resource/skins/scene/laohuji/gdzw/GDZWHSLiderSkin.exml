@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GDZWHSLiderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="track" source="gdzw_autogame_loadingbg_png"/>
+	<e:Image id="trackHighlight" source="gdzw_autogame_loaingbar_png" width="0" x="10"/>
+	<e:Group id="thumb" y="20">
+		<e:Image source="gdzw_autogame_point_png" anchorOffsetX="19.5" anchorOffsetY="20.5"/>
+	</e:Group>
+</e:Skin>

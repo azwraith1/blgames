@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SNYXScrollerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:snyx="snyx.*" width="837.5">
+	<e:Scroller id="scroller" width="837.5" height="465" x="0">
+		<e:Group id="itemGroup">
+			<snyx:SNYXScrollerItem id="item1" width="167.5" height="465" x="0" y="0"/>
+			<snyx:SNYXScrollerItem id="item2" width="167.5" height="465" x="167.5" y="0" scaleX="1" scaleY="1"/>
+			<snyx:SNYXScrollerItem id="item3" width="167.5" height="465" x="335" y="0" scaleX="1" scaleY="1"/>
+			<snyx:SNYXScrollerItem id="item4" width="167.5" height="465" x="502.5" y="0" scaleX="1" scaleY="1"/>
+			<snyx:SNYXScrollerItem id="item5" width="167.5" height="465" x="670" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="wildGroup1" width="167.5" x="0" top="0" bottom="0"/>
+	<e:Group id="wildGroup2" width="167.5" x="167.5" top="0" bottom="0"/>
+	<e:Group id="wildGroup3" width="167.5" x="335" top="0" bottom="0"/>
+	<e:Group id="wildGroup4" width="167.5" x="502.5" top="0" bottom="0"/>
+	<e:Group id="wildGroup5" width="167.5" x="670" top="0" bottom="0"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AYLSMainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ayls="ayls.*">
+	<e:Group anchorOffsetX="0" id="resizeGroup" anchorOffsetY="0" width="1280" height="720" y="0" x="0">
+		<ayls:AYLSScene1 id="scene1" top="0" left="0" bottom="0" right="0" />
+		<ayls:AYLSScene3 id="scene3" top="0" left="0" bottom="0" right="0" visible="false" />
+	</e:Group>
+</e:Skin>

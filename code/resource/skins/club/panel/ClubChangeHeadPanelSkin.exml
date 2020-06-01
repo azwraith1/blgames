@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubChangeHeadPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Rect id="outrect" left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+		<e:Group left="0" right="0" top="0" bottom="0" touchEnabled="false">
+			<e:Image source="club_create_head_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Scroller id="headScroller" width="571" height="321" y="195" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" scrollPolicyV="off" bounces="true">
+				<e:Group id="iconGroup"/>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

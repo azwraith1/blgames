@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BSKGBigwinPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect id="maskRect" left="0" right="0" top="0" bottom="0" fillAlpha="0" visible="false"/>
+		<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Group id="bigwinPanel" width="1280" height="720" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="winImag" horizontalCenter="0" anchorOffsetY="83" alpha="0" bottom="432" x="287" y="80" scaleX="1" scaleY="1" source="bskg_bigwin_text_png"/>
+		<e:BitmapLabel id="winNum" width="1280" anchorOffsetX="640" text="0" textAlign="center" horizontalCenter="0" alpha="0" scaleX="1" scaleY="1" letterSpacing="-50" x="0" font="bskg_bigwin_gold_fnt" anchorOffsetY="82.5" height="165" verticalCenter="82.5"/>
+		</e:Group>
+		<e:Group id="effectGroup" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

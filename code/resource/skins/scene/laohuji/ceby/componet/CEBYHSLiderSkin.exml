@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CEBYHSLiderSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="track" source="ceby_auto_bar2_png"/>
+	<e:Image id="trackHighlight" width="0" x="10" source="ceby_auto_bar1_png"/>
+	<e:Group id="thumb" y="15">
+		<e:Image anchorOffsetX="19.5" anchorOffsetY="20.5" source="ceby_auto_bar3_png"/>
+	</e:Group>
+</e:Skin>

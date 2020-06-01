@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubRateShowItemComSkin" width="138" height="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="gameRateTxt" text="" size="18" textColor="0xE4AC7A" textAlign="right"  scaleX="1" scaleY="1" anchorOffsetY="0"  left="0" verticalCenter="0"/>
+</e:Skin>

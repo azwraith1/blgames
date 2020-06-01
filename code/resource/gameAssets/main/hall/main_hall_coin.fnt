@@ -1,0 +1,14 @@
+{"file":"main_hall_coin.png","frames":{
+"0":{"x":25,"y":0,"w":15,"h":24,"offX":2,"offY":1,"sourceW":19,"sourceH":26},
+"1":{"x":55,"y":0,"w":9,"h":23,"offX":2,"offY":2,"sourceW":13,"sourceH":26},
+"2":{"x":14,"y":48,"w":13,"h":24,"offX":2,"offY":1,"sourceW":17,"sourceH":26},
+"3":{"x":0,"y":26,"w":14,"h":24,"offX":2,"offY":1,"sourceW":18,"sourceH":26},
+"4":{"x":40,"y":24,"w":15,"h":23,"offX":2,"offY":2,"sourceW":19,"sourceH":26},
+"5":{"x":27,"y":48,"w":13,"h":23,"offX":2,"offY":2,"sourceW":17,"sourceH":26},
+"6":{"x":40,"y":47,"w":14,"h":24,"offX":2,"offY":1,"sourceW":18,"sourceH":26},
+"7":{"x":0,"y":50,"w":13,"h":23,"offX":2,"offY":2,"sourceW":17,"sourceH":26},
+"8":{"x":25,"y":24,"w":15,"h":24,"offX":2,"offY":1,"sourceW":19,"sourceH":26},
+"9":{"x":40,"y":0,"w":15,"h":24,"offX":2,"offY":1,"sourceW":19,"sourceH":26},
+".":{"x":55,"y":23,"w":5,"h":7,"offX":2,"offY":18,"sourceW":9,"sourceH":26},
+"万":{"x":0,"y":0,"w":25,"h":26,"offX":2,"offY":0,"sourceW":29,"sourceH":26},
+" ":{"x":14,"y":26,"w":5,"h":5,"offX":0,"offY":0,"sourceW":5,"sourceH":26}}}

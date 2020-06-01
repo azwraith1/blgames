@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuNewYZBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" height="56" width="660">
+		<e:Button id="btn0" label="" skinName="NiuniuYZSkin"/>
+		<e:Button id="btn1" label="" x="134" skinName="NiuniuYZSkin"/>
+		<e:Button id="btn2" label="" x="267" skinName="NiuniuYZSkin"/>
+		<e:Button id="btn3" label="" x="401" skinName="NiuniuYZSkin"/>
+		<e:Button id="btn4" label="" skinName="NiuniuYZSkin" x="534"/>
+	</e:Group>
+</e:Skin>

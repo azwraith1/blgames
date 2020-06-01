@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuNewFenSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="niuniu_paixing_di_png" x="9.6" y="-16"/>
+	<e:Group>
+		<e:Group id="dbGroup"  anchorOffsetX="0" verticalCenter="-19.5" horizontalCenter="0"/>
+		<e:Image id="bgImage" scaleX="1" scaleY="1" source="nn_pattern_bg1_png"/>
+		<e:BitmapLabel id="beishuLabel" x="70" y="30" text="3倍" letterSpacing="0" font="nn_beishu2_fnt"/>
+		<e:Image id="patternImage" scaleX="1" scaleY="1" y="14.6" x="59" height="40" name="niufen" source=""/>
+		<e:BitmapLabel id="patternLabel" x="16.65" y="-8.1" text="" anchorOffsetX="0" letterSpacing="-5" height="41" name="niufen" font="nn_pattern1_5_fnt"/>
+
+	</e:Group>
+</e:Skin>

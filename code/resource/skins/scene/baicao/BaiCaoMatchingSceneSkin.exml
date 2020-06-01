@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaiCaoMatchingSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Group id="resizeGroup" width="720" height="1280" x="0" y="0">
+		<e:Image id="bg" left="0" top="0" right="0" bottom="0" source="baicao_bg1_jpg"/>
+
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="50" top="31"/>
+
+		<e:Button id="backBtn" label="" left="38" top="63">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="blackj_button_back_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="diFen" text="Điểm Thấp Nhất:  2" textColor="0x7b2a30" size="24" verticalCenter="-239" bold="true" horizontalCenter="0"/>
+		<e:Group id="juhuaGroup" horizontalCenter="0" verticalCenter="0">
+			<e:Image scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="main_match_db_png"/>
+			<e:Image id="rotationImage" x="100.54" y="29" anchorOffsetX="17" anchorOffsetY="16.5" source="main_match_png"/>
+			<e:Label id="timeLabel" text="Đang kết nối hệ thống..." textColor="0xFFFFFF" size="24" verticalCenter="0.5" left="133"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

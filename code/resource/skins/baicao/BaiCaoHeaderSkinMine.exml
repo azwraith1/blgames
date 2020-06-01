@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaiCaoHeaderSkinMine" width="126" height="168.67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Image x="0" y="0" source="baicao_mine_header_bg_png"/>
+	<e:Group id="headerGroup" y="1" x="0" width="129.33" height="162.73" anchorOffsetY="0" anchorOffsetX="0">
+
+
+
+
+
+		<e:Group x="4.16" y="83.87" anchorOffsetX="0" width="111">
+			<e:Image y="0" scaleX="1" scaleY="1" source="baicao_name_bg_png" x="4.08" anchorOffsetX="0" width="111.33"/>
+			<e:Label id="nameLabel" text="test1234" x="-4" y="3.66" size="22" anchorOffsetX="0" width="121.47" textAlign="center" height="22" textColor="0xfcfcfe"/>
+		</e:Group>
+		<e:Group x="-0.71" y="116.73" anchorOffsetX="0" width="126.33">
+			<e:Image y="0" scaleX="1" scaleY="1" source="baicao_coin_bg_png" x="4.67" anchorOffsetX="0" width="119.33"/>
+			<e:Image y="1.6" source="baicao_tz_coin_png_png" x="7"/>
+			<e:Label id="goldLabel" text="456万" x="37.41" y="2.22" size="18" anchorOffsetX="0" width="87" textAlign="left" height="26.67" textColor="0xfbda5f" anchorOffsetY="0" verticalAlign="middle"/>
+		</e:Group>
+		<e:Group x="22.71" y="4.2" scaleX="1" scaleY="1">
+			<e:Image y="0" scaleX="1" scaleY="1" x="0" source="baicao_header_kuang_png_png"/>
+			<e:Image id="headerImage" y="6.32" width="65" height="64" anchorOffsetX="0" anchorOffsetY="0" source="hall_header_1_2_png" x="6"/>
+		</e:Group>
+		<e:Group id="liushuiGroup" y="-75.66" width="143" horizontalCenter="0.8349999999999937" visible="false">
+			<e:Image id="liushuiBg" source="blackj_header_lose_ls_db_png" horizontalCenter="0.5" x="0" scaleX="1" scaleY="1" visible="false"/>
+			<e:BitmapLabel id="liushuiLabel" y="14.65" text="" anchorOffsetX="0" width="235.6" textAlign="center" letterSpacing="-6" horizontalCenter="0" font="baicao_lose_fnt"/>
+		</e:Group>
+		<e:Group id="effectGroup" x="60" y="-30"/>
+		<e:Image id="timeBg" source="blackj_time_bg_png" x="73" y="89.6" anchorOffsetX="65" anchorOffsetY="65" visible="false"/>
+	</e:Group>
+	<e:Image id="tipImage" source="blackj_dir_tip_png" y="-37.6" x="45" visible="false"/>
+	<e:Group id="coinTarget" x="62.71" y="38.2" scaleX="1" scaleY="1"/>
+
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchHallTabBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="238" height="156">
+	<e:Image id="tabImage" horizontalCenter="0" verticalCenter="0" source="match_hall_wz_jqqd_png"/>
+</e:Skin>

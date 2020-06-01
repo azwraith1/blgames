@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZHelpSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0" scaleX="1" scaleY="1" left="0" top="0" right="0" bottom="0" alpha="1"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Image anchorOffsetY="0" anchorOffsetX="0" x="-0.5" scale9Grid="225,120,188,72" source="bdz_help_bg_png"/>
+			<e:Button id="closeBtn" label="" anchorOffsetY="0" x="877.67" y="7.96">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_close_btn_png" source.down="main_close_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Image y="22.96" x="50.98" source="bdz_help_title_png"/>
+			<e:Scroller id="scroller" width="864" height="406.67" x="56.34" y="140" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group>
+					<e:Image x="64" y="21" source="bdz_help_img1_png"/>
+					<e:Image x="61" y="343" source="bdz_help_img2_png"/>
+					<e:Image source="bdz_help_img3_png" x="80" y="220"/>
+					<e:layout>
+						<e:VerticalLayout gap="0"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

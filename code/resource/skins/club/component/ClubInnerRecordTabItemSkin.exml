@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubInnerRecordTabItemSkin" width="242" height="92" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="gameIdImage" x="0" y="0" source="club_game_1_down_png"/>
+	<e:Image id="redPoint" x="203" y="6" source="club_red_point_png" visible="false"/>
+</e:Skin>

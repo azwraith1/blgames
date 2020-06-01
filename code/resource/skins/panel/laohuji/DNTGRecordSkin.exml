@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGRecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup">
+		<e:Rect strokeAlpha="0" fillAlpha="0" scaleX="1" scaleY="1" top="0" bottom="0" y="0" left="640" right="640"/>
+		<e:Group width="1280" height="720" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Image verticalCenter="0" y="107" scaleX="1" scaleY="1" anchorOffsetX="0" width="1137.37" scale9Grid="12,12,821,475" source="slot_record_bg_png" horizontalCenter="0"/>
+			<e:Image source="slot_record_bg2_png" y="161.89" horizontalCenter="-0.5" anchorOffsetX="0" width="1064"/>
+			<e:Image scaleX="1" scaleY="1" source="slot_record_text_png" y="50" horizontalCenter="0.5"/>
+
+			<e:Image id="timeImage" scaleX="1" scaleY="1" source="slot_record_time_png" horizontalCenter="-385" y="128"/>
+			<e:Image scaleX="1" scaleY="1" source="slot_record_gametext_png" horizontalCenter="183" y="128"/>
+			<e:Image scaleX="1" scaleY="1" source="slot_record_totalbet_png" y="128" horizontalCenter="294"/>
+			<e:Image scaleX="1" scaleY="1" source="slot_record_wintext_png" y="128" horizontalCenter="429"/>
+			<e:Scroller id="gameRecordScroller" width="1000" height="480" y="167.89" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="3" x="260" scaleX="1" scaleY="1">
+			<e:List id="gameRecordList" anchorOffsetX="0" width="1000" x="-92.42" y="0"/>
+			</e:Scroller>
+			<e:Button id="closeBtn" label="" scaleX="1" scaleY="1" y="44.33" horizontalCenter="507">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="slot_record_close_png" source.down="slot_record_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Image source="slot_record_id_png" horizontalCenter="-82.5" y="132"/>
+			<e:Label text="最多显示最近15条记录" y="652.56" size="22" anchorOffsetX="0" width="323.67" textAlign="center" horizontalCenter="0" textColor="0xfee86b"/>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

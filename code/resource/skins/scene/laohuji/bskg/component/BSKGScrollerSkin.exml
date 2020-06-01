@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BSKGScrollerSkin" width="850" height="453" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bskg="bskg.*">
+	<e:Scroller id="scroller" width="850" height="453" y="0">
+		<e:Group id="itemGroup">
+			<bskg:BSKGScrollerItem id="item1" width="170" height="453" x="0" y="0"/>
+			<bskg:BSKGScrollerItem id="item2" width="170" height="453" x="170" y="0"/>
+			<bskg:BSKGScrollerItem id="item3" width="170" height="453" x="340" y="0"/>
+			<bskg:BSKGScrollerItem id="item4" width="170" height="453" x="510" y="0"/>
+			<bskg:BSKGScrollerItem id="item5" width="170" height="453" x="680" y="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GDMJBaoCardAniSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:majiang="majiang.*" width="332" height="220">
+
+	<e:Group id="dbGroup" horizontalCenter="0" verticalCenter="50"/>
+	<e:Image source="gdmj_laizi_2_png" y="0"/>
+
+	<majiang:GDMJMineShoupai id="pai" y="83" skinName="majiang.GDMJMineShoupaiSkin" scaleX="1.23" scaleY="1.23" x="119"/>
+    
+</e:Skin>

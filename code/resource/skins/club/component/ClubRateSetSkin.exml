@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubRateSetSkin" width="443" height="277" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16f8d4a6a9b"/>
+	<e:Group x="0" y="0" anchorOffsetX="0" width="443">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1" source="club_set_rate_kuang_png" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group x="177.33" y="16.35" anchorOffsetY="0" height="249.67" visible="false">
+			<e:Group x="0" y="52">
+				<e:Image source="club_txt_bg_png" x="0" y="0"/>
+				<e:EditableText id="niuniuRate" width="106" height="34" text="4" x="5" y="3" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" size="24" fontFamily="SimHei" verticalAlign="middle" textColor="0xa74225"/>
+				<e:Label text="%" x="110.00000000000003" y="3" anchorOffsetY="0" height="34" anchorOffsetX="0" width="68" size="24" textColor="0xA74225" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group x="0" y="208">
+				<e:Image source="club_txt_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:EditableText id="ermjRate" width="106" height="34" text="4" x="4" y="3" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" size="24" fontFamily="SimHei" scaleX="1" scaleY="1" verticalAlign="middle" rotation="0.01" textColor="0xa74225"/>
+				<e:Label text="%" x="110" y="3" anchorOffsetY="0" height="34" anchorOffsetX="0" width="68" size="24" textColor="0xa74225" textAlign="left" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group x="0" y="0">
+				<e:Image source="club_txt_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:EditableText id="xlxzRate" width="106" height="34" text="4" x="5" y="3" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" size="24" fontFamily="SimHei" scaleX="1" scaleY="1" verticalAlign="middle" textColor="0xa74225"/>
+				<e:Label text="%" x="110.00000000000003" y="3" anchorOffsetY="0" height="34" anchorOffsetX="0" width="68" size="24" textColor="0xA74225" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group x="0" y="104">
+				<e:Image source="club_txt_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:EditableText id="zjhRate" width="106" height="34" text="4" x="5" y="3" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" size="24" fontFamily="SimHei" scaleX="1" scaleY="1" verticalAlign="middle" textColor="0xa74225"/>
+				<e:Label text="%" x="110.00000000000003" y="3" anchorOffsetY="0" height="34" anchorOffsetX="0" width="68" size="24" textColor="0xA74225" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group x="0" y="156">
+				<e:Image source="club_txt_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:EditableText id="kwxRate" width="106" height="34" text="4" x="5" y="3" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" size="24" fontFamily="SimHei" scaleX="1" scaleY="1" verticalAlign="middle" textColor="0xA74225"/>
+				<e:Label text="%" x="110.00000000000003" y="3" anchorOffsetY="0" height="34" anchorOffsetX="0" width="68" size="24" textColor="0xA74225" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:Group y="20.02" left="55" visible="false">
+			<e:Label text="血战到底：" size="24" textColor="0xE4AC73" fontFamily="SimHei" y="0" x="0" textAlign="right"/>
+			<e:Label text="抢庄牛牛：" size="24" textColor="0xe4ac73" fontFamily="SimHei" x="0" y="26"/>
+			<e:Label text="炸金花：" x="0" y="149.66" size="24" textColor="0xE4AC73" fontFamily="SimHei"/>
+
+
+
+
+
+
+			<e:Label text="卡五星：" x="0" y="185.66" size="24" textColor="0xE4AC73" fontFamily="SimHei"/>
+			<e:Label text="二人麻将：" size="24" textColor="0xE4AC73" fontFamily="SimHei" x="0" y="213"/>
+			<e:layout>
+				<e:VerticalLayout gap="30" horizontalAlign="right"/>
+			</e:layout>
+
+		
+		</e:Group>
+		<e:Scroller width="334" height="242" x="68" y="15" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="clubRateitemGroup" height="242">
+			
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

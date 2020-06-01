@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMJEmojiItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="63" height="77">
+	<e:Image id="iconImage" x="0" y="0" width="63" height="63" source="emoji_icon_1_png" touchEnabled="false"/>
+	<e:Image source="nn_coin_png" y="62" scaleX="0.3" scaleY="0.3" x="4" touchEnabled="false"/>
+	<e:Label id="numberLabel" text="0.1元" x="16" y="63" textColor="0x12df1d" size="12" anchorOffsetX="0" width="42.67" textAlign="center" touchEnabled="false"/>
+</e:Skin>

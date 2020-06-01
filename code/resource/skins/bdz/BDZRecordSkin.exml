@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZRecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="171ba262a82"/>
+	<e:Group id="resizeGroup" left="0" top="0" bottom="0" right="0">
+		<e:Rect id="rects" fillAlpha="0.4" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0"/>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image scaleX="1" scaleY="1" source="mj_common_db3_png" y="6"/>
+			<e:Image y="34.52" horizontalCenter="-314" source="c_record_title_kr_png"/>
+
+			<e:Label id="tishiyu" text="아직 대전 기록이 없습니다" anchorOffsetX="0" width="407.76" anchorOffsetY="0" height="33.94" size="30" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" y="308" x="282" textColor="0x915122" bold="true" visible="false"/>
+			<e:Image x="166.63" y="123.33" source="c_record_bh_kr_png"/>
+			<e:Image x="427.33" y="123.33" source="c_record_room_kr_png"/>
+			<e:Image x="600.32" y="123.33" source="c_record_yk_kr_png"/>
+			<e:Image id="timeImage1" x="817.33" y="123.33" source="c_record_time_kr_png"/>
+			<e:Scroller id="scroller" width="869" height="369" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="36">
+				<e:Group id="recordGroup" anchorOffsetX="0" height="367" anchorOffsetY="0" x="0" y="2">
+				<e:layout>
+					<e:VerticalLayout gap="10" paddingTop="6"/>
+				</e:layout>
+
+				</e:Group>
+			</e:Scroller>
+			<e:Label text="최대 10 개의 레코드 표시" anchorOffsetX="0" size="24" anchorOffsetY="0" height="22.86" scaleX="1" scaleY="1" y="536.14" horizontalCenter="-3.5" fontFamily="SimHei" textColor="0x915122"/>
+			<e:Button id="closeBtn" label="" x="874" y="16">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_close_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

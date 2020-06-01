@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZHallSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16950e71404"/>
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Image source="bdz_hall_bg_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="selectGroup" horizontalCenter="0" width="1280" height="436" anchorOffsetY="0" verticalCenter="30"/>
+		<e:Group left="0" right="0" height="89" top="9">
+			<e:Button id="backBtn" label="Button" left="22" top="12">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bdz_backbtn_png" source.down="bdz_backbtn_png"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="fullScreenBtn" label="Button" scaleX="1" scaleY="1" y="9" x="1196">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bdz_hall_qpbtn_png" source.down="bdz_hall_qpbtn_png"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="" scaleX="1" scaleY="1" y="9" x="1049">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bdz_helpbtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="settingBtn" label="" scaleX="1" scaleY="1" y="9" x="1123">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bdz_set_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="recordBtn" label="" scaleX="1" scaleY="1" y="9" x="974">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bdz_recordbtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group width="67" height="67" x="99.27" y="7.12">
+				<e:Image source="bdz_hall_db_png" x="46" y="1"/>
+				<e:Image id="headerImage" x="-1.25" y="-9.75" width="85" height="85" source=""/>
+			<e:Image scaleX="1" scaleY="1" x="-6.25" source="bdz_hall_header1_png" y="-14" touchEnabled="false"/>
+			</e:Group>
+			<e:Label id="nameLabel" text="Label" x="186" y="18" size="20" fontFamily="SimHei" anchorOffsetX="0" width="167.6" anchorOffsetY="0" textAlign="center" scaleX="1" scaleY="1" verticalAlign="middle" textColor="0xf5ede4"/>
+			<e:Label id="goldLabel" text="0" x="196" y="46.5" size="20" fontFamily="SimHei" anchorOffsetX="0" width="146.8" anchorOffsetY="0" height="18" textAlign="center" scaleX="1" scaleY="1" verticalAlign="middle" textColor="0xf1cc32"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

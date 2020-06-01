@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RDSGMainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:rdsg="rdsg.*" xmlns:sdxl="sdxl.*">
+	<e:Group id="resizeGroup" width="1280" x="0" height="720" y="0">
+		<rdsg:RDSGScene1 id="scene1" right="0" left="0" top="0" bottom="0" skinName="RDSGScene1Skin"/>
+		<rdsg:RDSGScene3 id="scene3" left="0" right="0" top="0" bottom="0" skinName="RDSGScene3Skin" visible="false"/>
+		<e:Group id="comm2freeGroup" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image source="rdsg_bigwin_bg_png" horizontalCenter="2.5" verticalCenter="-16"/>
+			<e:Group id="effectGroup" left="0" right="0" top="0" bottom="0">
+			</e:Group>
+			<e:Group id="toFreeGroup" left="0" right="0" top="0" bottom="0" x="0" y="52" scaleX="1" scaleY="1">
+				<e:Image id="freeTiemsImag2" source="rdsg_freespin_1_png" horizontalCenter="0" verticalCenter="0" x="317" y="144.00000000000003" scaleX="1" scaleY="1"/>
+				<e:Image id="freeTiemsImag" source="rdsg_freespin_10_png" horizontalCenter="0" verticalCenter="37.5" x="600" y="312" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

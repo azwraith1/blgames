@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WinNumberGroupSkin" width="105" height="131" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="lun_png" x="0" y="0" visible="false"/>
+	<e:Group id="dbGroup" x="55" y="64"/>
+	<ns1:WinNumberItem id="winNumberItem" width="80" height="80" x="12" y="27" skinName="WinNumberItemSkin" visible="false"/>
+</e:Skin>

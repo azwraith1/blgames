@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HZMJOverSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:majiang="majiang.*" xmlns:ns1="*">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect left="0" top="0" right="0" bottom="0" fillAlpha="0.7" width="1280" height="720"/>
+		<e:Group id="group1" top="20" horizontalCenter="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="3.03" source="hzmj_ditu_up_png" top="-29"/>
+
+
+			<e:Group id="paiGroup" anchorOffsetX="0" anchorOffsetY="0" height="49.95" y="97" horizontalCenter="0">
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="huInfoLabel" text="" y="63" textColor="0x8fe8ee" size="22" horizontalCenter="0"/>
+			<e:Group id="huInfoGroup" y="9" horizontalCenter="0.5">
+				<e:Image source="gdmj_over_hutip_1_png" x="-3" y="-5"/>
+				<e:Image source="gdmj_over_hutip_2_png" x="69" y="4"/>
+				<e:Image source="gdmj_over_hutip_2_png" x="79" y="14"/>
+				<e:Group x="417" y="0">
+					<e:Image source="gong_png" x="24" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"/>
+
+					<e:Image source="bei_png" x="186" y="4" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"/>
+				</e:Group>
+
+				<e:layout>
+					<e:HorizontalLayout gap="25"/>
+				</e:layout>
+			</e:Group>
+			<e:Button id="flushBtn" label="" left="0" top="0" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hzmj_flush_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+
+
+
+		</e:Group>
+		<e:Group id="group2" scaleX="1" scaleY="1" width="1100" verticalCenter="54.5" horizontalCenter="0">
+
+
+
+
+			<ns1:HZMJOverItem id="item1" width="265" height="402" y="0" left="15" skinName="HZMJOverItemSkin"/>
+			<ns1:HZMJOverItem id="item2" width="265" height="402" x="290.88" y="0" skinName="HZMJOverItemSkin"/>
+			<ns1:HZMJOverItem id="item3" width="265" height="402" x="568" y="0" skinName="HZMJOverItemSkin"/>
+			<ns1:HZMJOverItem id="item4" width="265" height="402" y="0" x="844" skinName="HZMJOverItemSkin"/>
+		</e:Group>
+		<e:Group id="group4" anchorOffsetX="0" scaleX="1" scaleY="1" width="525" height="73" bottom="24"
+		         horizontalCenter="0">
+			<e:Button id="playBtn" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"
+			          width="209" y="-11" x="316">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hzmj_nextgame_png" source.down="hzmj_nextgame_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="backBtn" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"
+			          x="0" y="-11">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hzmj_tuichu_png_png" source.down="hzmj_tuichu_png_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+		</e:Group>
+
+
+	</e:Group>
+	<w:Config id="164689c0222" />
+</e:Skin>

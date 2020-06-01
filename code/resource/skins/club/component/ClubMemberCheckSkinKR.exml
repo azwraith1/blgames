@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMemberCheckSkinKR" width="694" height="72" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="club_mem_listkuang_png" x="0" y="0"/>
+	<e:Group x="28" y="3">
+		<e:Image source="club_list_headkuang_png" x="0" y="0"/>
+		<e:Image id="headerMask" x="3.6" y="3.2" anchorOffsetX="0" width="55.6" anchorOffsetY="0" height="56.8" source="main_hall_img_16_png"/>
+		<e:Image id="headerImage" y="3.17" width="97.89" height="98.76" source="common_header_json.hall_header_1_5_png" x="3.5" scaleX="0.57" scaleY="0.57" anchorOffsetY="0" anchorOffsetX="0"/>
+	</e:Group>
+ <e:Label id="nameLabel" text="我的名字" size="24" fontFamily="SimHei" textColor="0xfffcf7" left="111" verticalCenter="2"/>
+
+
+	<e:Label id="IPValue" text="ip：122.136.2.61" anchorOffsetX="0"  anchorOffsetY="0" size="24"    verticalAlign="middle" textAlign="center" height="23" fontFamily="SimHei" textColor="0xf7b721" horizontalCenter="8" verticalCenter="2.5"/>
+	<e:Group right="17" verticalCenter="6.5">
+		<e:Button id="rejectBtn" label="" x="0" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_mem_rejectbtn_kr_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="agreeBtn" label="" x="100" y="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_mem_agreebtn_kr_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

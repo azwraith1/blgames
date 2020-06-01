@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubInviteItemSkinKR" width="257" height="60" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="userHead" width="45" height="45" horizontalCenter="-101" verticalCenter="0.5"/>
+	<e:Image source="club_invite_head2_png" horizontalCenter="-100.5" y="7"/>
+	<e:Image id="inviteBtn" y="12" horizontalCenter="90.5" source="club_invite_btn1_kr_png"/>
+	<e:Label id="userName" text="我是能能能能" x="53.34" textColor="0xE4AC7A" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="124.33" y="10"/>
+	<e:Label id="statusLabel" text="（在线）" x="54" y="36" textColor="0x2AC664" size="18" anchorOffsetX="0" width="117.5"/>
+</e:Skin>

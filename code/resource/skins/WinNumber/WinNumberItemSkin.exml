@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WinNumberItemSkin" width="80" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:BitmapLabel id="winTxt"  y="0" font="winNumber_fnt" text="4" anchorOffsetX="0"  horizontalCenter="5" textAlign="center" width="80" height="80" verticalAlign="center"/>
+</e:Skin>

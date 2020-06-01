@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CEBYScrollerSkin" width="1021" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ceby="ceby.*">
+	<e:Scroller id="scroller" width="1021" height="570">
+		<e:Group id="itemGroup">
+			<ceby:CEBYScrollerItem id="item1" width="201" height="570" x="0" y="0"/>
+			<ceby:CEBYScrollerItem id="item2" width="201" height="570" x="205" y="0" scaleX="1" scaleY="1"/>
+			<ceby:CEBYScrollerItem id="item3" width="201" height="570" x="410" scaleX="1" scaleY="1"/>
+			<ceby:CEBYScrollerItem id="item4" width="201" height="570" x="615" y="0" scaleX="1" scaleY="1"/>
+			<ceby:CEBYScrollerItem id="item5" width="201" height="570" x="820" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

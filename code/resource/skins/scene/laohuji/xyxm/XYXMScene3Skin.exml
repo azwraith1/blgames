@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XYXMScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" left="0" right="0" top="0" bottom="0">
+		<e:Image source="xyxm_free_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Group right="0" left="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image source="xyxm_gamebg7_png" x="101.66999999999999" y="5" scaleX="1" scaleY="1"/>
+			<e:Image source="xyxm_gamebg5_png" x="103.66999999999999" y="8.029999999999998" scaleX="1" scaleY="1"/>
+			<e:Image source="xyxm_gamebg3_png" x="56" y="51" scaleX="1" scaleY="1"/>
+			<e:Image source="xyxm_gamebg6_png" x="1077.6799999999998" y="-27" scaleX="1" scaleY="1"/>
+			<e:Image source="xyxm_gamebg2_png" y="-0.92" horizontalCenter="50.5" x="137" scaleX="1" scaleY="1"/>
+			<e:Image source="xyxm_gamebg4_png" x="145" y="73" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group left="0" right="0" y="37.33">
+			<e:Image source="xyxm_2x_png" scaleX="1" scaleY="1" horizontalCenter="-183"/>
+			<e:Image source="xyxm_3x_png" horizontalCenter="-72"/>
+			<e:Image source="xyxm_4x_png" horizontalCenter="44"/>
+			<e:Image source="xyxm_5x_png" y="0" horizontalCenter="156"/>
+			<e:Image source="xyxm_10x_png" y="0" horizontalCenter="278"/>
+		</e:Group>
+		<e:Group left="0" right="0" bottom="0">
+			<e:Image source="xyxm_free_bg2_png" scaleX="1" scaleY="1" horizontalCenter="-280"/>
+			<e:Image source="xyxm_free_bg1_png" scaleX="1" scaleY="1" horizontalCenter="-60.5"/>
+			<e:Image source="xyxm_free_bg2_png" horizontalCenter="155.5"/>
+			<e:Image source="xyxm_free_bg1_png" horizontalCenter="369.5"/>
+			<e:Image source="xyxm_free_bg5_png" y="28.99" horizontalCenter="157"/>
+			<e:Image source="xyxm_free_bg3_png" y="32.65" horizontalCenter="-281"/>
+			<e:Image source="xyxm_free_bg4_png" x="1139.96" y="-2.67"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

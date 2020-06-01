@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlackJCMGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="99" height="99">
+	<e:Image source="blackj_xz_quan_png"/>
+	<e:Label id="indexLabel" text="Label" x="11" y="33" visible="false"/>
+	<e:Group id="tipImage" height="52" horizontalCenter="0.5" y="-46" visible="false">
+		<e:Image source="blackj_xz_tip_png" cacheAsBitmap="true" scaleX="1" scaleY="1"/>
+		<e:Label id="tipLabel" text="点击下注" x="5.75" y="10.25" anchorOffsetX="0" width="100.25" textAlign="center" size="20" textColor="0xfcfcfe"/>
+	</e:Group>
+	<e:Group id="cmGroup" width="50" height="50" horizontalCenter="4.5" verticalCenter="0.5">
+	</e:Group>
+
+
+</e:Skin>

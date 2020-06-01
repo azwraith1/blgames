@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GYZJFanPai" width="78" height="111" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="fanpai">
+			<tween:TweenItem target="{cardFront}">
+				<tween:Set/>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group id="cardFront" x="0" y="0" visible="false">
+		<e:Image id="bgImage1" x="0" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="bgImage" source="mine_shoupai_1_png" x="0" y="0"/>
+		<e:Image id="colorImage" anchorOffsetY="0" source="color_value_21_png" x="4" y="14"/>
+	</e:Group>
+	<e:Group id="fanPaiGroup" width="200" height="200" x="33" y="58"/>
+	<e:Group id="cardBack" x="0" y="0" scaleX="1" scaleY="1">
+		<e:Image id="bgImage0" x="0" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="bgImage2" x="0" y="0" source="mine_shoupai_1_png"/>
+		<e:Image id="colorImageback" anchorOffsetY="0" x="4" y="14" source="color_value_21_png"/>
+
+	</e:Group>
+</e:Skin>

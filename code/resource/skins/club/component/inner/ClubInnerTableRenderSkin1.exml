@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubInnerTableRenderSkin1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="341" height="224">
+	<e:Image source="club_inner_table_png" y="10.4"/>
+	<e:Group id="group1" width="52" height="52" x="7.3" y="119.4">
+		<e:Image id="header1" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="group2" width="52" height="52" x="99.3" y="119.4">
+		<e:Image id="header2" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="group3" width="52" height="52" x="187.63" y="119.4">
+		<e:Image id="header3" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="group4" width="52" height="52" x="278.96" y="119.4">
+		<e:Image id="header4" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="group8" width="52" height="52" x="13.99" y="0">
+		<e:Image id="header8" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="group7" width="52" height="52" x="98.29" y="0">
+		<e:Image id="header7" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="group6" width="52" height="52" x="186.62" y="0">
+		<e:Image id="header6" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="group5" width="52" height="52" x="271.96" y="0">
+		<e:Image id="header5" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="infoGroup" anchorOffsetX="0" anchorOffsetY="0" y="66.4" horizontalCenter="7.5">
+		<e:Image source="club_inner_table_bg1_png"/>
+		<e:Image source="club_inner_people_png" x="12.9" y="4.8"/>
+		<e:Label id="gameNameLabel" text="8/8" x="31.9" y="5.6" size="20" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" textColor="0xfff49c" width="40" fontFamily="SimHei"/>
+		<e:Label id="difenLabel" text="底分:10000" x="55.32" y="4.8" size="20" anchorOffsetX="0" width="111" textAlign="right" scaleX="1" scaleY="1" textColor="0xb4e8fa" fontFamily="SimHei"/>
+		<e:Label id="statusLabel" text="等待中" y="28" size="20" anchorOffsetX="0" width="111" textAlign="center" scaleX="1" scaleY="1" fontFamily="SimHei" textColor="0x43fd4c" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image id="kongImage" y="60.31" source="club_inner_game_1_png" horizontalCenter="0" visible="false"/>
+	<e:Image id="tableSetImg" y="68.6" source="club_tableset_long_png" horizontalCenter="0" visible="false"/>
+	<e:Group id="tableNumGroup" x="308.95" y="52">
+		<e:Image source="tablenum_png" x="0" y="0"/>
+		<e:BitmapLabel id="tableNum" y="9" font="table_num_fnt" text="1" x="9.05"/>
+	</e:Group>
+</e:Skin>

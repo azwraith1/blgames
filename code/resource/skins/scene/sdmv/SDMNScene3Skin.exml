@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDMNScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:sdmn="sdmn.*">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="freebg" source="sdmn_freebg1_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="freeGroup" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Group id="bgEffectGroup" left="0" right="0" top="0" bottom="0"/>
+			<e:Group id="roleEffectGroup" left="0" right="0" top="0" bottom="0">
+			</e:Group>
+			<e:Image id="gameBg" source="sdmn_freebg_0_png" verticalCenter="-50" horizontalCenter="100.5"/>
+			<sdmn:SDMNScroller id="scroller" width="972" horizontalCenter="103" anchorOffsetY="0" height="552" verticalCenter="-51"/>
+			<e:Image id="lineImag" horizontalCenter="101" verticalCenter="-52" source="sdmn_scroller_kuang_png"/>
+			<e:Group id="scoreGroup" width="1012" height="542.67" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="106" verticalCenter="-61">
+			</e:Group>
+			<e:Group id="freemulGroup" width="227.33" height="72" anchorOffsetY="0" anchorOffsetX="0" left="0" bottom="146">
+				<e:Image source="sdmn_freemul_1_png" bottom="16"/>
+				<e:Image source="sdmn_freemul_1_png" horizontalCenter="-0.16500000000000625" bottom="16"/>
+				<e:Image source="sdmn_freemul_1_png" bottom="16" horizontalCenter="78.835"/>
+				<e:Group id="freeMulAniGroup" left="0" right="0" top="0" bottom="0"/>
+				<e:Group id="bei0" bottom="20" horizontalCenter="-77.665" anchorOffsetX="15.83" anchorOffsetY="12.17">
+					<e:Image source="sdmn_freemul_2_png" left="0" verticalCenter="2.5" scaleX="0.25" scaleY="0.25"/>
+					<e:BitmapLabel id="freemul0" scaleX="0.25" scaleY="0.25" font="sdmn_freemul_text_fnt" text="2" horizontalCenter="9" verticalCenter="2" letterSpacing="-5"/>
+				</e:Group>
+				<e:Group id="bei1" bottom="20" horizontalCenter="0.33499999999999375" anchorOffsetX="15.17" anchorOffsetY="12.83">
+					<e:Image source="sdmn_freemul_2_png" left="0" verticalCenter="2.5" scaleX="0.25" scaleY="0.25"/>
+					<e:BitmapLabel id="freemul1" scaleX="0.25" scaleY="0.25" font="sdmn_freemul_text_fnt" text="3" horizontalCenter="9" verticalCenter="2" letterSpacing="-5"/>
+				</e:Group>
+				<e:Group id="bei2" bottom="20" horizontalCenter="78.335" anchorOffsetX="14.5" anchorOffsetY="12.83">
+					<e:Image source="sdmn_freemul_2_png" left="0" verticalCenter="2.5" scaleX="0.25" scaleY="0.25"/>
+					<e:BitmapLabel id="freemul2" scaleX="0.25" scaleY="0.25" font="sdmn_freemul_text_fnt" text="5" horizontalCenter="9" verticalCenter="2" letterSpacing="-5"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="freewinGroup" width="1280" horizontalCenter="0" bottom="1">
+				<e:Image source="sdmn_freewin_bg_png" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" height="145"/>
+				<e:BitmapLabel id="freeTimesLabel" width="170" y="73" anchorOffsetX="0" anchorOffsetY="0" font="sdmn_freewin_text_fnt" text="0" height="27" textAlign="center" x="316"/>
+				<e:BitmapLabel id="freewinLabel" width="179.33" height="27" y="74.04" anchorOffsetX="0" anchorOffsetY="0" font="sdmn_freewin_text_fnt" text="0" x="916.48" textAlign="center" letterSpacing="-2"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="selectGroup" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+			<e:Group id="roleGroup" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+				<e:Rect right="0" top="0" bottom="0" left="0"/>
+				<e:Group id="role1Group" scaleX="1" scaleY="1"  bottom="0" top="0" left="14" right="962" touchChildren="false" touchThrough="true">
+					<sdmn:SDMNRole id="role1" top="0" bottom="0" touchEnabled="true" left="0" right="0"/>
+					<e:Image id="roleSelectbg1" source="sdmn_freesel1_png" scaleX="2" scaleY="2" horizontalCenter="8" y="-141" visible="false"/>
+				</e:Group>
+				<e:Group id="role2Group" scaleX="1" scaleY="1"  bottom="0" top="0" left="330" right="646" touchChildren="false">
+					<sdmn:SDMNRole id="role2" top="0" bottom="0" touchEnabled="true" left="0" right="0"/>
+					<e:Image id="roleSelectbg2" source="sdmn_freesel1_png" scaleX="2" scaleY="2" horizontalCenter="8" y="-139.65" visible="false"/>
+				</e:Group>
+				<e:Group id="role3Group" scaleX="1" scaleY="1"  bottom="0" top="0" left="646" right="330" touchChildren="false">
+					<sdmn:SDMNRole id="role3" top="0" bottom="0" touchEnabled="true" left="0" right="0"/>
+					<e:Image id="roleSelectbg3" source="sdmn_freesel1_png" scaleX="2" scaleY="2" horizontalCenter="8" y="-139.65" visible="false"/>
+				</e:Group>
+				<e:Group id="role4Group" scaleX="1" scaleY="1"  bottom="0" top="0" left="962" right="14" touchChildren="false">
+					<sdmn:SDMNRole id="role4" top="0" bottom="0" touchEnabled="true" left="0" right="0"/>
+					<e:Image id="roleSelectbg4" source="sdmn_freesel1_png" scaleX="2" scaleY="2" horizontalCenter="8" y="-139.65" visible="false"/>
+				</e:Group>
+				<e:Rect id="rect1" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" top="0" bottom="0" left="0" right="959"/>
+				<e:Rect id="rect2" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" top="0" bottom="0" left="329" right="642"/>
+				<e:Rect id="rect3" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" top="0" bottom="0" left="642" right="323"/>
+				<e:Rect id="rect4" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" right="9" top="0" bottom="0" left="959"/>
+				<e:Group id="selectAniGroup" top="0" bottom="0" touchChildren="false" touchEnabled="false" touchThrough="true" left="0" right="0"/>
+				<e:Image source="sdmn_select_bg1_png" bottom="0" left="0" right="0" touchEnabled="false"/>
+				<e:Image source="sdmn_select_bg2_png" scaleX="1" scaleY="1" bottom="75" width="1203" horizontalCenter="0.5" touchEnabled="false"/>
+				<e:Image source="sdmn_seltips1_png" bottom="6" horizontalCenter="0" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="totalGroup" scaleX="1" scaleY="1" left="0" right="0" bottom="0" top="0" visible="false">
+			<e:Rect scaleX="1" scaleY="1" fillAlpha="0.5" left="0" right="0" top="0" bottom="0"/>
+			<e:Image horizontalCenter="0" verticalCenter="-80" source="sdmn_totalwin_bg_png"/>
+			<e:BitmapLabel id="totalWin" width="686.67" anchorOffsetX="0" anchorOffsetY="0" text="0" font="sdxl_bigwin_fnt" textAlign="center" letterSpacing="-45" horizontalCenter="6.5" verticalCenter="48"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

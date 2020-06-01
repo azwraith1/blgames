@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XCBSIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="190" height="180">
+	<e:Image id="icon" source="xcbs_icon_3_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

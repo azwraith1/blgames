@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubCreatePanelSkinKR" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+		<e:Group id="createdGroup" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0">
+		<e:Image source="club_create_bg2_png" horizontalCenter="0" y="112"/>
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="0.5" source="club_create_bg_png" y="140"/>
+		<e:Label text="아이콘" x="423.17" y="188.16" fontFamily="SimHei" size="24" textColor="0xE4A47A"/>
+		<e:Image id="headBg" source="club_clubicon_bg_png" y="131" horizontalCenter="-80" visible="false"/>
+		<e:Image y="161" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="club_crete_de_di_png"/>
+		<e:Image id="clubIcon" source="club_crete_de_head_png" y="165" horizontalCenter="0"/>
+		<e:Image y="222.75" horizontalCenter="0" touchEnabled="false" source="club_head_genghuan_kr_png"/>
+		<e:Label text="이름" x="423.17" y="275.17" size="24" textColor="0xE4A47A" fontFamily="SimHei"/>
+		<e:Image source="club_create_di_png" y="267" scale9Grid="8,7,53,28" anchorOffsetX="0" width="266" horizontalCenter="-7"/>
+		<e:EditableText id="clubName" width="266" height="35" text="" y="269" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" size="24" textColor="0xAD5F34" fontFamily="SimHei" horizontalCenter="-7" prompt="이름을 입력하세요" promptColor="0xAD5F34" maxChars="6"/>
+		<e:Image source="club_create_di_png" y="347" scale9Grid="8,7,53,28" anchorOffsetX="0" width="266" horizontalCenter="-7"/>
+		<e:EditableText id="clubRate" text="" x="544.33" y="354.5" anchorOffsetX="0" width="95.67" textAlign="right" size="24" fontFamily="SimHei" prompt="5" textColor="0xAD5F34" promptColor="0xAD5F34" inputType="text" restrict=".0-9" touchEnabled="false"/>
+		<e:Label text="세율" x="424.17" y="355.5" fontFamily="SimHei" size="24" textColor="0xE4A47A"/>
+		<e:Label text="%" x="642" y="354.5" anchorOffsetX="0" width="63.34" textAlign="left" textColor="0xAD5F34" fontFamily="SimHei" size="24"/>
+		<e:Label text="（방을 만든후 클럽의 이름은 따로 바꿀수 있습니다）" y="402" anchorOffsetX="0" width="525" textAlign="center" size="20" textColor="0xAD5F34" horizontalCenter="0" height="20"/>
+		<e:Image id="cancelCreateClub" y="450" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-127.5" source="club_create_cancel_kr_png"/>
+		<e:Image id="createClub" y="450" horizontalCenter="111.5" source="club_create_kr_png"/>
+		<e:Button id="clubCreateClose" label="" y="88" horizontalCenter="311">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="club_join_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

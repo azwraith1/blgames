@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HNMJBirdInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:majiang="majiang.*" width="332" height="250">
+
+
+
+
+	<majiang:GDMJMineShoupai id="pai1" y="170" skinName="majiang.GDMJMineShoupaiSkin" anchorOffsetX="38" anchorOffsetY="56" x="165"/>
+	<majiang:GDMJMineShoupai id="pai2" y="170" skinName="majiang.GDMJMineShoupaiSkin" anchorOffsetX="38" anchorOffsetY="56" x="165"/>
+	<e:Image id="zhuaniaoImage" source="hnmj_game_bird_png" anchorOffsetX="85" anchorOffsetY="47.5" x="166" y="47.5"/>
+    
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BSCSMainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bscs="bscs.*">
+	<e:Group id="resizeGroup" left="0" right="0" top="0" bottom="0">
+		<bscs:BSCSScene1 id="scene1" left="0" right="0" top="0" bottom="0"/>
+		<bscs:BSCSScene3 id="scene3" left="0" right="0" top="0" bottom="0" visible="false"/>
+	</e:Group>
+</e:Skin>

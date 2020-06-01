@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HSZBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="hsz_bg_png" x="0" y="0"/>
+	<e:Button id="enterBtn" label="确定" bottom="12" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="core_alert_btn_png"/>
+			 <e:Label id="labelDisplay" size="25" verticalAlign="middle" text="确定" textColor="0xfff1dd" bold="false"
+             borderColor="0x000000" stroke="2" strokeColor="0x983f20" width="141" height="49" textAlign="center"
+             anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-5.5" y="2" touchEnabled="false" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="请选择3张" y="23.32" size="24" stroke="2" strokeColor="0x252525" x="43.33"/>
+	<e:Label text="手牌" y="23.32" size="24" strokeColor="0x252525" stroke="2" x="240.64"/>
+	<e:Label text="同花色" y="23.32" size="24" textColor="0xffc21f" x="159.64" stroke="2" strokeColor="0x252525"/>
+	
+</e:Skin>

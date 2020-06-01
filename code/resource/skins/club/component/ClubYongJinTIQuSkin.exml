@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubYongJinTIQuSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:TextInput id="tiQuInput" width="165" height="48" x="121" y="115" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="tiquYongJinBtn" label="Button" x="74" y="169"/>
+</e:Skin>

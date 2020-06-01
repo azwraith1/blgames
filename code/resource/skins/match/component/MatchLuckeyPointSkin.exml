@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchLuckeyPointSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="137" height="70">
+	<e:Group id="dbGroup" horizontalCenter="0" verticalCenter="0"/>
+	<e:BitmapLabel id="winLabel" y="27" text="0w" anchorOffsetX="0" width="137" textAlign="center" letterSpacing="-2" font="jjc_win_font2_fnt" horizontalCenter="0"/>
+</e:Skin>

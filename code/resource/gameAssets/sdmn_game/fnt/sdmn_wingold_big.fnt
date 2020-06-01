@@ -1,0 +1,14 @@
+{"file":"sdmn_wingold_big.png","frames":{
+"0":{"x":1,"y":294,"w":68,"h":98,"offX":2,"offY":8,"sourceW":72,"sourceH":106},
+"1":{"x":141,"y":300,"w":56,"h":99,"offX":2,"offY":6,"sourceW":60,"sourceH":106},
+"2":{"x":148,"y":101,"w":71,"h":97,"offX":2,"offY":8,"sourceW":75,"sourceH":106},
+"3":{"x":69,"y":194,"w":70,"h":98,"offX":2,"offY":8,"sourceW":74,"sourceH":106},
+"4":{"x":163,"y":1,"w":73,"h":98,"offX":2,"offY":6,"sourceW":77,"sourceH":106},
+"5":{"x":1,"y":1,"w":73,"h":106,"offX":2,"offY":0,"sourceW":77,"sourceH":106},
+"6":{"x":76,"y":93,"w":70,"h":99,"offX":2,"offY":7,"sourceW":74,"sourceH":106},
+"7":{"x":1,"y":109,"w":66,"h":104,"offX":2,"offY":1,"sourceW":70,"sourceH":106},
+"8":{"x":71,"y":294,"w":68,"h":98,"offX":2,"offY":8,"sourceW":72,"sourceH":106},
+"9":{"x":141,"y":200,"w":70,"h":98,"offX":2,"offY":8,"sourceW":74,"sourceH":106},
+"+":{"x":76,"y":1,"w":85,"h":90,"offX":2,"offY":13,"sourceW":89,"sourceH":106},
+".":{"x":221,"y":101,"w":30,"h":34,"offX":2,"offY":71,"sourceW":34,"sourceH":106},
+" ":{"x":238,"y":1,"w":5,"h":5,"offX":0,"offY":0,"sourceW":22,"sourceH":106}}}

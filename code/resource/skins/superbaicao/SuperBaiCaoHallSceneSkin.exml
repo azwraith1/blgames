@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuperBaiCaoHallSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:niuniu="niuniu.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <e:Group id="resizeGroup" width="720" height="1280" x="0" y="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="superbaicao_hall_bg_jpg"/>
+			<e:Image width="720" horizontalCenter="0" top="0" height="97" source="superbaicao_top_bg_png"/>
+
+
+		<e:Group id="topGroup" anchorOffsetX="0" left="0" top="0" right="0" bottom="1164">
+			<e:Label id="nameLabel" text="我的名字是你老子" y="19.88" size="24"    width="179.5" textAlign="left" anchorOffsetX="0" height="24"  left="198" fontFamily="Microsoft YaHei" textColor="0xf2a97c"/>
+			<e:Image source="superbaicao_gold_bg_png" x="196" y="58"/>
+			<e:Label id="goldLabel" text="9999.99万" x="226.08" y="62.52" size="22"    width="148.5" textAlign="left" height="24" anchorOffsetX="0" textColor="0xfeb243"/>
+			<e:Image x="195.71" y="59.33" source="superbaicao_hall_coin_png"/>
+			<e:Button id="backBtn" label="" left="23" x="11" y="0.82" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="superbaicao_button_back_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Button id="helpBtn" label="" scaleX="1" scaleY="1" right="218" top="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="superbaicao_button_help_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="recordBtn" label="" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" right="118" top="-2">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="superbaicao_record_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="fullScreenBtn" label="" right="19" top="-2">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="superbaicao_fullbtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image x="111.48" y="1.99" source="superbaicao_hall_headkuang_png" scaleX="1"/>
+			<e:Image id="headerImage" x="119.13" y="8.89" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.83" scaleY="0.83" width="90" height="90" source="nns_1_1_png"/>
+		</e:Group>
+			<e:Group id="centerGroup" height="835.94" anchorOffsetX="0" anchorOffsetY="0" width="660" verticalCenter="0" y="222" horizontalCenter="0">
+				<ns1:SuperBaiCaoHallBar id="bar1" x="0" y="0" skinName="SuperBaiCaoHallBarSkin" visible="false"/>
+				<ns1:SuperBaiCaoHallBar id="bar2" x="292" y="-28" skinName="SuperBaiCaoHallBarSkin" visible="false"/>
+				<ns1:SuperBaiCaoHallBar id="bar3" x="-48.52" y="263" skinName="SuperBaiCaoHallBarSkin" visible="false"/>
+				<ns1:SuperBaiCaoHallBar id="bar4" x="292" y="263" skinName="SuperBaiCaoHallBarSkin" locked="true" visible="false"/>
+				<ns1:SuperBaiCaoHallBar id="bar5" x="-47" y="566" skinName="SuperBaiCaoHallBarSkin" visible="false"/>
+				<ns1:SuperBaiCaoHallBar id="bar6" x="292" y="566" skinName="SuperBaiCaoHallBarSkin" visible="false"/>
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" columnWidth="320" paddingLeft="10" paddingRight="10"/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="37" top="109"/>
+
+	</e:Group>
+</e:Skin>

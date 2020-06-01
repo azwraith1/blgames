@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDMNAniItemSkin" width="202" height="540" xmlns:e="http://ns.egret.com/eui" xmlns:sdmn="sdmn.*" xmlns:w="http://ns.egret.com/wing">
+	<sdmn:SDMNAni id="ani1" width="202" height="180" x="0" y="0"/>
+	<sdmn:SDMNAni id="ani2" width="202" height="180" x="0" y="180"/>
+	<sdmn:SDMNAni id="ani3" width="202" height="180" x="0" y="360"/>
+</e:Skin>

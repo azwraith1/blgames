@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchPassPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image source="match_pass_bg_png" left="0" top="0" right="0" bottom="0"/>
+		<e:Group id="tipGroup" horizontalCenter="0" bottom="158">
+			<e:Label id="tipsLabel" text="正在匹配其他玩家,请耐心等待..." size="36" scaleX="1" scaleY="1" horizontalCenter="0" x="10" y="10" textColor="0xffe67c"/>
+			<e:Label id="tipsLabel1" text="" size="36" scaleX="1" scaleY="1" x="133" y="-55" textColor="0xffe67c"/>
+			<e:Label id="tipsLabel2" text="" size="36" scaleX="1" scaleY="1" x="313" y="-55" textColor="0x2fe732"/>
+		</e:Group>
+		<e:Group id="countGroup" height="58" horizontalCenter="0" bottom="63">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="dbGroup" top="0" horizontalCenter="0">
+		</e:Group>
+		<e:BitmapLabel id="rankLabel" top="202" horizontalCenter="0" font="pass_number_fnt" text="" width="300" textAlign="center" x="-150" y="202" scaleX="1" scaleY="1"/>
+		<e:Image id="gongxiImage" source="match_pass_gongxi_png" top="182" horizontalCenter="0" visible="false"/>
+		
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLRecordRendererSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="24" width="596">
+	<e:Label id="roomId" text="-22333" anchorOffsetX="0" width="118" anchorOffsetY="0" height="23" size="20"    verticalAlign="middle" textAlign="center" verticalCenter="0.5" x="0" textColor="0xf8c768"/>
+	<e:Label id="roomType" text="新手场" x="104.33" anchorOffsetX="0" width="155.67" anchorOffsetY="0" height="23" size="20"    textAlign="center" verticalAlign="middle" verticalCenter="0.5" textColor="0xf8c768"/>
+	<e:Label id="roomMoney" text="-22333" x="250.04" anchorOffsetX="0" width="108" anchorOffsetY="0" height="23" size="20"    verticalAlign="middle" textAlign="center" verticalCenter="0.5" textColor="0xf8c768"/>
+	<e:Label id="roomTime" text="2018-10-10 23:00:00" x="368" anchorOffsetX="0" width="230" anchorOffsetY="0" size="20"    verticalAlign="middle" textAlign="center" height="23" verticalCenter="0.5" textColor="0xf8c768"/>
+</e:Skin>

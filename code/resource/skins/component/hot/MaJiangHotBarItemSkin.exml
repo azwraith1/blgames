@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MaJiangHotBarItemSkin"  xmlns:e="http://ns.egret.com/eui" width="100" height="100">
+	<e:Image id="iconImage" x="0" y="0" source="hot_icon_mj_baccarat_png"/>
+</e:Skin>

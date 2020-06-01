@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XZDDHallSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16458df3aae" />
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image scaleX="1" scaleY="1" top="0" bottom="0" right="0" left="0" source="xzdd_hall_bg_jpg"/>
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="80" top="93"/>
+		<e:Group id="contentGroup" anchorOffsetX="0" anchorOffsetY="0" height="391" width="1280" verticalCenter="39.5" horizontalCenter="0">
+
+		</e:Group>
+		<e:Group id="topGroup" height="83" left="0" right="0" top="0" touchEnabled="false">
+			<e:Image scaleX="1" scaleY="1" source="hall_bg_s_png" scale9Grid="80,10,79,63" top="0" left="0" width="512" height="82"/>
+			<e:Image scaleX="-1" scaleY="1" source="hall_bg_s_png" scale9Grid="80,10,79,63" right="0" top="0" width="512" height="82" locked="true"/>
+			<e:Group id="t_leftGroup" width="285" height="75" anchorOffsetY="0" anchorOffsetX="0" left="79" x="94" scaleX="1" scaleY="1" top="4">
+				<e:Image id="nameDb" scaleX="1" scaleY="1" anchorOffsetX="0" width="250" source="hall_namelable_png" x="43.38" y="16" scale9Grid="28,20,20,4" height="42"/>
+				<e:Image scaleX="1" scaleY="1" source="hall_image_bg_png" width="74" height="74" x="2" y="0"/>
+				<e:Image id="headerImage" scaleX="1" scaleY="1" width="65" height="65" source="hall_header_2_8_png" x="7" y="3.6"/>
+
+				<e:Label id="nameLabel" text="test12344567899" anchorOffsetX="0" textAlign="left" size="20" verticalAlign="middle" scaleX="1" scaleY="1"    x="78" verticalCenter="0.5"/>
+			</e:Group>
+			<e:Group id="t_rightGroup" width="466.67" anchorOffsetX="0" right="0" height="83" top="3">
+				<e:Group id="goldGroup" height="42" y="18.18" x="-4">
+					<e:Image scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="hall_namelable_png" scale9Grid="33,17,11,8" height="42" y="0" width="257.85" x="0"/>
+					<e:Image scaleX="1" scaleY="1" source="hall_gold_png" width="35" height="37" y="0" x="2"/>
+					<e:BitmapLabel id="goldLabel" height="57.25" text="123456789" anchorOffsetY="0" anchorOffsetX="0" scaleX="0.46" scaleY="0.5" font="font_gold_fnt" letterSpacing="-5" textAlign="center" x="42" y="6" width="380"/>
+					<e:Button id="gold_add" label="" width="33" height="36" x="223" y="3" visible="false">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="hall_add_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Button id="fullScreenBtn" label="" width="45" height="45" x="399.49" y="17">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="hall_quanping_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="recordBtn" label="" x="340" y="16" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="home_record_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="helpBtn" label="" right="140.67000000000002" top="16">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_help_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+
+
+			<e:Button id="backBtn" label="" width="60" height="60" left="7" top="11">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hall_back_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+		</e:Group>
+		<e:Image source="xzdd_title_png" right="0" bottom="0"/>
+
+
+
+	</e:Group>
+</e:Skin>

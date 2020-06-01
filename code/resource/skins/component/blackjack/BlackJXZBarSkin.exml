@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlackJXZBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackj_cm_bg_png" x="1"/>
+	<ns1:CoinComponent id="coin1" y="21" skinName="BlackJCMSkin" horizontalCenter="-259.5"/>
+	<ns1:CoinComponent id="coin2" y="21" skinName="BlackJCMSkin" horizontalCenter="-139.5"/>
+	<ns1:CoinComponent id="coin3" y="21" skinName="BlackJCMSkin" horizontalCenter="-18.5"/>
+	<ns1:CoinComponent id="coin4" y="21" skinName="BlackJCMSkin" horizontalCenter="101.5"/>
+	<e:Button id="okBtn" label="" y="48.66" horizontalCenter="236">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image id="icon" width="100%" height="100%" source="blackj_xz_btn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

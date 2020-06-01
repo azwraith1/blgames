@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubInnerTableRenderSkin3" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="224">
+	<e:Image source="club_inner_table1_png" bottom="0"/>
+	<e:Group id="group1" width="52" height="52" x="41.6" y="108.7">
+		<e:Image id="header1" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="group2" width="52" height="52" x="220.5" y="18.8">
+		<e:Image id="header2" source="nns_1_1_png" width="50" height="50" x="0.99" y="0.99"/>
+		<e:Image source="club_inner_header_bg_png" x="2" y="2"/>
+	</e:Group>
+	<e:Group id="infoGroup" anchorOffsetX="0" anchorOffsetY="0" y="10.45" horizontalCenter="0">
+		<e:Image source="club_inner_table_bg2_png"/>
+		<e:Image source="club_inner_people_png" x="9.3" y="4.8"/>
+		<e:Label id="gameNameLabel" text="8/8" x="29.1" y="4.8" size="20" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" textColor="0xfff49c" width="40" fontFamily="SimHei"/>
+		<e:Label id="difenLabel" text="底分:100" x="2" size="16" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" textColor="0xb4e8fa" fontFamily="SimHei" width="80" verticalCenter="0"/>
+		<e:Label id="statusLabel" text="等待中" y="55.45" size="16" anchorOffsetX="0" width="85.25" textAlign="center" scaleX="1" scaleY="1" fontFamily="SimHei" textColor="0x43fd4c" x="0"/>
+	</e:Group>
+	<e:Image id="kongImage" y="7.6" source="club_inner_game_0_png" horizontalCenter="0" visible="false"/>
+	<e:Image id="tableSetImg" y="5.6" horizontalCenter="0.5" source="club_table_manage_png" visible="false"/>
+	<e:Group id="tableNumGroup" x="15.95" y="39">
+		<e:Image source="tablenum_png" x="0" y="0"/>
+		<e:BitmapLabel id="tableNum" y="9" font="table_num_fnt" text="1" horizontalCenter="-0.5"/>
+	</e:Group>
+</e:Skin>

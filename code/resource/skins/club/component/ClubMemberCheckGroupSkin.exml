@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMemberCheckGroupSkin"  width="694" height="500"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<e:Group width="694" height="400.27" x="-3" y="0.09" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:ClubMemberCheck id="item0" width="694" height="74" x="147" y="56" skinName="ClubMemberCheckSkin"/>
+		<ns1:ClubMemberCheck id="item1" width="694" height="74" x="147" y="56" skinName="ClubMemberCheckSkin"/>
+		<ns1:ClubMemberCheck id="item2" width="694" height="74" x="147" y="56" skinName="ClubMemberCheckSkin"/>
+		<ns1:ClubMemberCheck id="item3" width="694" height="74" x="147" y="56" skinName="ClubMemberCheckSkin"/>
+		<ns1:ClubMemberCheck id="item4" width="694" height="74" x="147" y="56" skinName="ClubMemberCheckSkin"/>
+			<e:layout>
+		<e:VerticalLayout gap="6"/>
+	</e:layout>
+	</e:Group>
+	<e:Group x="381.69" y="430.33" anchorOffsetX="0" width="303" anchorOffsetY="0" height="45.67">
+		<e:Button id="prePageBtn" label="" left="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_mem_np_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="nextPageBtn" label="" scaleX="1" scaleY="1" right="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_mem_np_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="上一页" size="24" textColor="0x652701" left="20" verticalCenter="-2.835000000000001"/>
+		<e:Label id="currentDivMax" text="" scaleX="1" scaleY="1" size="24" textColor="0xfce484" horizontalCenter="0" verticalCenter="0.16499999999999915"/>
+		<e:Label text="上一页" size="24" textColor="0x652701" right="20" verticalCenter="-2.835" width="72"/>
+	</e:Group>
+</e:Skin>

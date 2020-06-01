@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ERMJOverSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:majiang="majiang.*">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect left="0" top="0" right="0" bottom="0" fillAlpha="0.7" width="1280" height="720"/>
+		<e:Group id="group1" horizontalCenter="0" verticalCenter="-11" height="536" anchorOffsetY="0">
+			<e:Image id="bgImage" source="ermj_over_bg_1_png" left="0" top="0"/>
+			<e:Image id="headerbg1" source="ermj_over_headerbg_2_png" x="106.5" y="61.95"/>
+			<e:Image id="header1" source="ermj_over_header_1_png" x="114" y="67" width="80" height="80"/>
+			<e:Image id="headerbg2" source="ermj_over_headerbg_2_png" y="61.95" x="912"/>
+			<e:Image id="header2" source="ermj_over_header_1_png" y="67" x="921" width="80" height="80"/>
+
+			<e:Label id="nameLabel1" text="1号玩家" x="212.33" y="67" textColor="0xfefab2" stroke="2" strokeColor="0xca7202" anchorOffsetX="0" width="217.33"/>
+			<e:Label id="nameLabel2" text="2号玩家" x="639" y="61.95" textColor="0xFEFAB2" stroke="2" strokeColor="0xCA7202" anchorOffsetX="0" width="217.33"/>
+
+			<e:Image source="ermj_over_coin_png" x="639" y="110"/>
+			<e:Image source="ermj_over_coin_png" x="206.83" y="110"/>
+			<e:BitmapLabel id="goldLabel1" x="243.5" y="111" text="" anchorOffsetX="0" width="239.67" letterSpacing="-5" font="ermj_over_win1_fnt" height="35"/>
+			<e:BitmapLabel id="goldLabel2" x="681.99" y="111" text="" anchorOffsetX="0" width="239.67" letterSpacing="-5" font="ermj_over_lose_fnt" height="35"/>
+			<e:Image id="typeImage" source="ermj_over_type_1_png" x="425.33" y="34.11"/>
+			<e:Image id="winTypeImage" source="ermj_over_hutip_1_png" x="323" y="254"/>
+			<e:Image source="ermj_over_img_fan_png" x="631" y="254"/>
+			<e:BitmapLabel id="fanLabel" x="461" y="257" font="ermj_over_fan_fnt" text="0" anchorOffsetX="0" textAlign="center" letterSpacing="-5" width="174" height="44"/>
+			<e:Image source="ermj_over_coin_png" x="687.67" y="260"/>
+			<e:BitmapLabel id="goldLabel3" x="732.5" y="260" text="" anchorOffsetX="0" width="239.67" letterSpacing="-5" font="ermj_over_win1_fnt" height="35"/>
+			<e:Group id="paiGroup" anchorOffsetX="0" anchorOffsetY="0" height="49.95" verticalCenter="66" horizontalCenter="0">
+				<e:layout>
+				<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Scroller id="scroller" width="763" height="152" y="369" anchorOffsetX="0" anchorOffsetY="0" x="179">
+				<e:Group id="contentGroup" x="1" y="-1" anchorOffsetX="0" width="748">
+					<e:layout>
+						<e:TileLayout horizontalGap="95" verticalGap="20"/>
+					</e:layout>
+
+				</e:Group>
+			</e:Scroller>
+			<e:Image id="renshu1" source="ermj_renshu_png" x="352.66" y="62" visible="false"/>
+			<e:Image id="renshu2" source="ermj_renshu_png" x="835" y="62" visible="false"/>
+		</e:Group>
+		<e:Button id="playBtn" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="617" horizontalCenter="233">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_next_btn_png" source.down="ermj_next_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="backBtn" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="617" horizontalCenter="-233">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_back_btn_png" source.down="ermj_back_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+		<e:Label id="tipLabel" text="无流水记录" horizontalCenter="0" textColor="0xfff729"
+		            textAlign="center" verticalAlign="middle"  verticalCenter="0" visible="false"/>
+	</e:Group>
+	<w:Config id="164689c0222" />
+</e:Skin>

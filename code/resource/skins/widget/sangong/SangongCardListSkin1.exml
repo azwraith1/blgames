@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SangongCardListSkin1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:niuniu="niuniu.*">
+	<niuniu:NiuniuCard id="card0" scaleX="0.6" scaleY="0.6" skinName="SangongCardSkin1"/>
+	<niuniu:NiuniuCard id="card1" x="39" scaleX="0.6" scaleY="0.6" skinName="SangongCardSkin1"/>
+	<niuniu:NiuniuCard id="card2" x="78" scaleX="0.6" scaleY="0.6" skinName="SangongCardSkin1"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZCJLHsliderSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="track" source="zcjl_auto_bar1_png"/>
+	<e:Image id="trackHighlight" x="8" y="0.5" source="zcjl_auto_bar2_png" width="0"/>
+	<e:Group id="thumb" y="12" x="9">
+		<e:Image anchorOffsetX="19.5" anchorOffsetY="20.5" source="zcjl_auto_bar3_png"/>
+	</e:Group>
+</e:Skin>

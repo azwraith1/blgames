@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RBWWinAniSkin" width="94" height="41" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="32" y="9" scaleX="1.5" scaleY="1.5">
+		<e:Group width="20" height="20" y="0.33" right="-35">
+			<e:Image id="shengImg" source="hhdz_game_win_png" width="33" height="33" y="10.73" anchorOffsetX="16.5" anchorOffsetY="16.5" scaleX="1" scaleY="1" right="2" visible="false"/>
+		</e:Group>
+		<e:Group width="20" height="20" left="6" verticalCenter="1.5">
+			<e:Image id="xinImg" source="hhdz_game_hongxin_png" verticalCenter="-1" horizontalCenter="-15.5" x="-70" y="-18" anchorOffsetX="21" anchorOffsetY="19" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="winGroup" width="20" height="20" left="3" verticalCenter="-0.5">
+			<e:Image id="winImg" anchorOffsetX="31" anchorOffsetY="18" width="60" source="hhdz_game_hong_png" verticalCenter="2" horizontalCenter="-13.5" x="-28" y="-25" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

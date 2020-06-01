@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SangongTimeBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="0" x="0" source="sg_time_img_png"/>
+
+	<e:BitmapLabel id="timeLabel22" x="14.2" y="15" font="sg_time_fnt" text="00" width="96" visible="false"/>
+	<e:Label id="timeLabel" text="02" x="25" y="25" width="58" height="50" fontFamily="SimHei" size="36" textColor="0xcc3d01" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

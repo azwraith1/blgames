@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlackJHelpSkinVN" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1672fb0de19"/>
+	<e:Group id="resizeGroup" width="720" height="1280">
+		<e:Rect id="rects" width="720" height="1280" fillAlpha="0"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-36" width="683" horizontalCenter="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" y="0" source="blackj_hall_alert_db1_png"/>
+			<e:Image source="blackj_hall_alert_title_png" y="-26" horizontalCenter="0"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="-15" horizontalCenter="0" source="blackj_help_title_vn_png"/>
+
+			<e:Image id="tab1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="73" x="84.35" source="blackj_help_tab1_1_vn_png"/>
+			<e:Image id="tab2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" alpha="1" y="73" x="244" source="blackj_help_tab2_1_vn_png"/>
+			<e:Image id="tab3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="73" x="401" source="blackj_help_tab3_1_vn_png"/>
+
+			<e:Button id="closeBtn" label="" x="622.32" y="-16.64" anchorOffsetX="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="blackj_hall_btn_close_png" source.down="blackj_hall_btn_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Scroller id="scroller" width="621" height="415.76" anchorOffsetX="0" anchorOffsetY="0" y="123" x="31">
+				<e:Group id="textGroup" anchorOffsetX="0" width="577" anchorOffsetY="0" height="364" x="-2">
+					<e:Image id="contentImage" horizontalCenter="-1" y="10.64" source="blackj_help_tab_img1_vn_png"/>
+
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

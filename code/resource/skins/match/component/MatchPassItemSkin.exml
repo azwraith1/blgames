@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchPassItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="147" height="58">
+	<e:Image id="typeImage2" source="match_pass_type1_png" x="49" y="0"/>
+	<e:Image id="typeImage1" source="match_pass_bar1_png" x="0" y="11"/>
+	<e:BitmapLabel id="countLabel" x="59" y="15" text="120" font="match_pass_num1_fnt" anchorOffsetX="0" width="78" textAlign="center"/>
+</e:Skin>

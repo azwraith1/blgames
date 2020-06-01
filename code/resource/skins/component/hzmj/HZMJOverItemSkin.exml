@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HZMJOverItemSkin" width="265" height="402" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="panelImage" top="50" bottom="39" source="hzmj_over_panel_2_png" left="-4" right="-4"/>
+	<e:Group x="78" y="15">
+		<e:Image source="hzmj_head_kuang_png" x="0" y="0"/>
+		<e:Image id="headerImage" width="90" height="90" source="hzmj_head_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="mineTip" x="37" scaleX="1" scaleY="1" top="-32" source="hzmj_over_mine_png"/>
+		<e:Image id="zhuangImg" source="zhuang_png" x="-6" y="-3" visible="false"/>
+	</e:Group>
+	<e:Image id="typeImage" source="gdmj_point_1_png" x="176" y="46.5" visible="false"/>
+
+	<e:Group width="200" height="200" x="33" y="149">
+		<e:Group y="-10" horizontalCenter="0">
+			<e:Image id="nameBg" y="0" horizontalCenter="0" source="hzmj_txt_bg_2_png"/>
+			<e:Label id="nameLabel" text="dddd" size="26" textColor="0xfafff9" fontFamily="SimHei" border="false" multiline="false" stroke="2" strokeColor="0x057c64" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+
+		<e:Label id="beiShuLable" text="dfddffd" anchorOffsetX="2.5" anchorOffsetY="4.5" textAlign="center" stroke="2" strokeColor="0x025c95" textColor="0x66f6ff" fontFamily="SimHei" verticalCenter="-14" horizontalCenter="0.5"/>
+		<e:BitmapLabel id="scoreLabel" y="134.69" text="348.2" letterSpacing="-5" scaleX="1" scaleY="1" horizontalCenter="0" font="hzmj_over_font_2_fnt"/>
+		<e:BitmapLabel width="206.67" height="38" x="21" y="134.69" text="348.2" anchorOffsetX="0" anchorOffsetY="0" font="hzmj_over_fontyellow_fnt" letterSpacing="-5" visible="false"/>
+	</e:Group>
+	<e:Image id="renshu" top="51" left="-5" source="hzmj_renshu_png"/>
+	<e:Label id="weizhiLable" text="商家" y="56" anchorOffsetX="0" width="67" anchorOffsetY="0" height="43" x="193" textAlign="center" verticalAlign="middle" textColor="0xf7f4f4" visible="false"/>
+	<e:Image id="weiZhi" x="210" y="66" source=""/>
+	<e:Image id="hzmj_line" source="hzmj_line_2_png" left="0" top="268" right="1" bottom="133" width="250" scaleX="1" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

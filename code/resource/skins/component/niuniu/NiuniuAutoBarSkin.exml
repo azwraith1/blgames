@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NiuniuAutoBarSkin" width="703" height="436" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16f0dcc1fc9"/>
+	<e:Image source="niuniu_guaji_bg_png" x="0" y="0"/>
+	<e:Image source="niuniu_qz_png" top="58" left="44"/>
+	<e:Image source="niuniu_jb_png" left="44" verticalCenter="-71"/>
+	<e:Image source="niuniu_count_png" left="44" bottom="200"/>
+	<e:Group id="qzGroup" x="124.63" y="44.91" anchorOffsetX="0" width="578">
+		<e:ToggleButton id="btn0" label="" x="0" y="0" anchorOffsetX="0" width="99" name="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_bq_png" source.down="buqian_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="btn1" label="" x="107.3" y="0" name="1" width="99">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x1_un_png" source.down="niuniu_qz_select_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="btn2" label="" x="214.6" y="0" name="2" width="99" height="52">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x2_un_png" source.down="niuniu_qz_select_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="btn3" label="" x="321.9" y="0" name="3" width="99" height="52">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x3_un_png" source.down="niuniu_qz_select_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:BitmapLabel id="bt1_lable"  y="16.05" anchorOffsetX="0" anchorOffsetY="0" font="niuniu_guaji_fnt" text="x1" right="388" visible="false"/>
+		<e:BitmapLabel id="bt3_lable" y="16.05" anchorOffsetX="0" anchorOffsetY="0" font="niuniu_guaji_fnt" text="x3" right="167" visible="false"/>
+		<e:BitmapLabel id="bt2_lable" y="16.05" anchorOffsetX="0" anchorOffsetY="0" font="niuniu_guaji_fnt" text="x2" right="276" visible="false"/>
+	</e:Group>
+	<e:Group id="yzGroup" x="124.63" y="118.33" anchorOffsetX="0" width="578">
+		<e:ToggleButton id="x1" label="" x="0" y="0" width="99" enabled="true" name="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x1_un_png" source.down="niuniu_guaiji_x1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="x2" label="" x="107.3" y="0" name="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x2_un_png" source.down="niuniu_guaiji_x2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="x4" label="" x="214.6" y="0" name="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x4_un_png" source.down="niuniu_guaiji_x4_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="x8" label="" x="321.9" y="0" name="8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x8_un_png" source.down="niuniu_guaiji_x8_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="x10" label="" x="429.2" y="0" name="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x10_un_png" source.down="niuniu_guaiji_x10_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+	<e:Group id="countGroup" x="124.63" y="194.33" width="578">
+		<e:RadioButton id="countBtn1" label="" x="0" y="0" value="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x1_un_png" source.down="niuniu_guaiji_x1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="countBtn2" label="" x="107.3" y="0" value="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x2_un_png" source.down="niuniu_guaiji_x2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="countBtn4" label="" x="214.6" y="0" value="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x4_un_png" source.down="niuniu_guaiji_x4_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="countBtn8" label="" x="321.9" y="0" value="8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_x8_un_png" source.down="niuniu_guaiji_x8_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="countBtnMore" label="" x="429.2" y="0" value="1000000">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="niuniu_guaiji_xn_un_png" source.down="niuniu_guaiji_xn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+	<e:Button id="startBtn" label="" bottom="57" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="niuniu_start_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="抢庄、加倍可多选，在多选项中随机，金币不足时将停止挂机" size="22" fontFamily="SimHei" textColor="0xa4baf5" bottom="147" horizontalCenter="2.5"/>
+</e:Skin>

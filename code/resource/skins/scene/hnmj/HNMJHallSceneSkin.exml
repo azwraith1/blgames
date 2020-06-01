@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.HNMJHallSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16458df3aae" />
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image scaleX="1" scaleY="1" top="0" bottom="0" right="0" left="0" source="hnmj_hall_bg_jpg"/>
+		<e:Image right="0" bottom="0" source="hmmj_title_png"/>
+		<e:Group id="topGroup" left="0" right="0" top="0" touchEnabled="false">
+			<e:Image source="hnmj_hall_bar_png" width="1280" x="0"/>
+			<e:Group id="t_leftGroup" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" top="0">
+				<e:Image id="headerMask" scaleX="1" scaleY="1" x="100" y="0" anchorOffsetX="0" anchorOffsetY="0" source="hnmj_hall_header_2_png"/>
+				<e:Image id="headerImage" scaleX="1" scaleY="1" x="116" y="14.8" source="hnmj_hall_header_3_png" width="60" height="60"/>
+				<e:Label id="nameLabel" text="test123" anchorOffsetX="0" textAlign="center" size="28" verticalAlign="middle" scaleX="1" scaleY="1"    x="186.8" width="186" y="20.5" textColor="0xffffff"/>
+				<e:Image source="hnmj_hall_gold_bar_png" x="456.33" y="12.99"/>
+				<e:Label id="goldLabel" text="0" anchorOffsetX="0" textAlign="center" size="26" scaleX="1" scaleY="1" x="496" width="157.33" y="21.34" verticalAlign="middle" textColor="0xffffff"/>
+			</e:Group>
+			<e:Button id="backBtn" label="" scaleX="1" scaleY="1" left="14" top="6">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hnmj_hall_back_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="t_rightGroup" width="466.67" anchorOffsetX="0" right="0" height="83" top="3" locked="true">
+				<e:Button id="fullScreenBtn" label="" x="380.49" y="3">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="hnmj_hall_qp_btn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="recordBtn" label="" x="303.75" y="3" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="hnmj_hall_record_btn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="helpBtn" label="" x="225.18" y="3" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="hnmj_hall_help_btn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Group id="contentGroup" horizontalCenter="0" width="1280" height="436" verticalCenter="24"/>
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="299" top="17"/>
+	</e:Group>
+</e:Skin>

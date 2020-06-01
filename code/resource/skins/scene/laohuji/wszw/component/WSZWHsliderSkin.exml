@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WSZWHsliderSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="track" source="wszw_auto_bar2_png"/>
+	<e:Image id="trackHighlight" x="8" y="1" width="0" source="wszw_auto_bar1_png" scale9Grid="5,3,403,23"/>
+	<e:Group id="thumb" y="8" x="9">
+		<e:Image anchorOffsetX="19.5" anchorOffsetY="20.5" source="wszw_auto_bar3_png"/>
+	</e:Group>
+</e:Skin>

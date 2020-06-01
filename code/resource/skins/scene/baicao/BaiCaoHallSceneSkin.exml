@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaiCaoHallSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:niuniu="niuniu.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="170e7822039"/>
+    <e:Group id="resizeGroup" width="720" height="1280" x="0" y="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="baicao_hall_bg_png"/>
+			<e:Image width="720" horizontalCenter="0" source="baicao_top_bg_png" top="0" height="97"/>
+
+
+		<e:Group id="topGroup" anchorOffsetX="0" left="0" top="0" right="0" bottom="1164">
+			<e:Label id="nameLabel" text="我的名字是你老子" y="19.88" size="20"    width="179.5" textAlign="left" anchorOffsetX="0" height="24" textColor="0xdac896"  left="198"/>
+			<e:Label id="goldLabel" text="9999.99万" x="226.08" y="64.04" size="20"    width="148.5" textAlign="left" height="24" anchorOffsetX="0" textColor="0xdac896"/>
+			<e:Image x="195.71" y="58.66" source="nns_hall_gold_png"/>
+			<e:Button id="backBtn" label="" left="23" top="15" x="11" y="15" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="baicao_backbtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Button id="helpBtn" label="" top="16" y="0" scaleX="1" scaleY="1" right="218">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="baicao_helpbtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="recordBtn" label="" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" top="16" y="16" right="121">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="baicao_jlbtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="baicao_hall_headkuang_png" x="116.8" y="7.31"/>
+			<e:Image id="headerImage" x="121.79" y="10.88" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.76" scaleY="0.76" width="90" height="90" source="hall_header_1_1_png"/>
+		</e:Group>
+			<e:Group id="centerGroup" height="835.94" anchorOffsetX="0" anchorOffsetY="0" width="660" verticalCenter="0" y="222" horizontalCenter="0">
+				<ns1:BaiCaoHallBar id="bar1" x="0" y="0" skinName="BaiCaoHallBarSkin" visible="false"/>
+				<ns1:BaiCaoHallBar id="bar2" x="292" y="-28" skinName="BaiCaoHallBarSkin" visible="false"/>
+				<ns1:BaiCaoHallBar id="bar3" x="-48.52" y="263" skinName="BaiCaoHallBarSkin" visible="false"/>
+				<ns1:BaiCaoHallBar id="bar4" x="292" y="263" skinName="BaiCaoHallBarSkin" locked="true" visible="false"/>
+				<ns1:BaiCaoHallBar id="bar5" x="-47" y="566" skinName="BaiCaoHallBarSkin" visible="false"/>
+				<ns1:BaiCaoHallBar id="bar6" x="292" y="566" skinName="BaiCaoHallBarSkin" visible="false"/>
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" columnWidth="320" paddingLeft="10" paddingRight="10"/>
+				</e:layout>
+			</e:Group>
+			<e:Button id="fullScreenBtn" label="" right="15" top="17" height="70">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="baicao_fullbtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="25" top="109"/>
+
+	</e:Group>
+</e:Skin>

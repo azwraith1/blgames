@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubGameRateSkinKR" width="711" height="370" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<e:Image source="club_set_kuang_png" x="0" y="0"/>
+	<e:Group id="setGroup" x="0" y="0" anchorOffsetX="0" width="711" anchorOffsetY="0" height="370">
+		<e:Label text="lan:33||" size="24" textColor="0xe4ac7a" left="52" top="72"/>
+		<e:Label id="clubSetTitle" text="lan:37||" size="24" textColor="0xE4AC7A" verticalCenter="12" left="52"/>
+		<e:Label text="lan:36||" size="24" textColor="0xE4AC7A" right="213" top="70"/>
+
+		<e:Group id="ClubRateShowItemGroup" anchorOffsetX="0" anchorOffsetY="0" left="171" right="74" top="185" bottom="90">
+			<e:layout>
+				<e:TileLayout orientation="rows" requestedColumnCount="3" verticalGap="20" horizontalGap="15"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="setBtn" label="" right="5" verticalCenter="15.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_set_set_kr_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="saveBtn" label="" y="309" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_set_savebtn_kr_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+
+		<e:ToggleButton id="memCheckBtn" label="" x="180" y="54.67">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_togglebtn_up_kr_png" source.down="club_togglebtn_down_kr_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="seatBtn" label="" x="501.33" y="54.67">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_togglebtn_up_kr_png" source.down="club_togglebtn_down_kr_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<ns1:ClubRateSet id="clubRate" width="443" height="277" skinName="ClubRateSetSkin" x="134" y="38" visible="false"/>
+
+	</e:Group>
+	<e:Group id="tiQuGroup" x="0" y="0" width="711" height="370" visible="false">
+		<e:Label text="lan:38||：" x="161.33" y="84" size="26" textColor="0xffeacf"/>
+		<e:Button id="tiQuBtn" label="" y="234.33" x="292">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_set_tq_kr_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="incomeGoldTxt" text="0" x="347.33" y="120" size="36" fontFamily="SimHei" textColor="0xcf4621"/>
+		<e:Group id="tiQuTip" x="0" y="0" anchorOffsetX="0" width="710" anchorOffsetY="0" height="370" visible="false">
+			<e:Rect id="touchTiQu" width="706" height="364" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+			<e:Group x="135" y="59">
+				<e:Image source="club_touming_dk_png" x="0" y="0" anchorOffsetX="0" width="448" anchorOffsetY="0" height="239"/>
+				<e:Label text="lan:40||:" x="65" y="71" size="24" textColor="0xe4ac7a"/>
+				<e:Button id="okBtn" label="" x="165" y="168">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="club_yetqu_qdbtn_kr_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Group x="109" y="112" anchorOffsetX="0" width="250">
+				<e:TextInput id="inPutGold" width="248" height="41" x="-2" anchorOffsetX="0" anchorOffsetY="0" textColor="0xad5734"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

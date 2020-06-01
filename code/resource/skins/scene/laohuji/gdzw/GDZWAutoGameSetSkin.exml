@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GDZWAutoGameSetSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c474e6f27" ></w:Config>
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect alpha="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" width="1280" x="0" y="0"/>
+		<e:Image source="gdzw_autogame_bg_png" verticalCenter="-14" horizontalCenter="-7"/>
+		<e:Group height="720" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="24.5" x="136" y="0">
+			<e:Group width="746.67" height="58.36" anchorOffsetX="0" horizontalCenter="-37" anchorOffsetY="0" y="151.02" x="172" scaleX="1" scaleY="1">
+			<e:Button id="auto_5" label="" x="17.83" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gdzw_autogame_btn51_png" source.down="gdzw_autogame_btn52_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_10" label="" x="142" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gdzw_autogame_btn101_png" source.down="gdzw_autogame_btn102_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_25" label="" x="265" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gdzw_autogame_btn251_png" source.down="gdzw_autogame_btn252_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_50" label="" x="389" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gdzw_autogame_btn501_png" source.down="gdzw_autogame_btn502_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_100" label="" x="512" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gdzw_autogame_btn1001_png" source.down="gdzw_autogame_btn1002_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_wuqiong" label="" x="635.41" verticalCenter="0.3200000000000003">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gdzw_autogame_btn11_png" source.down="gdzw_autogame_btn12_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+			<e:Button id="close_btn" label="" right="78" top="99">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gdzw_payfor_btn11_png" source.down="gdzw_payfor_btn12_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group y="270" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-38.5" x="149" scaleX="1" scaleY="1" width="761.67">
+			<e:HSlider id="oneMax" width="469" height="41" x="224" y="-5.23" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="GDZWHSLiderSkin">
+
+			</e:HSlider>
+				<e:HSlider id="totalWin" width="469" height="41" x="224" y="150" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="GDZWHSLiderSkin">
+
+				</e:HSlider>
+				<e:HSlider id="totalAdd" width="469" height="41" x="224" y="68.69" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="GDZWHSLiderSkin">
+
+				</e:HSlider>
+				<e:Image source="gdzw_autogame_txt_png" x="-1.33" y="3.11"/>
+				<e:Image source="gdzw_autogame_txt2_png" x="-1.98" y="79.69"/>
+				<e:Image source="gdzw_autogame_txt3_png" x="-0.84" y="157.01"/>
+				<e:BitmapLabel id="max_num" width="140" height="24" x="689" y="3" font="gdzw_autogame_num_fnt" text="000000000" anchorOffsetY="0" letterSpacing="-10" anchorOffsetX="0"/>
+				<e:BitmapLabel id="totalAdd_num" width="136" height="24" x="689" y="77.01" font="gdzw_autogame_num_fnt" text="00000" anchorOffsetY="0" letterSpacing="-10" anchorOffsetX="0"/>
+				<e:BitmapLabel id="totalWin_num" width="136" height="24" x="689" y="158" font="gdzw_autogame_num_fnt" text="00000" anchorOffsetY="0" letterSpacing="-10" anchorOffsetX="0"/>
+			</e:Group>
+			<e:Button id="start_auto_play" label="" horizontalCenter="-21.5" y="487" x="143" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gdzw_autogame_btn_png" source.down="gdzw_autogame_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="gdzw_autogame_txt4_png" y="84.68" horizontalCenter="-18.5"/>
+			<e:Group id="autoStopGroup" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-27" y="217" touchChildren="false" x="304" scaleX="1" scaleY="1">
+				<e:Image source="gdzw_autogame_bg1_png" scaleX="1" scaleY="1"/>
+				<e:Image id="stopAutoBtn" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" source="gdzw_autogame_txt1_png"/>
+				<e:Image id="gouImag" scaleX="1" scaleY="1" y="-1" x="29" source="gdzw_autogame_gou_png" visible="false"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

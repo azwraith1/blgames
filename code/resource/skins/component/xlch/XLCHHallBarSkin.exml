@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XLCHHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width="279" height="417">
+	<e:Group id="dbGroup" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0">
+	</e:Group>
+
+	<e:Group id="contentGroup" height="80" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" bottom="47" width="237">
+		<e:Image source="xlch_hall_bg1_png" y="20" x="37"/>
+
+
+		<e:Image id="dizhuImage" source="xlch_hall_dz_label_png" x="44.5" y="24"/>
+		<e:BitmapLabel id="dizhuLabel" x="108.4" y="24.6" font="xlch_hall_dz_fnt" text="234" letterSpacing="-6" anchorOffsetX="0" width="83.4" textAlign="center"/>
+		<e:Image source="xlch_hall_zr_label_png" x="46" y="81.5"/>
+		<e:BitmapLabel id="zhunruLabel" x="98.4" y="84.6" text="5000" anchorOffsetX="0" textAlign="center" font="xlch_hall_zr_fnt" letterSpacing="-3" width="105.5"/>
+	</e:Group>
+</e:Skin>

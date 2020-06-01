@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SangongFenSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group id="dbGroup" width="203" height="56">
+		<e:Image id="bgImage" source="sg_beishu_bg_png" x="-13" y="-3"/>
+
+		<e:Group id="paiXinGroup" y="28" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" x="102">
+		</e:Group>
+	</e:Group>
+	<e:BitmapLabel id="beishuLabel" text="(3b)" y="51" letterSpacing="-3" height="28" horizontalCenter="0.5" font="sg_dsgzz_fnt"/>
+	<e:Image id="patternImage" scaleX="1" scaleY="1" name="niufen" x="18.5" y="2.12" source="" visible="false"/>
+
+	<e:BitmapLabel id="patternLabel" text="" name="niufen" x="59.5" y="4.12" letterSpacing="-10" font="sg_79_fnt" visible="false"/>
+	<e:Rect width="5" height="79" y="0" fillColor="0xdd0d0d" strokeColor="0xd11212" left="-3" visible="false"/>
+	<e:Rect width="1" height="79" x="201.31" y="0" strokeColor="0xef1010" fillColor="0xce1616" visible="false"/>
+</e:Skin>

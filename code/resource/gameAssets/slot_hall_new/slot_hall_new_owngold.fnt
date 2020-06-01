@@ -1,0 +1,13 @@
+{"file":"slot_hall_new_owngold.png","frames":{
+"1":{"x":107,"y":74,"w":19,"h":34,"offX":2,"offY":1,"sourceW":23,"sourceH":35},
+"2":{"x":1,"y":74,"w":32,"h":35,"offX":2,"offY":0,"sourceW":36,"sourceH":35},
+"3":{"x":73,"y":74,"w":32,"h":34,"offX":2,"offY":1,"sourceW":36,"sourceH":35},
+"4":{"x":1,"y":1,"w":38,"h":35,"offX":2,"offY":0,"sourceW":42,"sourceH":35},
+"5":{"x":41,"y":37,"w":34,"h":34,"offX":2,"offY":1,"sourceW":38,"sourceH":35},
+"6":{"x":77,"y":38,"w":34,"h":34,"offX":2,"offY":1,"sourceW":38,"sourceH":35},
+"7":{"x":78,"y":1,"w":34,"h":35,"offX":2,"offY":0,"sourceW":38,"sourceH":35},
+"8":{"x":37,"y":73,"w":34,"h":34,"offX":2,"offY":1,"sourceW":38,"sourceH":35},
+"9":{"x":1,"y":38,"w":34,"h":34,"offX":2,"offY":1,"sourceW":38,"sourceH":35},
+"0":{"x":41,"y":1,"w":35,"h":34,"offX":2,"offY":1,"sourceW":39,"sourceH":35},
+".":{"x":113,"y":38,"w":14,"h":14,"offX":2,"offY":21,"sourceW":18,"sourceH":35},
+" ":{"x":114,"y":1,"w":5,"h":5,"offX":0,"offY":0,"sourceW":6,"sourceH":35}}}

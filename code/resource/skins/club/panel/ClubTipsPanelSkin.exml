@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubTipsPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image source="club_tips_mask_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Group left="0" right="0" top="0" bottom="0">
+			<e:Image source="club_tips_kuang2_png" horizontalCenter="0" y="56"/>
+			<e:Image id="closeTipsBtn" source="club_join_close_png" y="69.3" horizontalCenter="474"/>
+			<e:Image source="club_tips_title_png" y="70.33" horizontalCenter="0"/>
+			<e:Image source="club_tips_titel1_png" horizontalCenter="-254" y="92"/>
+			<e:Image source="club_tips_title2_png" horizontalCenter="254" y="92"/>
+			<e:Image source="club_tips_kuang_png" y="151.65" horizontalCenter="117.5"/>
+			<e:ToggleButton id="jeishaoBtn" label="" y="150" horizontalCenter="-359.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_tips_jieshao1_png" source.down="club_tips_jieshao2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+			<e:ToggleButton id="guizeBtn" label="" y="247.35" horizontalCenter="-359.5" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_tips_ruler1_png" source.down="club_tips_ruler2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+			<e:Scroller id="guizeTips" width="660" y="177" anchorOffsetY="0" height="448.67" horizontalCenter="116" scrollPolicyH="off" bounces="true">
+				<e:Group id="guizeGroup">
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

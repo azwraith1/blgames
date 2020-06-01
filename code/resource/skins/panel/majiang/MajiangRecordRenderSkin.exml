@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MajiangRecordRenderSkin" width="866" height="22" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Label id="roomIdLabel" text="192222999" x="1" width="287.17" size="22"    textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="SimHei" bold="true" textColor="0x915122" verticalCenter="0"/>
+	<e:Label id="roomNameLabel" text="高级房" x="338.5" width="102.4" size="22" textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="SimHei" bold="true" textColor="0x915122" verticalCenter="0"/>
+	<e:Label id="goldLabel" text="高级房" x="519" width="102.4" size="22" textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="SimHei" textColor="0xe21d1d" verticalCenter="0"/>
+	<e:Label id="timeLabel" text="高级房" size="22" textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="SimHei" verticalAlign="justify" right="10" bold="true" textColor="0x915122" verticalCenter="0"/>
+</e:Skin>

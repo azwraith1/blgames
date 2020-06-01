@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XYSGLoadingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="xysg_loadingbg_png"/>
+		<e:Group id="clickGroup" bottom="-2" horizontalCenter="0" visible="false">
+		<e:Image source="cbzz_loading_start_png" horizontalCenter="0" bottom="0"/>
+		<e:Image id="clickStart" source="cbzz_loading_starttext_png" horizontalCenter="0" bottom="12"/>
+		</e:Group>
+		<e:Image y="2.37" horizontalCenter="0" source="xysg_loadingbg2_png"/>
+		<e:Image y="74" horizontalCenter="0.5" source="xysg_logo_png"/>
+		<e:Group id="loadingBarGroup" horizontalCenter="2.5" x="248" scaleX="1" scaleY="1" verticalCenter="261">
+		<e:Image horizontalCenter="0" source="xysg_loadingbar_png"/>
+		<e:Image id="processBar" left="12" source="xysg_loadingbar2_png" y="10.5" scale9Grid="11,0,693,17" width="0"/>
+		<e:BitmapLabel id="percentLabel" width="104" height="20" x="399.34" y="-21" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" text="0%" textAlign="left" letterSpacing="-3" font="lucky7_loadingnum_fnt"/>
+		</e:Group>
+		<e:Label text="正在加载..." size="19" fontFamily="Microsoft YaHei" bold="true" anchorOffsetX="0" width="94" anchorOffsetY="0" height="22" horizontalCenter="-15" verticalCenter="229"/>
+	</e:Group>
+	<e:Button id="quitBtn" label="" top="90" left="0" x="0" y="90" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="slot_back_btn1_png" source.down="slot_back_btn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

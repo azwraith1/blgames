@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaiCaoGameSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:rbwar="rbwar.*" xmlns:baicao="baicao.*">
+
+ <e:Group id="resizeGroup" width="720" height="1280" y="0" x="0">
+		<e:Image left="0" top="-2" bottom="2" right="0" source="baicao_bg1_jpg"/>
+
+		<e:Group id="uiGroup" left="0" top="0" right="0" bottom="0">
+			<e:Label id="roomid" text="dfddfd" top="0" y="0" scaleX="1" scaleY="1" size="20" left="0"/>
+			<e:Label id="diFen" text="底分:  2" textColor="0x7b2a30" size="24" horizontalCenter="0" verticalCenter="-32" bold="true"/>
+			<e:Image source="baicao_di_png" x="308.04" y="621.58" locked="true"/>
+			<e:Image source="baicao_difen_bg_png" x="232" y="538" scaleX="1" scaleY="1"/>
+			<e:Label id="totalBet" text="Tổng:1000K" y="546" textColor="0xeddb12" bold="true" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+			<baicao:BaiCaoTimebar id="timeBar" width="239" height="65" x="229.93" y="600.26" skinName="BaiCaoTimeBarSkin" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Group id="touchGroup" left="0" bottom="0" right="0" top="0">
+
+
+			<e:Group id="group3" anchorOffsetX="0" anchorOffsetY="0" width="222" horizontalCenter="-220" verticalCenter="-227.5" height="199">
+				<baicao:BaiCaoHeader id="header3" skinName="BaiCaoHeaderSkinOther" scaleX="1" scaleY="1" y="0" x="0"/>
+				<ns1:BaiCaoCardList id="card3" skinName="BaiCaoCardListSkin" horizontalCenter="0" verticalCenter="44.5" scaleX="1" scaleY="1"/>
+				<baicao:BaiCaoPattern id="pattern3" width="189" height="62" x="14" y="134" scaleX="1" scaleY="1" skinName="BaiCaoPatternSkin"/>
+				<e:Group id="db3" x="107.83" y="140.05" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="group4" anchorOffsetX="0" anchorOffsetY="0" width="222" horizontalCenter="-11" verticalCenter="-445.5" height="199">
+				<baicao:BaiCaoHeader id="header4" skinName="BaiCaoHeaderSkinOther" scaleX="1" scaleY="1" y="0" x="0"/>
+				<ns1:BaiCaoCardList id="card4" skinName="BaiCaoCardListSkin" horizontalCenter="0" scaleX="1" scaleY="1" y="91"/>
+				<baicao:BaiCaoPattern id="pattern4" width="189" height="62" x="14" y="134" scaleX="1" scaleY="1" skinName="BaiCaoPatternSkin"/>
+				<e:Group id="db4" x="108.21000000000001" y="140.2" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="group5" anchorOffsetX="0" anchorOffsetY="0" width="222" horizontalCenter="240" verticalCenter="-221.5" height="199">
+				<baicao:BaiCaoHeader id="header5" skinName="BaiCaoHeaderSkinOther" scaleX="1" scaleY="1" y="0" x="0"/>
+				<ns1:BaiCaoCardList id="card5" skinName="BaiCaoCardListSkin" horizontalCenter="-18" scaleX="1" scaleY="1" y="87"/>
+				<baicao:BaiCaoPattern id="pattern5" width="189" height="62" x="2" y="130" scaleX="1" scaleY="1" skinName="BaiCaoPatternSkin"/>
+				<e:Group id="db5" x="98.02" y="134.85" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="group6" anchorOffsetX="0" anchorOffsetY="0" width="222" verticalCenter="72.5" height="199" x="489">
+				<baicao:BaiCaoHeader id="header6" skinName="BaiCaoHeaderSkinOther" scaleX="1" scaleY="1" y="0" x="0"/>
+				<ns1:BaiCaoCardList id="card6" skinName="BaiCaoCardListSkin" x="9" y="87" scaleX="1" scaleY="1"/>
+				<baicao:BaiCaoPattern id="pattern6" width="189" height="62" x="2" y="130" scaleX="1" scaleY="1" skinName="BaiCaoPatternSkin"/>
+				<e:Group id="db6" x="98.02" y="134.85" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="group2" anchorOffsetX="0" anchorOffsetY="0" width="222" verticalCenter="69.5" height="199" x="29">
+				<baicao:BaiCaoHeader id="header2" scaleX="1" scaleY="1" y="0" skinName="BaiCaoHeaderSkinOther" x="0"/>
+				<ns1:BaiCaoCardList id="card2" skinName="BaiCaoCardListSkin" x="27" y="91" scaleX="1" scaleY="1"/>
+				<baicao:BaiCaoPattern id="pattern2" width="189" height="62" x="14" y="134" scaleX="1" scaleY="1" skinName="BaiCaoPatternSkin"/>
+				<e:Group id="db2" x="107.83000000000001" y="140.05000000000007" scaleX="1" scaleY="1"/>
+			</e:Group>
+
+			<e:Group id="group1" anchorOffsetX="0" anchorOffsetY="0" height="226" width="465" verticalCenter="381" horizontalCenter="-89.5">
+				<baicao:BaiCaoHeader id="header1" x="0" y="0" scaleX="1" scaleY="1" skinName="BaiCaoHeaderSkinMine"/>
+				<ns1:BaiCaoCardList id="card1" skinName="BaiCaoCardListSkin" scaleX="1.5" scaleY="1.5" horizontalCenter="89" verticalCenter="-16.5"/>
+				<e:Group id="db1" x="310.61" y="73.62" scaleX="1" scaleY="1"/>
+				<baicao:BaiCaoPattern id="pattern1" width="189" height="62" x="213.57" y="65.09" scaleX="1" scaleY="1" skinName="BaiCaoPatternSkin"/>
+			</e:Group>
+
+			<e:Group left="33" top="47">
+				<e:Image id="btnsbg" source="blackj_alert_db1_png" scale9Grid="9,30,60,187" anchorOffsetY="0" height="339" left="-3" top="-7" visible="false"/>
+				<e:Button id="xlbtn" label="" left="-19" top="-8">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="baicao_button_select_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+				</e:Button>
+				<e:Button id="xlbtn1" label="" left="-19" top="-8">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="baicao_button_select_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="settingBtn" label="" top="64" left="-19">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="baicao_button_setting_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="helpBtn" label="" left="-19" top="136">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="baicao_button_help_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="recordBtn" label="" left="-5" top="218">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="baicao_jlbtn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="backBtn" label="" top="281" left="-19">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="baicao_button_back_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="cmGroup"  horizontalCenter="-4.5" verticalCenter="-178.5"/>
+			<e:Group id="fapaiGroup" scaleX="1" scaleY="1" x="359.4" y="481.75"/>
+			<e:Button id="restartBtn" label="" horizontalCenter="238" verticalCenter="532.5" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="baicao_restart_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Rect id="shouPaiPos" width="54" height="58" x="325.05" y="432.96" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+			<e:Group id="choumaGroup"  x="362" y="26" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="mineWinLabel" y="470" font="baicao_common_fnt" text="+15556" horizontalCenter="4" letterSpacing="-10" visible="false"/>
+		</e:Group>
+		<e:Group id="effectGroup" left="0" right="0" top="0" bottom="0" touchThrough="true" touchEnabled="false" touchChildren="false">
+			<ns1:PokerCard width="133" height="181" x="304.88" y="925.01" skinName="NewPokerSkin" scaleX="0.65" scaleY="0.65" visible="false"/>
+
+		</e:Group>
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="167" top="22"/>
+	</e:Group>
+</e:Skin>

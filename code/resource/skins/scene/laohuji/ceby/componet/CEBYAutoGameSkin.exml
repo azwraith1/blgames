@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CEBYAutoGameSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect alpha="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" width="1280" x="0" y="0"/>
+		<e:Image verticalCenter="-14" horizontalCenter="-7" source="ceby_auto_kuang_png"/>
+		<e:Group height="720" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="24.5" x="136" y="0">
+		<e:Group width="746.67" height="58.36" anchorOffsetX="0" horizontalCenter="-37" anchorOffsetY="0" y="172.27" x="172" scaleX="1" scaleY="1">
+			<e:Button id="auto_5" label="" x="17.83" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ceby_autobtn_bg2_png" source.down="ceby_autobtn_bg_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ceby_auto5_png" y="14.04" x="48.5" touchEnabled="false"/>
+			<e:Button id="auto_10" label="" x="142" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ceby_autobtn_bg2_png" source.down="ceby_autobtn_bg_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ceby_auto10_png" x="173.2" y="14.52" touchEnabled="false"/>
+			<e:Button id="auto_25" label="" x="265" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ceby_autobtn_bg2_png" source.down="ceby_autobtn_bg_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ceby_auto25_png" x="294.08" y="14.56" touchEnabled="false"/>
+			<e:Button id="auto_50" label="" x="389" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ceby_autobtn_bg2_png" source.down="ceby_autobtn_bg_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ceby_auto50_png" x="420.64" y="14.48" touchEnabled="false"/>
+			<e:Button id="auto_100" label="" x="512" y="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ceby_autobtn_bg2_png" source.down="ceby_autobtn_bg_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_wuqiong" label="" x="635.41" verticalCenter="4.82">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ceby_autobtn_bg2_png" source.down="ceby_autobtn_bg_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image source="ceby_auto100_png" x="543.18" y="15.6" touchEnabled="false"/>
+			<e:Image source="ceby_auto8_png" x="666.04" y="13.04" touchEnabled="false"/>
+		</e:Group>
+		<e:Button id="close_btn" label="" right="2" top="99">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ceby_auto_close_png" source.down="ceby_auto_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group y="294.24" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-38.5" x="149" scaleX="1" scaleY="1" width="761.67">
+			<e:HSlider id="oneMax" width="469" height="41" x="261" y="6.77" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="CEBYHSLiderSkin"/>
+			<e:HSlider id="totalWin" width="469" height="41" x="261" y="138" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="CEBYHSLiderSkin"/>
+			<e:HSlider id="totalAdd" width="469" height="41" x="261" y="73.69" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="CEBYHSLiderSkin"/>
+			<e:Image x="-24.33" y="3.11" source="ceby_auto_text1_png"/>
+			<e:Image x="-23.33" y="68.69" source="ceby_auto_text3_png"/>
+			<e:Image x="-23.84" y="134.01" source="ceby_auto_text2_png"/>
+			<e:BitmapLabel id="max_num" width="103" height="24" x="719" y="7" text="00000" anchorOffsetY="0" letterSpacing="-10" anchorOffsetX="0" font="ceby_autogold_fnt"/>
+			<e:BitmapLabel id="totalAdd_num" width="145" height="24" x="718" y="75.01" text="0000" anchorOffsetY="0" letterSpacing="-10" anchorOffsetX="0" font="ceby_autogold_fnt"/>
+			<e:BitmapLabel id="totalWin_num" width="103" height="24" x="720" y="138" text="00000" anchorOffsetY="0" letterSpacing="-10" anchorOffsetX="0" font="ceby_autogold_fnt"/>
+		</e:Group>
+		<e:Button id="start_auto_play" label="" horizontalCenter="-21.5" y="508.22" x="143" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ceby_auto_start_png" source.down="ceby_auto_start_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image y="93.8" horizontalCenter="-18" source="ceby_auto_tittle_png"/>
+		<e:Group id="autoStopGroup" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-27" y="241.27" touchChildren="false" x="304" scaleX="1" scaleY="1">
+			<e:Image id="stopAutoBtn" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" source="ceby_auto_text4_png"/>
+			<e:Image id="gouImag" scaleX="1" scaleY="1" x="29" source="ceby_auto_gou_png" visible="false"/>
+		</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

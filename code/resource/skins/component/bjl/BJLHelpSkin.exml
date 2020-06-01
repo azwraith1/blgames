@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLHelpSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1672fb0de19"/>
+	<e:Group id="resizeGroup" width="720" height="1280">
+		<e:Rect id="rects" width="720" height="1280" fillAlpha="0"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-36" horizontalCenter="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="56,158,336,143" scaleX="1" scaleY="1" x="0" y="0" source="bjl_alert_bg_png"/>
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="18" source="bjl_help_title_png" horizontalCenter="0"/>
+			<e:Image id="tab1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="99" source="bjl_help_tab1_1_png" x="20"/>
+
+			<e:Image id="tab3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="99" source="bjl_help_tab3_1_png" x="434"/>
+			<e:Image id="tab2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" alpha="1" y="99" source="bjl_help_tab2_1_png" x="218"/>
+
+			<e:Button id="closeBtn" label="" x="553.32" y="6.36" anchorOffsetX="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bjl_alert_close_png" source.down="bjl_alert_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Scroller id="scroller" width="577" height="389.76" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="61">
+				<e:Group id="textGroup" anchorOffsetX="0" width="577" anchorOffsetY="0" height="364">
+					<e:Image id="contentImage" scaleX="0.52" scaleY="0.52" horizontalCenter="0"/>
+
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

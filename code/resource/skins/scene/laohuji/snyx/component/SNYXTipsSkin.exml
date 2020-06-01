@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SNYXTipsSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" y="0" x="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+		<e:Image source="snyx_game_bg1_png" horizontalCenter="0" y="81"/>
+		<e:Group id="group1" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+			<e:Image source="snyx_paylist_1_png" y="178" horizontalCenter="0"/>
+			<e:Group anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5" y="608">
+				<e:Image horizontalCenter="-50" bottom="0" source="snyx_paylist_dian1_png"/>
+				<e:Image horizontalCenter="-50" bottom="4" source="snyx_paylist_dian2_png"/>
+			<e:Image horizontalCenter="0" bottom="0" source="snyx_paylist_dian1_png"/>
+			<e:Image horizontalCenter="50" bottom="0" source="snyx_paylist_dian1_png"/>
+			</e:Group>
+			<e:Button id="right1" label="" rotation="0" right="90" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="snyx_right_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:gdzw="gdzw.*"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="closeBtn1" top="86" horizontalCenter="404" source="snyx_auto_close_png"/>
+		</e:Group>
+		<e:Group id="group2" left="0" right="0" top="0" bottom="0" x="10" y="10" visible="false">
+			<e:Image id="closeBtn2" top="86" y="40" scaleX="1" scaleY="1" horizontalCenter="404" source="snyx_auto_close_png"/>
+			<e:Group anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" y="608">
+			<e:Image horizontalCenter="-50" bottom="0" source="snyx_paylist_dian1_png"/>
+			<e:Image horizontalCenter="0" y="0" source="snyx_paylist_dian1_png"/>
+				<e:Image horizontalCenter="0.5" y="3" source="snyx_paylist_dian2_png"/>
+			<e:Image horizontalCenter="50" bottom="0" source="snyx_paylist_dian1_png"/>
+			</e:Group>
+			<e:Button id="left1" label="" verticalCenter="0" left="90">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="snyx_left_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:gdzw="gdzw.*"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="right2" label="" verticalCenter="0" right="90" rotation="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="snyx_right_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:gdzw="gdzw.*"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image y="176" source="snyx_paylist_2_png" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="group3" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" visible="false">
+			<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="170" right="133" top="62" bottom="109">
+			<e:Group id="payList" anchorOffsetX="0" scaleX="1" scaleY="1" anchorOffsetY="0" width="920" height="486" y="76.64" horizontalCenter="0.5">
+				<e:Label id="pay8_5" text="1200" y="189.36" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF" x="224"/>
+				<e:Label id="pay8_4" text="800" x="226.72" y="213.84" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay8_3" text="400" x="225.92" y="237.44" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay9_5" text="1200" x="407.85" y="189.03" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay9_4" text="1200" x="408.85" y="211.86" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay9_3" text="1200" x="408.85" y="235.5" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay10_5" text="1111" x="606" y="187.86" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay10_4" text="1111" x="607" y="211.86" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay10_3" text="1111" x="608" y="235.5" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay11_5" text="1111" x="790.59" y="183.54" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay11_4" text="1111" x="789.93" y="207.7" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay11_3" text="1111" x="789.93" y="232.35" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay5_5" text="1111" x="289.82" y="285.02" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay5_4" text="1111" x="289.15" y="309.04" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay5_3" text="1111" x="289.82" y="332.37" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay6_5" text="1200" x="482.61" y="285.17" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay6_4" text="1200" x="483.61" y="308.82" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay6_3" text="1200" x="483.36" y="332.21" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay7_5" text="12" x="695.02" y="282.41" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay7_4" text="12" x="695.67" y="306.69" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay7_3" text="1111" x="695.01" y="331.05" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay3_5" text="111" x="384.76" y="381.18" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay3_4" text="1111" x="384.76" y="405.17" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay3_3" text="1111" x="384.76" y="427.86" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay4_5" text="1111" x="591" y="380.35" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay4_4" text="1111" x="591" y="404" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+				<e:Label id="pay4_3" text="1111" x="592" y="427.7" size="19" fontFamily="SimHei" textAlign="left" stroke="2" strokeColor="0xB17E26" textColor="0xFFFFFF"/>
+			</e:Group>
+				<e:Image source="snyx_paylist_number_png" x="219" y="268" scaleX="1" scaleY="1"/>
+				<e:Image source="snyx_paylist_number_png" x="288" y="363" scaleX="1" scaleY="1"/>
+				<e:Image source="snyx_paylist_number_png" x="687" y="362" scaleX="1" scaleY="1"/>
+				<e:Image source="snyx_paylist_number_png" x="480" y="363" scaleX="1" scaleY="1"/>
+				<e:Image source="snyx_paylist_number_png" x="384" y="459" scaleX="1" scaleY="1"/>
+				<e:Image source="snyx_paylist_number_png" x="600" y="266" scaleX="1" scaleY="1"/>
+				<e:Image source="snyx_paylist_number_png" x="403" y="267" scaleX="1" scaleY="1"/>
+				<e:Image source="snyx_paylist_number_png" x="784" y="263" scaleX="1" scaleY="1"/>
+				<e:Image source="snyx_paylist_number_png" x="587" y="458" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Image source="snyx_paylist_3_png" y="176" horizontalCenter="24.5"/>
+			<e:Button id="left2" label="" verticalCenter="0" left="90">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="snyx_left_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:gdzw="gdzw.*"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="closeBtn3" top="86" y="40" scaleX="1" scaleY="1" horizontalCenter="404" source="snyx_auto_close_png"/>
+			<e:Group anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" y="608">
+			<e:Image horizontalCenter="-50" bottom="0" source="snyx_paylist_dian1_png"/>
+			<e:Image horizontalCenter="0" bottom="0" source="snyx_paylist_dian1_png"/>
+				<e:Image horizontalCenter="50" bottom="0" source="snyx_paylist_dian1_png"/>
+			<e:Image horizontalCenter="50" bottom="4" source="snyx_paylist_dian2_png"/>
+			</e:Group>
+			<e:Label text="中奖显示分数与实际赢得金币比例为100:1" y="599" bold="true" fontFamily="KaiTi" horizontalCenter="-13.5" size="18" textColor="0xffffff"/>
+		</e:Group>
+		<e:Image source="snyx_paylist_title_png" y="112" horizontalCenter="2.5"/>
+		<e:Image source="snyx_laoshu_png" horizontalCenter="-440" y="309" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

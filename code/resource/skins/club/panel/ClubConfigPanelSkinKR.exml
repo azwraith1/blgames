@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubConfigPanelSkinKR" width="1280" height="720"  xmlns:ns1="*"  xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0.7" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" height="659" width="967.46" horizontalCenter="62.5" verticalCenter="16.5">
+			<e:Group y="31" scaleX="1" scaleY="1" x="-56">
+				<e:Image x="0" y="0" source="club_mem_kuang_png"/>
+				<e:Image source="club_gain_pk_right_png" x="698" y="25.84"/>
+				<e:Image source="club_pk_png" x="219" y="24.84"/>
+				<e:Image x="384" y="17" source="club_set_top_kr_png"/>
+			</e:Group>
+		<e:Rect id="rects0" fillColor="0x000000" fillAlpha="0" scaleX="1" scaleY="1" top="-48" bottom="-12.610000000000014" width="1280" height="720" x="-219.69"/>
+		<ns1:ClubGameRateItem id="clubSet" width="712" height="370" x="194.19" y="129.48" skinName="ClubGameRateSkinKR" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Button id="closeBtn" label="" scaleX="1" scaleY="1" right="6.460000000000036" top="27">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_gain_closebtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="breakBtn" label="" x="690.7700000000001" y="522.3" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_set_jsbtn_kr_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group x="-45.9" y="148.9" scaleX="1" scaleY="1">
+			<e:RadioButton id="clubSetBtn" label="" x="-1" y="0" selected="true">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_set_jlbsz_off_kr_png" source.down="club_set_jlbsz_on_kr_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="clubTiQuBtn" label="" x="-1" y="95.76">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_set_income_off_kr_png" source.down="club_set_income_on_kr_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+		</e:Group>
+		</e:Group>
+		
+	</e:Group>
+</e:Skin>

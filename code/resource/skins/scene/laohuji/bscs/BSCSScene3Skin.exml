@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BSCSScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ayls="ayls.*" xmlns:bscs="bscs.*">
+	<e:Group id="resizeGroup" width="1280" x="0" height="720" y="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="bscq_freegame_bg_2_png"/>
+		<e:Group id="effectGroup1" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="gameGroup" height="720" width="1280" y="0" horizontalCenter="0">
+			<bscs:BSCSScroller id="scroller" width="1020" height="486" scaleX="1" scaleY="1" horizontalCenter="-4" y="82"/>
+			<e:Image horizontalCenter="0" x="0" y="7" scaleX="1" scaleY="1" source="bscq_commombg_3_png"/>
+			<e:Group id="bottomGroup" scaleX="1" scaleY="1" horizontalCenter="0" y="564">
+				<e:Image scaleX="1" scaleY="1" source="bscq_freewin_bg1_png" horizontalCenter="0" height="156" y="0"/>
+				<e:BitmapLabel id="freeTimesLabel" width="153.52" height="36.14" y="41" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" text="0" letterSpacing="0" textAlign="center" font="bscs_freespin_gold_fnt" horizontalCenter="-155"/>
+				<e:BitmapLabel id="winNumLabel" width="232.42" height="39.24" y="41" anchorOffsetX="0" anchorOffsetY="0" letterSpacing="0" textAlign="center" text="0" scaleX="1" scaleY="1" font="bscs_freespin_gold_fnt" horizontalCenter="236"/>
+			</e:Group>
+			<e:Group id="winLineGroup" width="1020" height="486" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-4" x="218" y="82" scaleX="1" scaleY="1"/>
+
+		</e:Group>
+		<e:Group id="totalGroup" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect fillAlpha="0.5" left="0" right="0" top="0" bottom="0"/>
+			<e:Image horizontalCenter="0.5" verticalCenter="-22" source="bscs_totalwin_bg_png"/>
+			<e:BitmapLabel id="totalwinLable" width="1024.55" height="78.79" anchorOffsetX="0" anchorOffsetY="0" text="11111.11" letterSpacing="10" textAlign="center" scaleX="1" scaleY="1" font="bscs_totalwin_gold_fnt" verticalCenter="-30" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="freegetFreeGroup" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+			<e:Image horizontalCenter="0" source="bscs_freespin_san_png" y="170"/>
+			<e:Image source="bscs_freegame_free_png" y="274.5" horizontalCenter="-212.5"/>
+			<e:Image source="bscs_freegame_spin_png" y="277" horizontalCenter="99.5"/>
+			<e:BitmapLabel id="freewinFreeTime" width="336" height="112" y="380.5" anchorOffsetX="0" anchorOffsetY="0" text="+20" font="bscs_freewinfreetime_fnt" horizontalCenter="40"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

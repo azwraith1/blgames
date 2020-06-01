@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SGWSAutoGameSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0"/>
+	<e:Rect alpha="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" width="1280" x="0" y="0"/>
+	<e:Image source="sgws_auto_bg_png" horizontalCenter="0" y="32"/>
+	<e:Group scaleX="1" scaleY="1" width="1280" height="720" horizontalCenter="0" y="0">
+		<e:Group width="746.67" height="142.36" anchorOffsetX="0" horizontalCenter="-36.5" anchorOffsetY="0" y="161.27" x="172" scaleX="1" scaleY="1">
+		<e:Button id="auto_5" label="" verticalCenter="-29.68" horizontalCenter="-197.83499999999998">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sgws_auto_5_1_png" source.down="sgws_auto_5_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="auto_10" label="" verticalCenter="-29.68" horizontalCenter="-47.83499999999998">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sgws_auto_10_1_png" source.down="sgws_auto_10_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="auto_25" label="" verticalCenter="-29.68" horizontalCenter="102.16500000000002">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sgws_auto_25_1_png" source.down="sgws_auto_25_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="auto_50" label="" verticalCenter="-29.68" horizontalCenter="252.16500000000002">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sgws_auto_50_1_png" source.down="sgws_auto_50_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="auto_100" label="" verticalCenter="42.81999999999999" horizontalCenter="-47.83499999999998">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sgws_auto_100_1_png" source.down="sgws_auto_100_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="auto_wuqiong" label="" verticalCenter="42.81999999999999" horizontalCenter="113.16500000000002">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sgws_auto_8_1_png" source.down="sgws_auto_8_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Button id="close_btn" label="" top="85" horizontalCenter="402.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sgws_auto_close_png" source.down="sgws_auto_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group y="356.24" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="761.67" horizontalCenter="0">
+		<e:HSlider id="oneMax" width="469" height="41" x="240.68" y="9.77" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="SGWSHslider"/>
+		<e:HSlider id="totalWin" width="469" height="41" x="243.68" y="138" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="SGWSHslider"/>
+		<e:HSlider id="totalAdd" width="469" height="41" x="243.68" y="73.69" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="SGWSHslider"/>
+		<e:Image x="-24.33" y="7.1" source="sgws_auto_text3_png"/>
+		<e:Image x="-25.69" y="70.02" source="sgws_auto_text2_png"/>
+		<e:Image x="-24.87" y="134.01" source="sgws_auto_text1_png"/>
+		<e:BitmapLabel id="max_num" width="142" height="24" x="709" y="12" text="00000" anchorOffsetY="0" letterSpacing="-3" anchorOffsetX="0" font="sgws_auto_num_fnt"/>
+		<e:BitmapLabel id="totalAdd_num" width="184" height="24" x="711" y="76.01" text="0000" anchorOffsetY="0" letterSpacing="-3" anchorOffsetX="0" font="sgws_auto_num_fnt"/>
+		<e:BitmapLabel id="totalWin_num" width="142" height="24" x="713" y="139" text="00000" anchorOffsetY="0" letterSpacing="-3" anchorOffsetX="0" font="sgws_auto_num_fnt"/>
+		</e:Group>
+		<e:Button id="start_auto_play" label="" y="539.22" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sgws_auto_startbtn_png" source.down="sgws_auto_startbtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="autoStopGroup" anchorOffsetY="0" anchorOffsetX="0" y="307.27" touchChildren="false" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:Image id="stopAutoBtn" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" source="sgws_auto_text4_png_png"/>
+			<e:Image id="gouImag" source="sgws_auto_gou_png" x="36" y="-1" visible="false"/>
+		</e:Group>
+		<e:Image source="sgws_auto_title_png" y="88" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

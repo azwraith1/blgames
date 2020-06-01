@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PokerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="133" height="181">
+<e:Image id="beiImage" source="zjh_pai_b_png" cacheAsBitmap="true" width="133" height="181"/>
+	    <e:Group id="zhengGroup" width="133" height="181" visible="false">
+		<e:Image id="zhengImg" x="0" scaleX="1" scaleY="1" source="zjh_pai_m_png" cacheAsBitmap="true"/>
+		<e:BitmapLabel id="valueLabel" x="11" y="8" text="10" scaleX="0.5" scaleY="0.5" anchorOffsetX="0" font="zjh_poker_blcak_fnt"/>
+		<e:Image id="bigColorImg" scaleX="0.5" scaleY="0.5" source="zjh_big_3_png" right="10" bottom="10" cacheAsBitmap="true"/>
+		<e:Image id="smallColorImg" x="8.4" y="51.2" scaleX="0.15" scaleY="0.15" source="zjh_big_3_png" cacheAsBitmap="true"/>
+				<e:Image id="otherImage" source="blackj_point_sb_png" x="62.5" y="-1.5" visible="false"/>
+	</e:Group>
+	<e:Image id="maskImage" source="zjh_pai_mask_png" cacheAsBitmap="true" visible="false"/>
+</e:Skin>

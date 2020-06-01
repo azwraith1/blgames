@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubBreakClubPanelSkinKR" width="1280" height="720" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0.7" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image width="505" height="344" y="0" x="0" source="club_kuanzi_kr_png"/>
+			<e:Button id="rejectBtn" label="" x="74.67" y="218">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="rejectbtn_kr_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="saveBtn" label="" x="271.67" y="218">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="surebtn_kr_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="contentTxt" text="俱乐部已经fdfdfadsfdfdfddfdsfdfsdfs" y="90.33" x="37" anchorOffsetY="0" height="92.67" anchorOffsetX="0" width="436.67" textAlign="center" textColor="0xa67044" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

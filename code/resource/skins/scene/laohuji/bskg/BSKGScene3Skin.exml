@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BSKGScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bskg="bskg.*">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Group id="shakeGroup" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+			<e:Image source="bskg_freegame_bg_png" top="97" bottom="149" left="262" right="153" anchorOffsetY="0" x="262" y="97" scaleX="1" scaleY="1"/>
+			<e:Group id="freeGroup" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1">
+				<bskg:BSKGScroller id="scroller" width="850" height="453" verticalCenter="-41.5" y="105" scaleX="1" scaleY="1" horizontalCenter="64"/>
+				<e:Image source="bskg_mainbg_rect_png" y="91.77" horizontalCenter="67.5"/>
+				<e:Image source="bskg_freegame_bg2_png" left="0" right="0" top="0" bottom="0"/>
+				<e:Image source="bskg_free_mask_png" y="1.9" scaleX="1" scaleY="1" horizontalCenter="45"/>
+				<e:Group id="freeMulGroup" left="179" right="87" anchorOffsetY="0" top="0">
+				<e:Group id="freeMulGroup0" horizontalCenter="0" top="-85">
+					<e:Image source="bskg_freegame_topbg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+					<e:BitmapLabel id="bei" width="168.48" height="45.76" x="68" y="19.45" anchorOffsetX="0" anchorOffsetY="0" font="bskg_freemul_text_fnt" text="20倍" textAlign="center"/>
+				</e:Group>
+				</e:Group>
+				<e:Group id="lineScoreGroup" anchorOffsetX="0" horizontalCenter="0" anchorOffsetY="0" verticalCenter="185" visible="false">
+				<e:Image y="0" source="bskg_winline_bg_png" horizontalCenter="0"/>
+				<e:BitmapLabel id="lineNum" width="256.31" anchorOffsetX="0" anchorOffsetY="0" text="" horizontalCenter="69.5" verticalCenter="-18" font="bskg_win_num_mid_fnt" textAlign="center"/>
+				</e:Group>
+				<e:Group id="freeWinGroup" bottom="0" horizontalCenter="0">
+				<e:Image source="bskg_freegame_bottombg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+				<e:Image source="bskg_freemul_tips_png" bottom="26" right="692"/>
+				<e:BitmapLabel id="freeTimesLabel" width="92.73" anchorOffsetX="0" anchorOffsetY="0" text="20" textAlign="center" right="599" bottom="19" font="bskg_win_num_big_fnt" scaleX="0.9" scaleY="0.9" letterSpacing="-5"/>
+				<e:Image source="bskg_freewin_bg_png" bottom="24" right="387"/>
+				<e:BitmapLabel id="freeWinLabel" width="261.59" anchorOffsetX="0" anchorOffsetY="0" text="0" textAlign="center" font="bskg_win_num_big_fnt" height="50" scaleX="0.9" scaleY="0.9" letterSpacing="-8" right="152" bottom="19"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="effectGroup" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Group id="roleAniGroup" left="-80" bottom="0" x="-80" y="720.0000000000001" scaleX="1" scaleY="1"/>
+			<e:Group id="totalWinGroup" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" visible="false">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+				<e:Image source="bskg_totalwin_bg_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:BitmapLabel id="totalWinLabel" width="1223.33" y="340.73" anchorOffsetX="0" anchorOffsetY="0" text="23456789" horizontalCenter="3" textAlign="center" font="bskg_totalwin_gold_fnt" scaleX="0.5" scaleY="0.5" height="147"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

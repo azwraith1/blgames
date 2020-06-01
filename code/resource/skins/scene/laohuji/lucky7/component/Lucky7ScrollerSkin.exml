@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Lucky7ScrollerSkin" width="789" height="523" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:lucky7="lucky7.*">
+	<e:Scroller id="scroller" width="789" horizontalCenter="0" verticalCenter="0" height="523">
+		<e:Group id="itemGroup">
+			<lucky7:LUCKY7ScrollerItem id="item1" width="218" height="523" x="26" y="0"/>
+			<lucky7:LUCKY7ScrollerItem id="item2" width="218" height="523" x="286" y="0" scaleX="1" scaleY="1"/>
+			<lucky7:LUCKY7ScrollerItem id="item3" width="218" height="523" x="550" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

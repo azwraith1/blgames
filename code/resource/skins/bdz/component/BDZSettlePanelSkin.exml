@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZSettlePanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bdz_set_1_png" x="0" y="0"/>
+	<e:Image source="bdz_set_4_png" y="8" x="112"/>
+	<e:Image source="bdz_set_5_png" scaleX="-1" y="14" left="20"/>
+	<e:Image source="bdz_set_5_png" y="13.5" right="20"/>
+	<e:Group id="itemGroup" width="330" height="179" x="4" y="44" anchorOffsetY="0" anchorOffsetX="0">
+		<e:layout>
+			<e:VerticalLayout gap="3" paddingTop="8"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

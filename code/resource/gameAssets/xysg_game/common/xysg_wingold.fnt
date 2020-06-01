@@ -1,0 +1,12 @@
+{"file":"xysg_wingold.png","frames":{
+"4":{"x":128,"y":1,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+"5":{"x":1,"y":132,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+"6":{"x":1,"y":1,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+"7":{"x":255,"y":1,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+"8":{"x":255,"y":263,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+"9":{"x":382,"y":132,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+".":{"x":382,"y":1,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+"0":{"x":1,"y":263,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+"1":{"x":128,"y":132,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+"2":{"x":255,"y":132,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129},
+"3":{"x":128,"y":263,"w":125,"h":129,"offX":0,"offY":0,"sourceW":125,"sourceH":129}}}

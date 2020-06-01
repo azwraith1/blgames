@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WSZWIconSkin" width="166" height="336" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon" source="wszw_icon_1_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GYZJNewOverItemSkin" width="265" height="280" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="panelImage"  y="50" x="1" source="gyzj_over_panel_2_png"/>
+
+
+
+	<e:Image id="typeImage" x="176" y="46.5"  source="gyzj_over_dianpao_png"/>
+	<e:Group id="touxiang" x="81" y="2">
+		<e:Image source="gyzj_over_touxiang_png" x="0" y="0"/>
+		<e:Image id="headerImage" y="6.17" width="90" height="90" source="common_header_json.hall_header_1_5_png" x="7"/>
+		<e:Image source="gyzj_over_namebg_png" verticalCenter="27.5" horizontalCenter="0"/>
+		<e:Label id="nameLabel" text="我的名字" size="20" textColor="0xffffff" verticalCenter="27" horizontalCenter="0"/>
+	</e:Group>
+	\
+
+	<e:BitmapLabel id="scoreLabel" text="111" letterSpacing="-5" scaleX="1" scaleY="1"
+	                font="gyzj_over_win_fnt" horizontalCenter="0" verticalCenter="69"/>
+	<e:Label id="beishu" text="fgfgfgf" size="30" fontFamily="方正" textColor="0xaaf8ff" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="weiZhi" source="gyzj_weizhi1_png" verticalCenter="-62.5" horizontalCenter="-87.5"/>
+
+</e:Skin>

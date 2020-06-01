@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MaJiangCommonHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="306" height="493">
+	<e:Image id="mjBg" source="mj_comom_1_png"/>
+	<e:Group id="dbGroup" touchChildren="false" touchEnabled="false" touchThrough="false" horizontalCenter="0" verticalCenter="0"/>
+
+
+
+	<e:Label id="zhunRuLable" text="准入：1000" y="334" size="26" horizontalCenter="0.5" fontFamily="SimHei" textColor="0x7cc097"/>
+	<e:Label id="diZhuTxt" text="底注：1233" size="26" horizontalCenter="1" top="297" fontFamily="SimHei" textColor="0x7cc097"/>
+	<e:Rect id="touchRect5" width="260" height="410.33" y="46.67" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" horizontalCenter="0"/>
+	<e:Image id="specialPlay" x="57" y="378" source="mj_hall_hsz_png"/>
+</e:Skin>

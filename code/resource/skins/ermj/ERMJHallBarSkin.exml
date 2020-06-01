@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ERMJHallBarSkin" width="240" height="347" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="dbGroup" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="zhunruLabel" text="准入:" y="275.47" size="22" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" width="200" horizontalCenter="1" textColor="0x68fcb8"/>
+	<e:Label text="底分" y="219" size="18" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" x="48" height="48" width="24" textColor="0xebfdff"/>
+	<e:BitmapLabel id="dizhuLabel" x="76" y="224" font="ermj_difen_fnt" text="500" letterSpacing="-3" anchorOffsetX="0" width="111" textAlign="center"/>
+</e:Skin>

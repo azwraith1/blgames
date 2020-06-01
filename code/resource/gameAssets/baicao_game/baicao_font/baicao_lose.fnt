@@ -1,0 +1,15 @@
+{"file":"baicao_lose.png","frames":{
+"-":{"x":34,"y":153,"w":37,"h":20,"offX":2,"offY":18,"sourceW":41,"sourceH":53},
+"0":{"x":84,"y":0,"w":42,"h":51,"offX":2,"offY":2,"sourceW":46,"sourceH":53},
+"1":{"x":0,"y":152,"w":34,"h":49,"offX":2,"offY":3,"sourceW":38,"sourceH":53},
+"2":{"x":0,"y":102,"w":41,"h":50,"offX":2,"offY":2,"sourceW":45,"sourceH":53},
+"3":{"x":83,"y":100,"w":41,"h":51,"offX":2,"offY":2,"sourceW":45,"sourceH":53},
+"4":{"x":83,"y":51,"w":43,"h":49,"offX":2,"offY":3,"sourceW":47,"sourceH":53},
+"5":{"x":41,"y":103,"w":40,"h":50,"offX":2,"offY":3,"sourceW":44,"sourceH":53},
+"6":{"x":0,"y":0,"w":42,"h":51,"offX":2,"offY":2,"sourceW":46,"sourceH":53},
+"7":{"x":81,"y":151,"w":40,"h":49,"offX":2,"offY":3,"sourceW":44,"sourceH":53},
+"8":{"x":0,"y":51,"w":42,"h":51,"offX":2,"offY":2,"sourceW":46,"sourceH":53},
+"9":{"x":42,"y":0,"w":42,"h":51,"offX":2,"offY":2,"sourceW":46,"sourceH":53},
+"k":{"x":42,"y":51,"w":41,"h":52,"offX":2,"offY":0,"sourceW":45,"sourceH":53},
+".":{"x":34,"y":173,"w":23,"h":23,"offX":2,"offY":30,"sourceW":27,"sourceH":53},
+" ":{"x":121,"y":151,"w":5,"h":5,"offX":0,"offY":0,"sourceW":12,"sourceH":53}}}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMainTabItemSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="228" height="75">
+	<e:Image id="txtBg" x="0" y="0" source="club_main_tab_bg_png"/>
+	<e:Image id="gameIdImage" x="0" y="0" source="club_main_1_down_png" width="228" height="75"/>
+	<e:Image id="redPoint" x="203" y="6" source="club_red_point_png" visible="false"/>
+	<e:Image id="dividerLine" y="14" source="hall_tab_fenge_png" x="225"/>
+	<e:Group id="listDB" x="114" y="42"/>
+</e:Skin>

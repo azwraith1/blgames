@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlotDeskMateItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="176">
+	<e:Group id="deskItemGroup" anchorOffsetX="0" verticalCenter="0" x="0" width="176" visible="false">
+		<e:Image source="slot_hall_deskbg2_png" verticalCenter="0" x="0"/>
+		<e:Image id="userHead" width="45" height="45" scaleX="1" scaleY="1" left="0" verticalCenter="0"/>
+		<e:Label id="userName" text="sadasda" verticalCenter="0" size="24" anchorOffsetX="0" width="124" horizontalCenter="23" textAlign="center"/>
+	</e:Group>
+</e:Skin>

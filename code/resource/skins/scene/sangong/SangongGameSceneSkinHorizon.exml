@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SangongGameSceneSkinHorizon" xmlns:e="http://ns.egret.com/eui" width="1280" xmlns:w="http://ns.egret.com/wing"
+        xmlns:niuniu="niuniu.*" xmlns:sangong="sangong.*" height="720">
+	<w:Config id="16e8bc2c68e"/>
+<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Image scaleX="1" scaleY="1" source="sg_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+
+
+		<e:Group id="uiGroup" top="0" bottom="0" y="0" scaleX="1" scaleY="1" left="0" right="0">
+
+
+			<e:Label id="roomid" text="牌局编号：000001" anchorOffsetX="0" textAlign="center" right="14" top="3" size="26" verticalAlign="justify"/>
+			<e:Image source="sg_df_png" verticalCenter="-41" horizontalCenter="-0.5"/>
+
+			<e:Label id="diFen" text="底分：100" size="20"  horizontalCenter="-1" verticalCenter="56" verticalAlign="middle" textAlign="center" x="373" y="531" scaleX="1" scaleY="1" height="24" fontFamily="SimHei" textColor="0x045e5c"/>
+			<sangong:SangongTimeBar id="timeBar" scaleX="1" scaleY="1"
+			                         verticalCenter="-47.5"  skinName="SangongTimeBarSkin" horizontalCenter="-4.5"/>
+			<e:Group id="player1" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-216" verticalCenter="246" width="400" height="250">
+				<sangong:SangongCardList2 id="cards1" skinName="SangongCardListSkin2" y="36.61" x="246" scaleX="0.9" scaleY="0.9"/>
+				<sangong:SangongHeaderHorizon id="header1" width="150" height="239" x="0" y="0" scaleX="1" scaleY="1" skinName="SangongHeaderSkinHorizon"/>
+			</e:Group>
+			<e:Group id="player2" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"
+			         verticalCenter="176" horizontalCenter="555" width="180" height="400">
+				<sangong:SangongCardList1 id="cards2" skinName="SangongCardListSkin1" y="75.39" x="-153.41"/>
+				<sangong:SangongHeaderHorizon id="header2" width="150" height="239" x="0" y="0" skinName="SangongHeaderSkinHorizon1"/>
+
+
+
+
+			</e:Group>
+			<e:Group id="player3" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-132" horizontalCenter="508" width="180" height="400">
+				<sangong:SangongCardList1 id="cards3" skinName="SangongCardListSkin1" y="110.63" x="-153.41"/>
+				<sangong:SangongHeaderHorizon id="header3" width="150" height="239" x="0" y="0" skinName="SangongHeaderSkinHorizon1"/>
+			</e:Group>
+			<e:Group id="player4" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" width="250" verticalCenter="-135" height="400" horizontalCenter="-419">
+				<sangong:SangongHeaderHorizon id="header4" width="150" height="239" x="0" y="0" skinName="SangongHeaderSkinHorizon1"/>
+				<sangong:SangongCardList1 id="cards4" skinName="SangongCardListSkin1" y="113.42" x="146.93"/>
+			</e:Group>
+			<e:Group id="player5" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-487" verticalCenter="175" width="250" height="400">
+				<sangong:SangongHeaderHorizon id="header5" width="150" height="239" x="0" y="0" skinName="SangongHeaderSkinHorizon1"/>
+				<sangong:SangongCardList1 id="cards5" skinName="SangongCardListSkin1" y="75.39" x="146.93"/>
+			</e:Group>
+
+
+			<e:Image id="pl1" horizontalCenter="-119.5" verticalCenter="249"  source="nns_poker_1_png" scaleX="0.75" scaleY="0.75" visible="false"/>
+			<e:Image id="pl2" scaleX="0.5" scaleY="0.5" verticalCenter="104.5"
+			          source="nns_poker_1_png" horizontalCenter="341.5" visible="false"/>
+			<e:Image id="pl3" scaleX="0.5" scaleY="0.5" horizontalCenter="296.5" verticalCenter="-168.5"
+			         x="10" y="10"  source="nns_poker_1_png" visible="false"/>
+			<e:Image id="pl4" scaleX="0.5" scaleY="0.5" horizontalCenter="-366.5" verticalCenter="-163.5"
+			          source="nns_poker_1_png" visible="false"/>
+			<e:Image id="pl5" scaleX="0.5" scaleY="0.5" horizontalCenter="-433.5" verticalCenter="106.5" source="nns_poker_1_png" visible="false"/>
+			<e:Group id="tipsGroup" verticalCenter="19" horizontalCenter="0">
+				<e:Image scaleX="1" scaleY="1"  source="sg_tips_img_png"/>
+				<e:Label id="tipLabel" text="请等待..." scaleX="1" scaleY="1" anchorOffsetX="0" width="269" anchorOffsetY="0" size="30"
+				          textAlign="center" verticalAlign="middle" x="6"  verticalCenter="-1" textColor="0xfef4a6" fontFamily="SimHei" strokeColor="0x034045" stroke="1"/>
+			</e:Group>
+
+
+		</e:Group>
+		<e:Group id="effectGroup" right="0" top="0" bottom="0" y="0" scaleX="1" scaleY="1" left="0"  width="1280" anchorOffsetX="0">
+			<e:Group id="mineEffect" width="200" height="200" x="632" y="304" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="touchGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" bottom="0" left="0" right="0"
+		         top="0" width="1280">
+			<sangong:SangongYZBar id="yzBar" horizontalCenter="0" scaleX="0.8" scaleY="0.8" skinName="SangongYZBarSkinHorizon" y="439" visible="false"/>
+			<sangong:SangongQZBar id="qzBar" skinName="SangongQZBarSkin" verticalCenter="125.5" horizontalCenter="0" visible="false"/>
+
+			<e:Button id="restartBtn" label="Button" scaleX="1" scaleY="1" verticalCenter="125.5"
+			           horizontalCenter="0" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="sg_xyj_png" source.down="sg_xyj_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="btnsbg" scale9Grid="26,26,13,10" top="98" left="32" anchorOffsetY="0" height="364" source="sg_xl_gb_png" visible="false"/>
+			<e:Button id="recordBtn" label="" anchorOffsetY="0" anchorOffsetX="0" left="17" top="96">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="sg_xl_record_btn_png" source.down="sg_xl_record_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+
+
+			</e:Button>
+			<e:Button id="backBtn" label="" width="98" height="99" left="17" top="297">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="sg_xl_back_btn_png" source.down="sg_xl_back_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+
+
+			</e:Button>
+			<e:Button id="settingBtn" label="" left="17" width="98" top="163">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="sg_xl_sz_btn_png_png" source.down="sg_xl_sz_btn_png_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+
+
+			</e:Button>
+			<e:Button id="helpBtn" label="" left="17" width="98" height="99" top="230">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="sg_xl_help_btn_png" source.down="sg_xl_help_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+
+			</e:Button>
+			<e:Button id="xlbtn" label="" height="99" left="17" top="27">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="sg_xl_btn1_png" source.down="sg_xl_btn1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+			</e:Button>
+			<e:Button id="xlbtn1" label="" top="27" height="99" left="17">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="sg_xl_btn1_png" source.down="sg_xl_btn1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Group id="fpBtnGroup" width="396.12" height="173.97" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" bottom="21" horizontalCenter="34" visible="false"/>
+			<e:Button id="fpBtn" label="Button" verticalCenter="265.5" horizontalCenter="294.5" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="sg_fp_btn_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="50" top="33" x="698" y="33" scaleX="1" scaleY="1"/>
+
+		</e:Group>
+	</e:Group>
+</e:Skin>

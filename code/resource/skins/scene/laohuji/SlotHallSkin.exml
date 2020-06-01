@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlotHallSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" height="720" width="1280" x="0" y="0">
+
+		<e:Group id="effectGroup" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+			<e:Image source="slot_hall_new_bg_jpg" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		</e:Group>
+		<e:Group id="headGroup" anchorOffsetY="0" left="0" right="0" top="0" height="64">
+			<e:Image source="slot_hall_new_topdi_png" left="0" right="0" top="0" bottom="0"/>
+			<e:Image id="close_slothall_btn" source="slot_hall_new_back_png" left="15" verticalCenter="-1"/>
+			<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0" right="97">
+			<e:Image source="slot_hall_new_wifi_png" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Image id="full_screen_btn" source="slot_hall_new_fallscreen_png" verticalCenter="0" right="29" x="1217" y="14" scaleX="1" scaleY="1"/>
+		</e:Group>
+
+		<e:Scroller id="scrollerGroup" height="575" verticalCenter="4.5" scrollPolicyV="off" anchorOffsetX="0" anchorOffsetY="0" left="192" right="0">
+			<e:Group id="itemGroup"/>
+		</e:Scroller>
+		<e:Image source="slot_hall_right_png" y="6" right="0" touchEnabled="false"/>
+		<e:Image source="slot_hall_left_png" y="-2" touchEnabled="false" left="0" right="911"/>
+		<e:Group id="bottomGroup" right="0" left="0" bottom="0" anchorOffsetY="0" height="58">
+			<e:Group id="gold_group" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="-115">
+				<e:Image source="slot_hall_new_gold_png" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+				<e:Label id="goldLabel" text="11.11" anchorOffsetX="0" width="150" textAlign="center" verticalCenter="0" horizontalCenter="21"/>
+			</e:Group>
+			<e:Image id="record_btn" source="slot_hall_new_record_png" verticalCenter="0" right="340"/>
+			<e:Image id="setting_btn" source="slot_hall_new_set_png" verticalCenter="0" right="189"/>
+			<e:Group id="rank_btn" anchorOffsetX="0" width="155" touchThrough="false" touchChildren="false" touchEnabled="true" horizontalCenter="102.5" verticalCenter="0">
+				<e:Image source="slot_hall_new_ranklist_png" verticalCenter="0" y="16" scaleX="1" scaleY="1" horizontalCenter="19"/>
+
+			</e:Group>
+			<e:Group id="userGroup" width="171" height="132" anchorOffsetY="0" verticalCenter="-40" anchorOffsetX="0" right="1">
+				<e:Image id="headImag" horizontalCenter="0.5" width="108" height="108" anchorOffsetX="54" anchorOffsetY="54" y="64" touchEnabled="false"/>
+				<e:Image id="headMask" source="slot_hall_new_headkuang_png" horizontalCenter="0" y="10" touchEnabled="false"/>
+				<e:Image source="slot_hall_new_name_png" y="90" horizontalCenter="0"/>
+				<e:Label id="userName" text="sadasd123" y="95" anchorOffsetX="0" width="119" anchorOffsetY="0" height="29" textAlign="center" horizontalCenter="1" size="24"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

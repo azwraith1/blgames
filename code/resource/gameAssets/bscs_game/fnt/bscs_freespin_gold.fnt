@@ -1,0 +1,13 @@
+{"file":"bscs_freespin_gold.png","frames":{
+"0":{"x":1,"y":37,"w":23,"h":34,"offX":2,"offY":0,"sourceW":27,"sourceH":35},
+"1":{"x":100,"y":37,"w":19,"h":34,"offX":2,"offY":0,"sourceW":23,"sourceH":35},
+"2":{"x":28,"y":1,"w":23,"h":34,"offX":2,"offY":0,"sourceW":27,"sourceH":35},
+"3":{"x":78,"y":1,"w":23,"h":34,"offX":2,"offY":0,"sourceW":27,"sourceH":35},
+"4":{"x":1,"y":1,"w":25,"h":34,"offX":2,"offY":0,"sourceW":29,"sourceH":35},
+"5":{"x":51,"y":37,"w":23,"h":34,"offX":2,"offY":0,"sourceW":27,"sourceH":35},
+"6":{"x":53,"y":1,"w":23,"h":34,"offX":2,"offY":0,"sourceW":27,"sourceH":35},
+"7":{"x":76,"y":37,"w":22,"h":34,"offX":2,"offY":1,"sourceW":26,"sourceH":35},
+"8":{"x":103,"y":1,"w":23,"h":34,"offX":2,"offY":0,"sourceW":27,"sourceH":35},
+"9":{"x":26,"y":37,"w":23,"h":34,"offX":2,"offY":0,"sourceW":27,"sourceH":35},
+".":{"x":121,"y":37,"w":6,"h":7,"offX":2,"offY":26,"sourceW":10,"sourceH":35},
+" ":{"x":121,"y":46,"w":5,"h":5,"offX":0,"offY":0,"sourceW":7,"sourceH":35}}}

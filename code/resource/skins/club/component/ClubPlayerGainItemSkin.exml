@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPlayerGainItemSkin" width="693" height="203" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="itembg" source="club_list_shuangpai_png" top="0" bottom="0" left="0" right="0"/>
+	<e:Group id="headGroup" anchorOffsetY="0" height="148.66" anchorOffsetX="0" width="628" horizontalCenter="-4.5" top="31">
+		<ns1:ClubScoreHeader id="header0" width="157" height="72" x="0" y="0" skinName="ClubScoreHeaderSkin"/>
+		<ns1:ClubScoreHeader id="header1" width="157" height="72" x="97.88" y="0" skinName="ClubScoreHeaderSkin"/>
+		<ns1:ClubScoreHeader id="header2" width="157" height="72" x="186.66" y="0" skinName="ClubScoreHeaderSkin"/>
+		<ns1:ClubScoreHeader id="header3" width="157" height="72" x="254.24" y="0" skinName="ClubScoreHeaderSkin"/>
+		<ns1:ClubScoreHeader id="header4" width="157" height="72" x="264.24" y="10" skinName="ClubScoreHeaderSkin"/>
+		<ns1:ClubScoreHeader id="header5" width="157" height="72" x="274.24" y="20" skinName="ClubScoreHeaderSkin"/>
+		<ns1:ClubScoreHeader id="header6" width="157" height="72" x="284.24" y="30" skinName="ClubScoreHeaderSkin"/>
+		<ns1:ClubScoreHeader id="header7" width="157" height="72" x="294.24" y="40" skinName="ClubScoreHeaderSkin"/>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="4" horizontalGap="6" verticalGap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group top="8" horizontalCenter="4">
+		<e:Label id="difen" text="底分：10" x="304.26" y="0" fontFamily="SimHei" size="18" textColor="0x4a2004"/>
+		<e:Label id="roomId" text="房号：123456" x="0" y="0" fontFamily="SimHei" textColor="0x4a2004" size="18"/>
+		<e:Label id="roomTime" text="2018-10-10 23:00:11" fontFamily="SimHei" x="411.28" textColor="0x4a2004" anchorOffsetX="0" width="223.4" anchorOffsetY="0" size="18" verticalAlign="middle" textAlign="center" height="23" y="0"/>
+		<e:Label id="playWay" text="经典抢庄" fontFamily="SimHei" x="169" y="0" textColor="0x4a2004" size="18"/>
+	</e:Group>
+	<e:Group bottom="8" horizontalCenter="127">
+		<e:Group id="platGroup" x="0" y="4">
+			<e:Label text="lan:49||：" x="-177" y="1" size="18" bold="true" textColor="0xdb7d26" anchorOffsetX="0" width="277" verticalAlign="justify" textAlign="right"/>
+			<e:Label id="platPumpGold" text="100.00" x="102.33" y="1" fontFamily="SimHei" size="18" textColor="0xe9b049" anchorOffsetX="0" width="80"/>
+		</e:Group>
+		<e:Group id="clubGroup" x="223" y="0">
+			<e:Label text="lan:50||：" x="0" y="3" size="18" bold="true" textColor="0xDB7D26"/>
+			<e:Label id="clubPumpGold" text="" x="112.33" y="3" fontFamily="SimHei" size="18" textColor="0xE9B049"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

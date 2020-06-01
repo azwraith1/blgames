@@ -1,0 +1,13 @@
+{"file":"baicao_chouma.png","frames":{
+"0":{"x":0,"y":0,"w":12,"h":16,"offX":2,"offY":0,"sourceW":16,"sourceH":16},
+"1":{"x":56,"y":0,"w":8,"h":15,"offX":2,"offY":0,"sourceW":12,"sourceH":16},
+"2":{"x":35,"y":16,"w":11,"h":15,"offX":2,"offY":0,"sourceW":15,"sourceH":16},
+"3":{"x":45,"y":0,"w":11,"h":16,"offX":2,"offY":0,"sourceW":15,"sourceH":16},
+"4":{"x":0,"y":16,"w":12,"h":14,"offX":2,"offY":1,"sourceW":16,"sourceH":16},
+"5":{"x":24,"y":16,"w":11,"h":15,"offX":2,"offY":1,"sourceW":15,"sourceH":16},
+"6":{"x":23,"y":0,"w":11,"h":16,"offX":2,"offY":0,"sourceW":15,"sourceH":16},
+"7":{"x":12,"y":16,"w":12,"h":14,"offX":2,"offY":1,"sourceW":16,"sourceH":16},
+"8":{"x":12,"y":0,"w":11,"h":16,"offX":2,"offY":0,"sourceW":15,"sourceH":16},
+"9":{"x":34,"y":0,"w":11,"h":16,"offX":2,"offY":0,"sourceW":15,"sourceH":16},
+"k":{"x":46,"y":16,"w":11,"h":15,"offX":2,"offY":0,"sourceW":15,"sourceH":16},
+" ":{"x":57,"y":15,"w":4,"h":5,"offX":0,"offY":0,"sourceW":4,"sourceH":16}}}

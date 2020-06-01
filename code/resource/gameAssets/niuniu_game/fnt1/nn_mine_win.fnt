@@ -1,0 +1,14 @@
+{"file":"nn_mine_win.png","frames":{
+"+":{"x":1,"y":148,"w":49,"h":52,"offX":2,"offY":20,"sourceW":53,"sourceH":73},
+"0":{"x":153,"y":76,"w":48,"h":73,"offX":2,"offY":0,"sourceW":52,"sourceH":73},
+"1":{"x":211,"y":1,"w":33,"h":71,"offX":2,"offY":1,"sourceW":37,"sourceH":73},
+"2":{"x":1,"y":74,"w":49,"h":72,"offX":2,"offY":0,"sourceW":53,"sourceH":73},
+"3":{"x":103,"y":76,"w":48,"h":73,"offX":2,"offY":0,"sourceW":52,"sourceH":73},
+"4":{"x":1,"y":1,"w":52,"h":71,"offX":2,"offY":1,"sourceW":56,"sourceH":73},
+"5":{"x":52,"y":76,"w":49,"h":72,"offX":2,"offY":1,"sourceW":53,"sourceH":73},
+"6":{"x":159,"y":1,"w":50,"h":73,"offX":2,"offY":0,"sourceW":54,"sourceH":73},
+"7":{"x":203,"y":76,"w":45,"h":71,"offX":2,"offY":1,"sourceW":49,"sourceH":73},
+"8":{"x":107,"y":1,"w":50,"h":73,"offX":2,"offY":0,"sourceW":54,"sourceH":73},
+"9":{"x":55,"y":1,"w":50,"h":73,"offX":2,"offY":0,"sourceW":54,"sourceH":73},
+".":{"x":203,"y":149,"w":18,"h":21,"offX":2,"offY":51,"sourceW":22,"sourceH":73},
+" ":{"x":246,"y":1,"w":5,"h":5,"offX":0,"offY":0,"sourceW":16,"sourceH":73}}}

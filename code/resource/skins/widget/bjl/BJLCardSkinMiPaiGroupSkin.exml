@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLCardSkinMiPaiGroupSkin" width="720" height="686" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Rect width="720" height="686" x="0" y="0" strokeAlpha="0.8" fillAlpha="0.8" anchorOffsetY="0"/>
+		<ns1:BJLPokerMiPai id="poker0" width="326" height="400" x="15.01" y="187.7" skinName="BJLCardSkinMiPaiSkin"/>
+		<ns1:BJLPokerMiPai id="poker1" width="326" height="400" x="372.23" y="187.3" skinName="BJLCardSkinMiPaiSkin"/>
+		<ns1:BJLPokerMiPaiHorizon id="poker2" width="438" height="288" x="125" y="299" skinName="BJLCardSkinMiPaIHorizon" anchorOffsetY="0" visible="false"/>
+		<e:Group horizontalCenter="0" verticalCenter="-400">
+			<e:Image source="bjl_mp_top_png" x="0" y="0"/>
+			<e:Image id="miPaiPlayer" source="bjl_qxmp_png" y="28.82" x="171"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

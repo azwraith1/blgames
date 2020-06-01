@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZCJLScrollerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:zcjl="zcjl.*">
+	<e:Scroller id="scroller" width="677" horizontalCenter="0" verticalCenter="0" height="508">
+		<e:Group id="itemGroup">
+			<zcjl:ZCJLScrollerItem id="item1" width="178" height="508" x="0"/>
+			<zcjl:ZCJLScrollerItem id="item2" width="178" height="508" x="249"/>
+			<zcjl:ZCJLScrollerItem id="item3" width="178" height="508" x="499" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XYSGHSliderSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="track" source="xysg_auto_bar2_png"/>
+	<e:Image id="trackHighlight" x="8" y="5" width="0" scale9Grid="5,3,403,23" source="lucky7_auto_bar2_png"/>
+	<e:Group id="thumb" y="13.5" x="10">
+		<e:Image anchorOffsetX="19.5" anchorOffsetY="20.5" x="-13" source="xysg_auto_bar3_png" y="-19"/>
+	</e:Group>
+</e:Skin>

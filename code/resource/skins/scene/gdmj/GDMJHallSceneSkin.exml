@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.GDMJHallSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16458df3aae" />
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image scaleX="1" scaleY="1" top="0" bottom="0" right="0" left="0" source="gdmj_hall_bg_jpg"/>
+		<e:Group id="dbGroup" left="0" top="0" right="0" bottom="0"/>
+		<e:Group id="topGroup" left="0" right="0" top="0" touchEnabled="false">
+			<e:Image source="gdmj_hall_msg_bar_png" left="0" right="0"/>
+			<e:Group id="t_leftGroup" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" top="0">
+				<e:Image id="headerMask" scaleX="1" scaleY="1" x="107" y="10" anchorOffsetX="0" anchorOffsetY="0" source="nns_2_8_png" width="90" height="90"/>
+				<e:Image id="headerImage" scaleX="1" scaleY="1" x="107" y="10" source="nns_2_8_png" width="90" height="90"/>
+				<e:Image source="gdmj_hall_msg_bar2_png" x="87" y="-1" touchEnabled="false"/>
+				<e:Label id="nameLabel" text="test123" anchorOffsetX="0" textAlign="center" size="24" verticalAlign="middle" scaleX="1" scaleY="1"    x="208" width="162" y="24.5" textColor="0x641e2d"/>
+				<e:Label id="goldLabel" text="0" anchorOffsetX="0" textAlign="center" size="22" scaleX="1" scaleY="1" x="252" width="126" y="64.67" verticalAlign="middle" textColor="0xffda2c"/>
+			</e:Group>
+			<e:Button id="backBtn" label="" scaleX="1" scaleY="1" left="21" top="20">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gdmj_hall_back_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Group id="t_rightGroup" width="466.67" anchorOffsetX="0" right="0" height="83" top="3">
+				<e:Button id="fullScreenBtn" label="" x="379.49" y="20">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="gdmj_hall_qp_btn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="recordBtn" label="" x="287.75" y="20" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="gdmj_hall_record_btn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+						</e:Skin>
+					</e:skinName>
+
+
+				</e:Button>
+				<e:Button id="helpBtn" label="" x="197.18" y="20" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="gdmj_hall_help_btn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:majiang="majiang.*"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+		<e:Group id="contentGroup" horizontalCenter="0" width="1280" height="436" verticalCenter="45"/>
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="331" top="43"/>
+	</e:Group>
+	<e:Image right="0" bottom="0" source="gdmj_title_png"/>
+</e:Skin>

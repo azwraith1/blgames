@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchOverPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image source="match_over_bg_jpg" left="0" right="0" top="0" bottom="0" locked="true"/>
+		<e:Group width="1000" height="500" horizontalCenter="0" verticalCenter="-83">
+			<e:Group id="dbGroup" horizontalCenter="0" top="0" x="500" y="-110" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="rankLabel" y="317" font="match_over_rank_fnt" text="" scaleX="1.2" scaleY="1.2" width="150" textAlign="center" letterSpacing="-6" horizontalCenter="1.5" height="34"/>
+			<e:Group id="winGroup" scaleX="1" scaleY="1" bottom="0" horizontalCenter="-8.5" visible="false">
+				<e:Image source="match_over_gold_png"/>
+				<e:BitmapLabel id="winLabel" x="112.5" y="8.5" font="match_over_fnt_fnt" text="x0y" letterSpacing="-3"/>
+			</e:Group>
+		</e:Group>
+		<e:Label id="failLabel" text="好可惜,差一点就获奖了!" size="36" fontFamily="SimHei" textColor="0x9d4408" stroke="2" strokeColor="0xfee789" horizontalCenter="0" bottom="135" visible="false"/>
+		<e:Button id="enterBtn" label="" horizontalCenter="0" bottom="32">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="match_over_enter_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

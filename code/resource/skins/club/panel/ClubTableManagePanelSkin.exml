@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubTableManagePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="17019a62af4"/>
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+			<e:Rect id="rects" fillColor="0x000000" fillAlpha="0.7" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+	<e:Image horizontalCenter="0" verticalCenter="-52.5" source="club_table_bg_png"/>
+
+		<e:Label id="difenTxt" text="58880,58880,58880,58880" x="477" y="316" textColor="0xE4AC7A" size="26"/>
+	<e:Group x="582" y="296" visible="false">
+		<e:Image source="club_table_inputbg_png" x="-15" y="0"/>
+		<e:EditableText id="tableNumTxt" width="183" height="28" text="5" x="6" y="6" anchorOffsetY="0" verticalAlign="middle" textAlign="left" anchorOffsetX="0" textColor="0xcf4621" size="26"/>
+		<e:Label text="lan:43||" x="-15" y="49" textColor="0xd9a172"  size="20"/>
+	</e:Group>
+		<e:Label text="lan:29||：" textColor="0xe4ac7a" size="26" textAlign="right" right="807" verticalCenter="-31"/>
+		<e:Label text="lan:42||：" textColor="0xe4ac7a" size="26" right="721" verticalCenter="-40" visible="false"/>
+
+	<e:Button id="setBtn" label="" anchorOffsetY="0" height="49" right="391" top="303">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_setbtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="saveBtn" label="" bottom="223" horizontalCenter="7">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_table_savebtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+		<e:Group id="difenSetGroup" width="1280" height="720" verticalCenter="0" horizontalCenter="0" visible="false">
+			<e:Rect id="touchRect" width="1280" height="720" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+			<ns1:ClubTableDiFenSetCom id="clubDifenSet" width="186" height="230" skinName="ClubTableDiFenSetSkin" x="556" y="213"/>
+		</e:Group>
+		<e:Button id="closeBtn" label="" x="898.12" y="88.46" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_gain_closebtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

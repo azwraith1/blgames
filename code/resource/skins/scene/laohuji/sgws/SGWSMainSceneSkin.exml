@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SGWSMainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:sgws="sgws.*">
+    <e:Group id="resizeGroup" left="0" right="0" top="0" bottom="0">
+        <sgws:SGWSScene1 id="scene1" left="0" right="0" top="0" bottom="0" skinName="SGWSScene1Skin" />
+        <sgws:SGWSScene3 id="scene3" left="0" right="0" top="0" bottom="0" visible="false" skinName="SGWSScene3Skin" />
+        <e:Group id="free2commonGroup" left="0" right="0" top="0" bottom="0" touchEnabled="false" touchThrough="true" touchChildren="false"/>
+    </e:Group>
+</e:Skin>

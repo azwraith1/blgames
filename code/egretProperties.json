@@ -1,0 +1,71 @@
+{
+	"engineVersion": "5.2.29",
+	"compilerVersion": "5.2.29",
+	"template": {},
+	"target": {
+		"current": "web"
+	},
+	"eui": {
+		"exmlRoot": [
+			"resource/skins"
+		],
+		"themes": [
+			"resource/default.thm.json"
+		],
+		"exmlPublishPolicy": "commonjs"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "puremvc",
+			"path": "../modules/puremvc"
+		},
+		{
+			"name": "underscore",
+			"path": "../modules/underscore"
+		},
+		{
+			"name": "async",
+			"path": "../modules/async"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "mouse",
+			"path": "../modules/mouse"
+		},
+		{
+			"name": "big",
+			"path": "../modules/big"
+		},
+		{
+			"name": "howler",
+			"path": "../modules/howler"
+		},
+		{
+			"name": "countUp",
+			"path": "../modules/countUp"
+		},
+		{
+			"name": "socket"
+		}
+	]
+}

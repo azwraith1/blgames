@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GDMJOverItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="265">
+	<e:Image id="panelImage" y="50" source="gdmj_over_panel_2_png" x="1"/>
+	<e:Image source="gdmj_over_header2_png" horizontalCenter="0.5" top="2"/>
+	<e:Image id="headerImage" horizontalCenter="0.5" y="5.5" width="90" height="90" source="common_header_json.hall_header_1_5_png"/>
+	<e:Image id="mineTip" source="gdmj_over_mine_png" y="-11" x="115"/>
+	<e:Image id="typeImage" source="gdmj_point_1_png" x="176" y="46.5" visible="false"/>
+	<e:Label id="nameLabel" text="我的名字" y="110" size="22" horizontalCenter="0.5" textColor="0x8fe8ee"/>
+	<e:BitmapLabel id="scoreLabel" y="135.25" font="win_text_fnt" text="+0" letterSpacing="-5" scaleX="0.6" scaleY="0.6" horizontalCenter="0"/>
+	<e:Scroller id="scroller" width="280" height="200" y="172.67" anchorOffsetX="0" horizontalCenter="0">
+		<e:Group id="mainGroup" y="-7.33" x="0.67">
+			<e:layout>
+				<e:VerticalLayout gap="6"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

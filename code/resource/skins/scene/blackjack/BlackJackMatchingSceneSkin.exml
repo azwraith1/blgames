@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlackJackMatchingSceneSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16b25924916"/>
+	<e:Group id="resizeGroup" width="720" height="1280" x="0" y="0">
+		<e:Image id="bgImage" source="blackj_bg1_jpg" left="0" top="0" right="0" bottom="0"/>
+
+
+
+		<e:Button id="backBtn" label="" left="38" top="63">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="blackj_button_back_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="diFen" text="底注:  2" textColor="0x7b2a30" size="24" verticalCenter="-239" bold="true" horizontalCenter="0"/>
+		<e:Image source="blackj_img_2_png" horizontalCenter="0" top="0" x="246.00000000000003" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="blackj_img_1_png" right="0" top="0" x="589" y="0" scaleX="1" scaleY="1"/>
+		<e:Group id="group3" anchorOffsetX="0" anchorOffsetY="0" width="222" horizontalCenter="-239" verticalCenter="-108.5" height="381" x="10" y="341" scaleX="1" scaleY="1">
+			<ns1:BlackJCMGroup xmlns:ns1="*" id="cmGroup0" skinName="BlackJCMGroupSkin" x="185.67" y="90" anchorOffsetX="0" anchorOffsetY="0" width="99" height="99"/>
+			<e:Image source="" x="48" y="213"/>
+		</e:Group>
+		<e:Group id="group2" anchorOffsetX="0" anchorOffsetY="0" width="222" horizontalCenter="249" verticalCenter="-108.5" height="381" x="498" y="341" scaleX="1" scaleY="1">
+			<ns1:BlackJCMGroup xmlns:ns1="*" id="cmGroup1" skinName="BlackJCMGroupSkin" x="-66" y="90" anchorOffsetX="0" width="99" anchorOffsetY="0" height="99"/>
+			<e:Image source="" x="47" y="213"/>
+		</e:Group>
+		<e:Group id="group1" anchorOffsetX="0" anchorOffsetY="0" height="226" width="465" verticalCenter="345" horizontalCenter="-47.5" x="80" y="872" scaleX="1" scaleY="1">
+			<ns1:BlackJCMGroup xmlns:ns1="*" id="cmGroup2" x="243.35" y="-66.36" skinName="BlackJCMGroupSkin"/>
+			<e:Image source="" y="49" x="232"/>
+		</e:Group>
+		<e:Group id="juhuaGroup" horizontalCenter="0" verticalCenter="0">
+			<e:Image scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="main_match_db_png"/>
+			<e:Image id="rotationImage" x="29.34" y="29" anchorOffsetX="17" anchorOffsetY="16.5" source="main_match_png"/>
+			<e:Label id="timeLabel" text="正在匹配中..." textColor="0xFFFFFF" size="24" horizontalCenter="20" verticalCenter="0.5" width="300" textAlign="center"/>
+		</e:Group>
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="167" top="22"/>
+	</e:Group>
+</e:Skin>

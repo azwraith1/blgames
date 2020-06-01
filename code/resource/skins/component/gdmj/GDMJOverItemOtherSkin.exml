@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GDMJOverItemOtherSkin" width="265" height="231" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="panelImage"  y="22.72" x="-0.32" source="gdmj_over_green_png"/>
+
+
+
+	<e:Image id="typeImage" x="176" y="26.55"  source="gdmj_point_1_png" visible="false"/>
+	<e:Group id="touxiang" x="81" y="2">
+		<e:Image source="gyzj_over_touxiang_png" x="0" y="0"/>
+		<e:Image id="headerImage" y="6.17" width="90" height="90" source="common_header_json.hall_header_1_5_png" x="7"/>
+		<e:Label id="nameLabel" text="我的名字" size="24" verticalCenter="61" horizontalCenter="0"  textColor="0xaaf8ff"/>
+	</e:Group>
+	\
+
+	<e:BitmapLabel id="scoreLabel" text="+11.2" letterSpacing="-5" scaleX="1" scaleY="1"
+	                horizontalCenter="0" verticalCenter="88.5" font="gdmj_win_text_fnt"/>
+	<e:Image id="weiZhi" horizontalCenter="-108" source="gdmj_weizhi1_png" y="16"/>
+</e:Skin>

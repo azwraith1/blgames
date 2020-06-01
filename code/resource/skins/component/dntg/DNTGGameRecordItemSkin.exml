@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DNTGGameRecordItemSkin" width="1000" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="760" height="40" x="0" verticalCenter="0">
+		<e:Label id="timeText" text="2019年10月1日 11:11:11" x="45.4"    verticalCenter="0" anchorOffsetX="0" width="215.66" textAlign="left" verticalAlign="middle" height="30" size="18" fontFamily="Microsoft YaHei" textColor="0xd2876b" lineSpacing="0"/>
+
+		<e:Label id="gameNameText" text="大闹天宫" anchorOffsetX="0" width="156.66" textAlign="left"    size="18" textColor="0xd2876b" fontFamily="Microsoft YaHei" x="652.15" verticalCenter="0.5"/>
+
+		<e:Label id="totalWinText" text="121212" x="898.45" anchorOffsetX="0" width="114"    textColor="0xd2876b" size="18" fontFamily="Microsoft YaHei" verticalCenter="0"/>
+		<e:Label id="idLabel" text="1100117-2789693-1579516080-227" x="265.56" size="18" textColor="0xd2876b" fontFamily="Microsoft YaHei" anchorOffsetX="0" verticalCenter="0.5" width="376.07" height="15"/>
+		<e:Label id="totalBetText" text="111212" x="771.41" anchorOffsetX="0" width="136.67" anchorOffsetY="0" textColor="0xd2876b" size="18" fontFamily="Microsoft YaHei" y="13" scaleX="1" scaleY="1" verticalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

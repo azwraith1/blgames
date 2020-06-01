@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HuTipsScrollerBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="bgImage" source="img_tc1_png" width="18" scale9Grid="15,14,7,50"  x="8"/>
+	<e:Image id="leftImage" source="gdmj_hu_jt_png" x="16.5" scaleX="-1" anchorOffsetX="16.5" anchorOffsetY="29" y="41"/>
+	<e:Image id="rightImage" source="gdmj_hu_jt_png" anchorOffsetX="16.5" anchorOffsetY="29" x="16.5" y="41"/>
+	<e:Scroller id="scroller" height="63" verticalCenter="0" horizontalCenter="0" width="18">
+		<e:Group id="itemGroup" x="0">
+			<e:layout>
+				<e:HorizontalLayout gap="30"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

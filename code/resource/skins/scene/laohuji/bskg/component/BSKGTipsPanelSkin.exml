@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BSKGTipsPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" y="0">
+		<e:Image scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="bskg_tips_bg_png"/>
+		<e:Group id="group1" left="0" right="0" top="0" bottom="0">
+		<e:Image left="93" right="92" top="126" bottom="86" source="bskg_tips_content1_png"/>
+		<e:Group width="186.67" height="49.4" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5" bottom="30">
+			<e:Image bottom="0" source="bskg_tips_dian2_png" horizontalCenter="-62.835"/>
+			<e:Image bottom="0" source="bskg_tips_dian1_png" horizontalCenter="0"/>
+			<e:Image bottom="0" source="bskg_tips_dian1_png" horizontalCenter="62"/>
+		</e:Group>
+		<e:Button id="right1" label="" right="30" verticalCenter="20">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bskg_tips_right1_png" source.down="bskg_tips_right2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="closeBtn1" right="24" top="40" source="bskg_tips_close_png"/>
+		</e:Group>
+		<e:Group id="group2" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image left="126" right="126" source="bskg_tips_content2_png" height="503" verticalCenter="26.5"/>
+		<e:Group width="186.67" height="45.4" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5" x="547" scaleX="1" scaleY="1" bottom="30">
+			<e:Image bottom="0" source="bskg_tips_dian1_png" horizontalCenter="-62"/>
+			<e:Image bottom="0" source="bskg_tips_dian2_png" horizontalCenter="0"/>
+			<e:Image bottom="0" source="bskg_tips_dian1_png" horizontalCenter="62"/>
+		</e:Group>
+		<e:Button id="left1" label="" verticalCenter="20" left="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bskg_tips_left1_png" source.down="bskg_tips_left2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="right2" label="" verticalCenter="20" right="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bskg_tips_right1_png" source.down="bskg_tips_right2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="closeBtn2" right="24" top="40" x="1185" y="40" scaleX="1" scaleY="1" source="bskg_tips_close_png"/>
+		</e:Group>
+		<e:Group id="group3" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image y="120" horizontalCenter="0.5" source="bskg_tips_content3_png"/>
+			<e:Label text="中奖显示分数与实际赢得金币比例为100:1" y="285.99" bold="true" fontFamily="KaiTi" horizontalCenter="0" textColor="0xffffeb"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" width="1159" height="349" horizontalCenter="-0.5" verticalCenter="118.5" x="60" y="304" scaleX="1" scaleY="1">
+			<e:Image x="25" y="41.32" width="100" height="100" source="bskg_icon_3_png"/>
+			<e:Image x="144" y="47.82" source="bskg_paylist_bg2_png"/>
+			<e:Image x="251" y="41.32" width="100" height="100" source="bskg_icon_4_png"/>
+			<e:Image x="484" y="41.32" width="100" height="100" source="bskg_icon_5_png"/>
+			<e:Image x="720" y="41.32" width="100" height="100" source="bskg_icon_6_png"/>
+			<e:Image x="938.69" y="41.32" width="100" height="100" source="bskg_icon_7_png"/>
+			<e:Image x="370" y="48.32" source="bskg_paylist_bg2_png"/>
+			<e:Image source="bskg_paylist_bg2_png" x="604" y="48.32"/>
+			<e:Image source="bskg_paylist_bg2_png" x="832.92" y="48.32"/>
+			<e:Image source="bskg_paylist_bg2_png" x="1042.54" y="48.32"/>
+			<e:Image x="25" y="220" width="100" height="100" source="bskg_icon_8_png"/>
+			<e:Image x="251" y="220" width="100" height="100" source="bskg_icon_9_png"/>
+			<e:Image x="484" y="220" width="100" height="100" source="bskg_icon_10_png"/>
+			<e:Image x="720" y="220" width="100" height="100" source="bskg_icon_11_png"/>
+			<e:Image x="941.49" y="220" width="100" height="100" source="bskg_icon_12_png"/>
+			<e:Image source="bskg_paylist_bg2_png" x="144" y="224.29"/>
+			<e:Image source="bskg_paylist_bg2_png" x="370" y="224.96"/>
+			<e:Image source="bskg_paylist_bg2_png" x="604" y="224.96"/>
+			<e:Image source="bskg_paylist_bg2_png" x="839" y="224.96"/>
+			<e:Image source="bskg_paylist_bg2_png" x="1043.93" y="224"/>
+			<e:Group id="payList1" width="1158" height="349" x="0" y="0" anchorOffsetX="0" scaleX="1" scaleY="1">
+			<e:Label id="pay3_5" text="1200" x="182" y="55.98" size="20" fontFamily="KaiTi" textAlign="left" textColor="0xffffeb"/>
+			<e:Label id="pay3_4" text="800" x="183.12" y="82.86" textColor="0xffffeb" size="20" fontFamily="KaiTi" textAlign="left"/>
+			<e:Label id="pay3_3" text="400" x="183.12" y="110.86" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay4_5" text="1200" x="408" y="55.98" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay4_4" text="1200" x="408" y="82.86" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay4_3" text="1200" x="408" y="110.86" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay5_5" text="1111" x="642" y="55.98" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay5_4" text="1111" x="642" y="82.86" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay5_3" text="1111" x="642" y="110.86" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay6_5" text="1111" x="873.92" y="55.98" size="22" fontFamily="KaiTi" textColor="0xffffeb"/>
+			<e:Label id="pay6_4" text="1111" x="873.92" y="82.86" textColor="0xffffeb" size="22" fontFamily="KaiTi"/>
+			<e:Label id="pay6_3" text="1111" x="873.92" y="110.86" textColor="0xffffeb" size="22" fontFamily="KaiTi"/>
+			<e:Label id="pay7_5" text="1111" x="1080" y="55.98" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay7_4" text="1111" x="1080" y="82.86" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay7_3" text="1111" x="1080" y="110.86" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay8_5" text="1200" x="181.34" y="232.33" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay8_4" text="1200" x="180" y="259.98" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay8_3" text="1200" x="180" y="287.68" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay9_5" text="12" x="408" y="232.33" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay9_4" text="12" x="408" y="259.98" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay9_3" text="1111" x="408" y="287.68" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay10_5" text="111" x="642" y="232.33" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay10_4" text="1111" x="642" y="259.98" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay10_3" text="1111" x="642" y="287.68" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay11_5" text="1111" x="880" y="231.33" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay11_4" text="1111" x="880" y="259.98" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay11_3" text="1111" x="880" y="287.68" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay12_5" text="1111" x="1080" y="231" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay12_4" text="1111" x="1080" y="259.98" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			<e:Label id="pay12_3" text="1111" x="1080" y="287.68" textColor="0xffffeb" size="20" fontFamily="KaiTi"/>
+			</e:Group>
+		</e:Group>
+		<e:Group width="186.67" height="43.4" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5" x="547" scaleX="1" scaleY="1" y="646.6">
+			<e:Image bottom="0" source="bskg_tips_dian1_png" horizontalCenter="-62"/>
+			<e:Image bottom="0" horizontalCenter="0" source="bskg_tips_dian1_png"/>
+			<e:Image bottom="0" horizontalCenter="62" source="bskg_tips_dian2_png"/>
+		</e:Group>
+		<e:Button id="left2" label="" verticalCenter="20" left="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bskg_tips_left1_png" source.down="bskg_tips_left2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="closeBtn3" right="24" top="40" x="1185" y="40" scaleX="1" scaleY="1" source="bskg_tips_close_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

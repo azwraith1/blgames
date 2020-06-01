@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XCBSMainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:xcbs="xcbs.*">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<xcbs:XCBSScene1 id="scene1" left="0" right="0" top="0" bottom="0" skinName="XCBSScene1Skin" />
+		<xcbs:XCBSScene3 id="scene3" left="0" right="0" top="0" bottom="0" visible="false" skinName="XCBSScene3Skin" />
+		<e:Group id="free2CommomGroup" left="0" right="0" top="0" bottom="0" touchEnabled="false" touchChildren="false" />
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaiCaoHeaderSkinOther"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="90">
+	<e:Group id="coinTarget"  x="43.71" y="38.2" scaleX="1" scaleY="1"/>
+	<e:Image source="baicao_other_header_bg_png" x="-1.5" y="2"/>
+	<e:Group id="headerGroup" y="1" x="0" width="196" height="90">
+
+
+
+
+
+		<e:Group x="71.16" y="4.87">
+			<e:Image y="0" scaleX="1" scaleY="1" source="baicao_name_bg_png" x="12.41"/>
+			<e:Label id="nameLabel" text="test1234" x="0" y="4.66" size="22" anchorOffsetX="0" width="121.47" textAlign="center" height="22" textColor="0xfcfcfe"/>
+		</e:Group>
+		<e:Group x="75.29" y="42.73">
+			<e:Image y="0" scaleX="1" scaleY="1" source="baicao_coin_bg_png" x="-18"/>
+			<e:Image y="1.6" source="baicao_tz_coin_png_png" x="7"/>
+			<e:Label id="goldLabel" text="8000.00万" x="38.4" y="6.55" size="18" anchorOffsetX="0"  textAlign="left"  textColor="0xfbda5f"/>
+		</e:Group>
+		<e:Group x="6.71" y="4.2" scaleX="1" scaleY="1">
+			<e:Image y="0" scaleX="1" scaleY="1" x="0" source="baicao_header_kuang_png_png"/>
+			<e:Image id="headerImage" y="6.32" width="65" height="64" anchorOffsetX="0" anchorOffsetY="0" source="hall_header_1_2_png" x="6"/>
+		</e:Group>
+		<e:Group id="liushuiGroup" y="-76.66" width="143" horizontalCenter="-22.5" visible="false">
+			<e:Image id="liushuiBg" source="blackj_header_lose_ls_db_png" horizontalCenter="0.5" x="0" scaleX="1" scaleY="1" visible="false"/>
+			<e:BitmapLabel id="liushuiLabel" y="14.65" text="" anchorOffsetX="0" width="235.6" textAlign="center" letterSpacing="-6" horizontalCenter="0" font="baicao_lose_fnt"/>
+		</e:Group>
+		<e:Image id="timeBg" source="blackj_time_bg_png" x="73" y="89.6" anchorOffsetX="65" anchorOffsetY="65" visible="false"/>
+	</e:Group>
+	<e:Image id="tipImage" source="blackj_dir_tip_png" y="-37.6" x="45" visible="false"/>
+	<e:Group id="effectGroup" x="90" y="-30"/>
+
+</e:Skin>

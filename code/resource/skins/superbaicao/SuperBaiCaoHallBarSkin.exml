@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuperBaiCaoHallBarSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="332" height="327">
+<e:Group touchThrough="false" touchEnabled="false" touchChildren="false" x="0" width="332" height="327">
+	<e:Image id="hallbarBg" x="0" y="0" source="superbaicao_xc1_png"/>
+	<e:BitmapLabel id="zhunruLabel" y="26" text="1000" right="71" font="superbaicao_coin_fnt" letterSpacing="-3"/>
+	<e:Label id="dizhuLable" text="Ván cược thấp nhất：40" x="53" y="224" size="20" textColor="0xf5f6f6"/>
+	<e:Group id="effcGroup" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" anchorOffsetX="0" anchorOffsetY="0" x="157" y="132"/>
+	</e:Group>
+</e:Skin>

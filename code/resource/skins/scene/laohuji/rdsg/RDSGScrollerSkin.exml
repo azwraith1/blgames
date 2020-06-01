@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RDSGScrollerSkin" width="865" height="489" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:rdsg="rdsg.*">
+	<e:Scroller id="scroller" width="865" height="489" y="0">
+		<e:Group id="itemGroup">
+			<rdsg:RDSGScrollerItem id="item1" width="153" height="489" x="15" y="0"/>
+			<rdsg:RDSGScrollerItem id="item2" width="153" height="489" x="187" y="0"/>
+			<rdsg:RDSGScrollerItem id="item3" width="153" height="489" x="358" y="0"/>
+			<rdsg:RDSGScrollerItem id="item4" width="153" height="489" x="528" y="0"/>
+			<rdsg:RDSGScrollerItem id="item5" width="153" height="489" x="701" y="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

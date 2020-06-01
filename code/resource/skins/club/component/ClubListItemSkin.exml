@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubListItemSkin" width="380" height="448" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="clubItemGroup" left="0" right="0" anchorOffsetX="200" anchorOffsetY="224" top="0" bottom="0" height="448">
+		<e:Image source="club_clubitem_bg_png" horizontalCenter="0" top="0" touchEnabled="false"/>
+		<e:Image source="club_clubicon_bg_png" y="20" horizontalCenter="0"/>
+		<e:Image id="clubIcon" y="31.33" horizontalCenter="0" source="club_icon_9_png"/>
+		<e:Label id="clubName" text="能哥保健套房" y="165" anchorOffsetX="0" width="149.66" anchorOffsetY="0" height="28.67" textAlign="center" horizontalCenter="0" size="24" textColor="0xfee9d9" borderColor="0xb84a2d" border="false" stroke="1" strokeColor="0xb84a2d"/>
+		<e:Label id="clubId" text="ID:1024" y="197" anchorOffsetX="0" width="149.66" anchorOffsetY="0" height="20" textAlign="center" horizontalCenter="0" size="20" borderColor="0xB84A2D" border="false" stroke="1" strokeColor="0xB84A2D" textColor="0xffdcc1"/>
+		<e:Image source="club_hall_clubitem_bg2_png" y="156" horizontalCenter="0.5"/>
+		<e:Label text="lan:9||:" y="248.69" anchorOffsetX="0" width="140" anchorOffsetY="0" height="20" size="20" textColor="0xf3dd8d" bold="true" textAlign="right" x="59.65"/>
+		<e:Label id="clubCreator" text="能锅" y="248.69" size="20" textColor="0xfff4c2" anchorOffsetX="0" width="114.6" x="206"/>
+		<e:Label text="lan:10||:" y="285.39" anchorOffsetX="0" width="140" anchorOffsetY="0" height="20" size="20" textColor="0xF3DD8D" bold="true" textAlign="right" x="60.32"/>
+		<e:Label id="clubContains" text="2" y="285.39" size="20" textColor="0xFFF4C2" anchorOffsetX="0" width="77.93" x="206"/>
+		<e:Label text="lan:11||:" y="321.41" anchorOffsetX="0" width="150" anchorOffsetY="0" height="20" size="20" textColor="0xF3DD8D" bold="true" textAlign="right" x="50.32"/>
+		<e:Label id="clubDesks" text="1" y="321.41" size="20" textColor="0xFFF4C2" anchorOffsetX="0" width="77.93" x="206"/>
+		<e:Label text="lan:12||:" y="354.05" anchorOffsetX="0" width="140" anchorOffsetY="0" height="20" size="20" textColor="0xF3DD8D" bold="true" textAlign="right" x="60.32"/>
+		<e:Label id="clubIden" text="管理员" y="354.05" size="20" textColor="0xFFF4C2" anchorOffsetX="0" width="61.93" x="206"/>
+		<e:Rect width="279" height="388" x="55" anchorOffsetX="0" anchorOffsetY="0" y="3" id="touchRect" fillAlpha="0"/>
+		<e:Button id="quitClubBtn" label="" y="351" horizontalCenter="105" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_hall_quit_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+	</e:Group>
+
+</e:Skin>

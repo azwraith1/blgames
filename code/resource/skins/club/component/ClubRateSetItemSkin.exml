@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubRateSetItemSkin" width="334" height="41" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="1" height="41">
+		<e:Group right="-1" top="0" bottom="0" left="114">
+			<e:Image source="club_txt_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:EditableText id="gameInputRateTxt" width="106" height="34" text="4" x="5" y="3" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" size="24" fontFamily="SimHei" scaleX="1" scaleY="1" verticalAlign="middle" textColor="0xA74225"/>
+			<e:Label text="%" x="110.00000000000003" y="3" anchorOffsetY="0" height="34" anchorOffsetX="0" width="68" size="24" textColor="0xA74225" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Label id="gameNameTxt" text="二人麻将：" size="24" textColor="0xE4AC73" fontFamily="SimHei" textAlign="right" right="208" verticalCenter="-4.5"/>
+	</e:Group>
+</e:Skin>

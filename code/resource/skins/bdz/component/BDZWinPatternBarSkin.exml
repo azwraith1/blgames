@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZWinPatternBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bdz_win_pattern_bg_png"/>
+	<e:Image source="bdz_win_pattern_bg1_png" x="65.5" y="12.25"/>
+	<e:Image source="bdz_win_pattern_bg4_png" x="151.25" y="8.75"/>
+	<e:Image source="bdz_win_pattern_bg3_png" x="157" y="11.25"/>
+	<e:Group width="212" height="151.33" y="44" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Group id="group1" height="31" y="1" horizontalCenter="0">
+			<e:Image id="pBg1" source="bdz_win_pattern_bg5_png" visible="false"/>
+			<e:Label id="pName1" text="Label" x="3.6" size="18" textColor="0x96adca" verticalCenter="0"/>
+			<e:Image source="bdz_win_pattern_bg2_png" x="154.6" verticalCenter="0"/>
+			<e:Label id="pPer1" text="70%" x="156.7" size="18" anchorOffsetX="0" width="43.8" textAlign="center" verticalCenter="0" textColor="0xbcbdbc"/>
+		</e:Group>
+		<e:Group height="31" y="1" horizontalCenter="0" id="group2">
+			<e:Image source="bdz_win_pattern_bg5_png" id="pBg2" visible="false"/>
+			<e:Label text="Label" x="3.6" size="18" textColor="0x96ADCA" verticalCenter="0" id="pName2"/>
+			<e:Image source="bdz_win_pattern_bg2_png" x="154.6" verticalCenter="0"/>
+			<e:Label text="70%" x="156.7" size="18" textColor="0xbcbdbc" anchorOffsetX="0" width="43.8" textAlign="center" verticalCenter="0" id="pPer2"/>
+		</e:Group>
+		<e:Group height="31" y="1" horizontalCenter="0" id="group3">
+			<e:Image source="bdz_win_pattern_bg5_png" id="pBg3" visible="false"/>
+			<e:Label text="Label" x="3.6" size="18" textColor="0x96ADCA" verticalCenter="0" id="pName3"/>
+			<e:Image source="bdz_win_pattern_bg2_png" x="154.6" verticalCenter="0"/>
+			<e:Label text="70%" x="156.7" size="18" textColor="0xbcbdbc" anchorOffsetX="0" width="43.8" textAlign="center" verticalCenter="0" id="pPer3"/>
+		</e:Group>
+		<e:Group height="31" y="1" horizontalCenter="0" id="group4">
+			<e:Image source="bdz_win_pattern_bg5_png" id="pBg4" visible="false"/>
+			<e:Label text="Label" x="3.6" size="18" textColor="0x96ADCA" verticalCenter="0" id="pName4"/>
+			<e:Image source="bdz_win_pattern_bg2_png" x="154.6" verticalCenter="0"/>
+			<e:Label text="70%" x="156.7" size="18" textColor="0xbcbdbc" anchorOffsetX="0" width="43.8" textAlign="center" verticalCenter="0" id="pPer4"/>
+		</e:Group>
+		<e:Group height="31" y="1" horizontalCenter="0" id="group5">
+			<e:Image source="bdz_win_pattern_bg5_png" id="pBg5" visible="false"/>
+			<e:Label text="Label" x="3.6" size="18" textColor="0x96ADCA" verticalCenter="0" id="pName5"/>
+			<e:Image source="bdz_win_pattern_bg2_png" x="154.6" verticalCenter="0"/>
+			<e:Label text="70%" x="156.7" size="18" textColor="0xbcbdbc" anchorOffsetX="0" width="43.8" textAlign="center" verticalCenter="0" id="pPer5"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

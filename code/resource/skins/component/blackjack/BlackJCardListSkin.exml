@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlackJCardListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="222" height="132">
+	<e:Group id="pokerGroup" y="0" scaleX="0.72" scaleY="0.72" x="0">
+		<ns1:PokerCard id="poker1" skinName="PokerSkin" anchorOffsetX="65" anchorOffsetY="92.5" width="133" height="181" y="93" x="65"/>
+		<ns1:PokerCard id="poker2" skinName="PokerSkin" anchorOffsetX="65" anchorOffsetY="92.5" y="93" x="109" width="133" height="181"/>
+		<ns1:PokerCard id="poker3" skinName="PokerSkin" anchorOffsetX="65" anchorOffsetY="92.5" y="93" x="153" width="133" height="181"/>
+		<ns1:PokerCard id="poker4" skinName="PokerSkin" anchorOffsetX="65" anchorOffsetY="92.5" y="93" x="197" width="133" height="181"/>
+		<ns1:PokerCard id="poker5" skinName="PokerSkin" anchorOffsetX="65" anchorOffsetY="92.5" y="93" x="240" width="133" height="181"/>
+	</e:Group>
+	<e:Group id="scoreGroup" scaleX="1" scaleY="1" y="0" width="60">
+		<e:Image id="dbImage" anchorOffsetX="30" anchorOffsetY="31" rotation="0" x="30" y="31" scaleX="1" source="blackj_point_3_png"/>
+		<e:Label id="scoreLabel" text="爆" stroke="1" strokeColor="0x02340e" textColor="0xfcfcf6" width="60" textAlign="center" horizontalCenter="0" size="28" fontFamily="SimHei" verticalCenter="-3"/>
+	</e:Group>
+
+</e:Skin>

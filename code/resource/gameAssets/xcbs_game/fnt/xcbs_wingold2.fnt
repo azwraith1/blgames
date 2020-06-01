@@ -1,0 +1,13 @@
+{"file":"xcbs_wingold2.png","frames":{
+"0":{"x":204,"y":1,"w":49,"h":70,"offX":2,"offY":2,"sourceW":53,"sourceH":72},
+"1":{"x":100,"y":75,"w":23,"h":68,"offX":2,"offY":3,"sourceW":27,"sourceH":72},
+"2":{"x":51,"y":74,"w":47,"h":70,"offX":2,"offY":2,"sourceW":51,"sourceH":72},
+"3":{"x":1,"y":74,"w":48,"h":70,"offX":2,"offY":2,"sourceW":52,"sourceH":72},
+"4":{"x":153,"y":1,"w":49,"h":70,"offX":2,"offY":1,"sourceW":53,"sourceH":72},
+"5":{"x":153,"y":73,"w":48,"h":71,"offX":2,"offY":1,"sourceW":52,"sourceH":72},
+"6":{"x":52,"y":1,"w":49,"h":71,"offX":2,"offY":1,"sourceW":53,"sourceH":72},
+"7":{"x":203,"y":73,"w":48,"h":70,"offX":2,"offY":2,"sourceW":52,"sourceH":72},
+"8":{"x":103,"y":1,"w":48,"h":72,"offX":2,"offY":0,"sourceW":52,"sourceH":72},
+"9":{"x":1,"y":1,"w":49,"h":71,"offX":2,"offY":1,"sourceW":53,"sourceH":72},
+".":{"x":125,"y":75,"w":13,"h":19,"offX":2,"offY":52,"sourceW":17,"sourceH":72},
+" ":{"x":140,"y":75,"w":5,"h":5,"offX":0,"offY":0,"sourceW":16,"sourceH":72}}}

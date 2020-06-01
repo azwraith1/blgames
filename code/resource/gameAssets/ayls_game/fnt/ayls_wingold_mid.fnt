@@ -1,0 +1,17 @@
+{"file":"ayls_wingold_mid.png","frames":{
+"a":{"x":238,"y":1,"w":6,"h":6,"offX":2,"offY":82,"sourceW":10,"sourceH":88},
+"b":{"x":229,"y":1,"w":7,"h":6,"offX":2,"offY":82,"sourceW":11,"sourceH":88},
+"1":{"x":1,"y":159,"w":37,"h":78,"offX":2,"offY":4,"sourceW":41,"sourceH":88},
+"2":{"x":115,"y":81,"w":52,"h":75,"offX":2,"offY":2,"sourceW":56,"sourceH":88},
+"3":{"x":108,"y":158,"w":51,"h":74,"offX":2,"offY":2,"sourceW":55,"sourceH":88},
+"4":{"x":172,"y":1,"w":55,"h":77,"offX":2,"offY":0,"sourceW":59,"sourceH":88},
+"5":{"x":55,"y":86,"w":51,"h":74,"offX":2,"offY":6,"sourceW":55,"sourceH":88},
+"6":{"x":172,"y":80,"w":53,"h":77,"offX":2,"offY":2,"sourceW":57,"sourceH":88},
+"7":{"x":60,"y":1,"w":53,"h":83,"offX":2,"offY":5,"sourceW":57,"sourceH":88},
+"8":{"x":1,"y":81,"w":52,"h":76,"offX":2,"offY":1,"sourceW":56,"sourceH":88},
+"9":{"x":1,"y":1,"w":57,"h":78,"offX":2,"offY":1,"sourceW":61,"sourceH":88},
+"0":{"x":115,"y":1,"w":55,"h":78,"offX":2,"offY":1,"sourceW":59,"sourceH":88},
+"-":{"x":40,"y":162,"w":60,"h":23,"offX":2,"offY":28,"sourceW":64,"sourceH":88},
+"+":{"x":161,"y":159,"w":49,"h":59,"offX":2,"offY":16,"sourceW":53,"sourceH":88},
+".":{"x":212,"y":159,"w":30,"h":27,"offX":2,"offY":26,"sourceW":34,"sourceH":88},
+" ":{"x":246,"y":1,"w":2,"h":5,"offX":0,"offY":0,"sourceW":2,"sourceH":88}}}

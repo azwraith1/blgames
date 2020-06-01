@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HotBarItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="90" height="90">
+	<e:Image source="hotbar_item_2_png" anchorOffsetX="0" anchorOffsetY="0" rotation="0.05" touchEnabled="false"/>
+	<e:Image id="iconImage" x="0" y="0" width="90" height="90" source="hot_icon_baccarat_png"/>
+</e:Skin>

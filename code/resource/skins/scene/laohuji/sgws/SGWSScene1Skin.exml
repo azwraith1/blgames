@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SGWSScene1Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:sgws="sgws.*">
+	<e:Group id="resizeGroup" left="0" right="0" top="0" bottom="0">
+		<e:Image source="sgws_gamebg_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="sgws_gamebgkuang_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="sgws_gamebg3_png" width="787.5" y="-0.08" horizontalCenter="10" anchorOffsetY="0" height="541.95"/>
+		<e:Group id="effectGroup" height="720" width="1280" y="0" horizontalCenter="0"/>
+		<e:Group id="gameGroup" width="1280" height="720" y="0" horizontalCenter="0">
+			<sgws:SGWSScroller id="scroller" width="770" height="453" horizontalCenter="12" y="54"/>
+			<e:Image source="sgws_game_mask_png" scaleX="0.5" scaleY="0.5" y="20.84" horizontalCenter="10" anchorOffsetY="0" height="1048"/>
+			<e:Image source="sgws_gamebg5_png" y="189" scaleX="1" scaleY="1" horizontalCenter="11"/>
+			<e:Image id="commondi" source="sgws_commondi_png" y="495" scaleX="1" scaleY="1" horizontalCenter="11" visible="false"/>
+			<e:BitmapLabel id="commomScore" width="290" height="43" y="501" scaleX="0.8" scaleY="0.8" anchorOffsetX="0" anchorOffsetY="0" font="sgws_winnumfut_fnt" text="123132" textAlign="center" horizontalCenter="7" visible="false"/>
+			<e:Rect id="maskRect" width="770" height="453" fillAlpha="0" horizontalCenter="12" y="54"/>
+		</e:Group>
+		<e:Image source="sgws_gamebg4_png" scaleX="0.5" scaleY="0.5" horizontalCenter="12.5" top="0"/>
+		<e:Group id="roleAniGroup" left="0" right="0" top="0" bottom="0" touchEnabled="false" touchThrough="true" touchChildren="false">
+		</e:Group>
+		<e:Group id="bottomGroup" anchorOffsetY="0" bottom="0" height="117.33" left="0" right="0" x="0" y="582.6699999999998" scaleX="1" scaleY="1">
+			<e:Image source="sdxl_dibg_png" scaleX="1" scaleY="1" anchorOffsetY="0" left="0" right="0" height="115" y="2.3299999999999983"/>
+			<e:Group left="12" bottom="2.329999999999984" anchorOffsetY="0" height="172.45">
+			<e:Button id="memuBtn" label="" y="78.56" scaleX="1" scaleY="1" horizontalCenter="0.5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ceby="ceby.*">
+					<e:Image width="100%" height="100%" source="ceby_menu1_png" source.down="ceby_menu2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:cbzz="cbzz.*" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:gdzw="gdzw.*"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="tipsBtn" label="" y="-7.1" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ceby="ceby.*">
+					<e:Image width="100%" height="100%" source="ceby_rule1_png" source.down="ceby_rule2_png" source.disabled="ceby_rule3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:cbzz="cbzz.*" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:gdzw="gdzw.*"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="menuGroup" width="51" height="120" x="7.57" y="-69.99" visible="false">
+				<e:Image x="0" y="0" width="51" anchorOffsetY="0" height="124" source="ceby_menudi_png"/>
+				<e:Button id="recordBtn" label="" y="70.33" horizontalCenter="0.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:ceby="ceby.*">
+					<e:Image width="100%" height="100%" source="ceby_award1_png" source.down="ceby_award2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:cbzz="cbzz.*" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:gdzw="gdzw.*"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="setingBtn" label="" y="19" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:ceby="ceby.*">
+					<e:Image width="100%" height="100%" source="ceby_set1_png" source.down="ceby_set2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:cbzz="cbzz.*" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:gdzw="gdzw.*"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			</e:Group>
+			<e:Group width="186.67" height="107.67" anchorOffsetY="0" anchorOffsetX="0" bottom="0.3299999999999983" left="110">
+			<e:Image id="maxBet" x="30" y="14.81" source="ceby_bet1_png"/>
+			<e:Label text="X" x="88.5" y="27.97" anchorOffsetX="0" width="26.5" textColor="0xFF7C06"/>
+			<e:Label id="beishu" text="1" x="115" y="27.96" textColor="0xFF7C06"/>
+			<e:Label text="最大押注" x="44" y="76.64" textColor="0xB5AFAF" size="24"/>
+			</e:Group>
+			<e:Group width="200" height="105.33" anchorOffsetY="0" bottom="3.3299999999999983" left="327">
+			<e:Label id="playerGold" text="0" y="22.31" anchorOffsetX="0" width="193" textAlign="center" x="5" height="30"/>
+			<e:Label text="可用分数" y="76.64" textColor="0xB5AFAF" size="24" scaleX="1" scaleY="1" x="52.5"/>
+			</e:Group>
+			<e:Group width="200" height="103" anchorOffsetY="0" horizontalCenter="0" bottom="5.329999999999998">
+			<e:Image y="12" horizontalCenter="0" source="ceby_score_kuang_png"/>
+			<e:Label id="winNum" text="0" y="23" size="24" anchorOffsetX="0" horizontalCenter="1" width="198" textAlign="center" textColor="0xE6AA4A"/>
+			<e:Label text="赢得分数" y="76.64" textColor="0xB5AFAF" size="24" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group width="228" height="107" anchorOffsetY="0" anchorOffsetX="0" bottom="1.3299999999999983" right="248">
+			<e:Button id="subbet" label="" x="12" y="12">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ceby="ceby.*">
+					<e:Image width="100%" height="100%" source="ceby_sub1_png" source.down="ceby_sub2_png" source.disabled="ceby_sub3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:cbzz="cbzz.*" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:gdzw="gdzw.*"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="addbet" label="" x="177" y="12">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ceby="ceby.*">
+					<e:Image width="100%" height="100%" source="ceby_add1_png" source.down="ceby_add2_png" source.disabled="ceby_add3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:cbzz="cbzz.*" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:gdzw="gdzw.*"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="totalBet" text="0.5" x="60.34" y="22.5" anchorOffsetX="0" width="123.33" textAlign="center"/>
+			<e:Label text="总下注" x="75" y="76.64" textColor="0xB5AFAF" size="24"/>
+			</e:Group>
+			<e:Group id="spinGroup" width="200" height="214.67" bottom="0.3299999999999841" anchorOffsetY="0" right="1">
+			<e:Button id="autoGameBtn" label="" y="173.26" horizontalCenter="0.5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:ceby="ceby.*">
+					<e:Image width="100%" height="100%" source="ceby_aut1_png" source.down="ceby_aut2_png" source.disabled="ceby_aut3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:cbzz="cbzz.*" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:gdzw="gdzw.*"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="startBtn" y="-4.29" horizontalCenter="2" source="sgws_spin1_png"/>
+			<e:BitmapLabel id="timesLabel" width="110" y="32.77" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" text="89" textAlign="center" touchEnabled="false" letterSpacing="-8" font="rdsg_autotime_text_fnt" visible="false"/>
+			</e:Group>
+			<e:Group id="betTtipsGroup" bottom="104.32999999999998" right="250" visible="false">
+			<e:Image scaleX="1" scaleY="1" source="dntg_bet_max_tip_png"/>
+			<e:Label id="maxWinLabel" text="" anchorOffsetX="0" left="0" width="235" anchorOffsetY="0" height="30" textAlign="center" verticalAlign="middle" size="20" textColor="0x000000" verticalCenter="-6.5"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Button id="quitBtn" label="" left="0" top="80" x="2" y="102" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:gdzw="gdzw.*" xmlns:ceby="ceby.*" xmlns:zcjl="zcjl.*" xmlns:xcbs="xcbs.*">
+			<e:Image width="100%" height="100%" source="slot_back_btn1_png" source.down="slot_back_btn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:sdmn="sdmn.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

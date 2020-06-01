@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GDZWMainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:gdzw="gdzw.*">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<gdzw:GDZWScene1 id="scene1" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" />
+		<gdzw:GDZWScene3 id="scene3" left="0" right="0" top="0" bottom="0" visible="false" />
+		<e:Group id="scatterGroup" width="783" height="568" scaleX="1" scaleY="1" horizontalCenter="3.5" y="26"
+		         touchEnabled="false" />
+	</e:Group>
+</e:Skin>

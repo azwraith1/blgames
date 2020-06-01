@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XYXMAutoPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" x="0" height="720" y="0">
+		<e:Rect alpha="1" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" width="1280" x="0" y="0" fillAlpha="0.4"/>
+		<e:Group scaleX="1" scaleY="1" bottom="0" left="0" right="0" top="0">
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" width="922" height="486" source="xyxm_auto_kuang_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="xyxm_paylist_daizi_png" y="59.65" horizontalCenter="0"/>
+			<e:Image source="xyxm_auto_logo_png" y="71.65" horizontalCenter="0.5"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="54" width="718" y="182" horizontalCenter="0">
+			<e:Button id="auto_0" label="" horizontalCenter="-285" y="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="bscq_autotimes_5_png" source.down="bscq_autotimes_5_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="auto_1" label="" horizontalCenter="-171" verticalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="bscq_autotimes_10_png" source.down="bscq_autotimes_10_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="auto_2" label="" horizontalCenter="-54" verticalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="bscq_autotimes_25_png" source.down="bscq_autotimes_25_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="auto_3" label="" horizontalCenter="67" verticalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="bscq_autotimes_50_png" source.down="bscq_autotimes_50_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="auto_4" label="" horizontalCenter="185" verticalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="bscq_autotimes_100_png" source.down="bscq_autotimes_100_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="auto_wuqiong0" label="" horizontalCenter="301" verticalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="wx_png" source.down="wx`_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Image id="close_btn" right="180" top="100" x="1088" y="89" scaleX="1" scaleY="1" source="xyxm_auto_close_png"/>
+		<e:Group y="294.01" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="15.5" x="149" scaleX="1" scaleY="1" width="795">
+			<e:HSlider id="oneMax" width="250" x="281" y="18.09" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="28" skinName="XYXMHsliderSkin"/>
+			<e:HSlider id="totalAdd" width="250" height="28" x="280" y="78.87" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="XYXMHsliderSkin"/>
+			<e:HSlider id="totalWin" width="250" height="28" x="281" y="140" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="XYXMHsliderSkin"/>
+			<e:Label id="max_num" text="" x="713.35" y="15.67" anchorOffsetX="0" width="118.83" anchorOffsetY="0" height="27.33" scaleX="1" scaleY="1" size="22" textColor="0x5B1E0F" textAlign="center" verticalAlign="middle"/>
+			<e:Label id="totalAdd_num0" text="" x="716" y="77.81" anchorOffsetX="0" width="109.33" anchorOffsetY="0" height="27.33" textAlign="center" scaleX="1" scaleY="1" size="22" textColor="0x5B1E0F" verticalAlign="middle"/>
+			<e:Label id="totalWin_num" text="" x="712" y="138.97" anchorOffsetX="0" width="102.66" anchorOffsetY="0" height="27.33" textAlign="center" scaleX="1" scaleY="1" textColor="0x5B1E0F" size="22" verticalAlign="middle"/>
+			<e:Image y="69.87" x="-8" source="xyxm_auto_txt2_png"/>
+			<e:Image y="127" x="-5" source="xyxm_auto_txt3_png"/>
+			<e:Image y="9.38" source="xyxm_auto_txt1_png" rotation="0" x="-3.5" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Button id="start_auto_play" label="" y="480.38" scaleX="1" scaleY="1" horizontalCenter="0.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="bscq_auto_bg7_png" source.down="bscq_auto_bg7_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="autoStopGroup" anchorOffsetY="0" anchorOffsetX="0" y="244.34" touchChildren="false" horizontalCenter="50.5">
+			<e:Image id="stopAutoBtn" scaleX="1" scaleY="1" source="xyxm_auto_txt4_png"/>
+			<e:Image id="gouImag" scaleX="1" scaleY="1" y="-12" x="39" source="xyxm_auto_gou_png" visible="false"/>
+		</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

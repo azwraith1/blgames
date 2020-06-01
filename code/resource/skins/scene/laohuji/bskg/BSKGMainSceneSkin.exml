@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BSKGMainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bskg="bskg.*">
+	<e:Group id="resizeGroup" left="0" right="0" top="0" bottom="0">
+		<bskg:BSKGScene3 id="scene3" skinName="BSKGScene3Skin" scaleX="1" scaleY="1" left="1855" right="-1855" top="0" bottom="0" x="1857.0000000000002" y="0"/>
+		<bskg:BSKGScene2 id="scene2" skinName="BSKGScene2Skin" scaleX="1" scaleY="1" top="0" bottom="0" left="1280" right="-575"/>
+		<bskg:BSKGScene1 id="scene1" left="0" right="0" top="0" bottom="0" skinName="BSKGScene1Skin" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Group id="roleAniGroup" left="-80" bottom="0" x="-80" y="720" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+</e:Skin>

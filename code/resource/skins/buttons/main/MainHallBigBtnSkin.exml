@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainHallBigBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="360" height="435">
+	<e:Group id="aniGroup" width="360" height="435" anchorOffsetX="180" anchorOffsetY="217.5" x="180" y="217.5">
+		<e:Group id="dbGroup" horizontalCenter="3" verticalCenter="-60" x="183" y="158" scaleX="1" scaleY="1"/>
+
+
+		<e:Group id="titleGroup" x="64" y="154" visible="false">
+			<e:Image id="titleImage" y="146.5" scaleX="0.9" scaleY="0.9" source="main_title_club_png" x="0"/>
+		</e:Group>
+		<e:Group id="hotImageGroup" x="230" y="70" scaleX="1" scaleY="1"/>
+		<e:Group x="81" y="416.31" scaleX="1" scaleY="1">
+			<e:Image id="peopleImage" source="main_hall_img_12_png" x="0" y="0"/>
+			<e:Label id="pepleCountLabel" text="" anchorOffsetX="0" width="141" textAlign="center" x="55" y="5"/>
+		</e:Group>
+		<e:Image id="hotImage" source="main_hall_img_hot_png" scaleX="0.9" scaleY="0.9" x="204" y="171" visible="false"/>
+		<e:Group id="titleDB" x="184.97" y="327.86" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

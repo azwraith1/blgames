@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaiCaoCardListSkin"  xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="pokerGroup" y="0" scaleX="0.6" scaleY="0.6" x="0">
+		<ns1:PokerCard id="poker1" anchorOffsetX="65" anchorOffsetY="92.5" width="133" height="181" y="93" x="65" scaleX="1" scaleY="1" skinName="NewPokerSkin"/>
+		<ns1:PokerCard id="poker2" anchorOffsetX="65" anchorOffsetY="92.5" y="93" x="144" width="133" height="181" scaleX="1" scaleY="1" skinName="NewPokerSkin"/>
+		<ns1:PokerCard id="poker3" anchorOffsetX="65" anchorOffsetY="92.5" y="93" x="223" width="133" height="181" skinName="NewPokerSkin"/>
+	</e:Group>
+</e:Skin>

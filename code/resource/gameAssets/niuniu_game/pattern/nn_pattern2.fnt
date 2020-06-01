@@ -1,0 +1,6 @@
+{"file":"nn_pattern2.png","frames":{
+"牛":{"x":94,"y":18,"w":39,"h":39,"offX":2,"offY":1,"sourceW":43,"sourceH":40},
+"四":{"x":169,"y":90,"w":37,"h":37,"offX":2,"offY":2,"sourceW":41,"sourceH":40},
+"五":{"x":169,"y":18,"w":40,"h":36,"offX":2,"offY":2,"sourceW":44,"sourceH":40},
+"花":{"x":18,"y":18,"w":40,"h":40,"offX":2,"offY":0,"sourceW":44,"sourceH":40},
+" ":{"x":94,"y":93,"w":5,"h":5,"offX":0,"offY":0,"sourceW":13,"sourceH":40}}}

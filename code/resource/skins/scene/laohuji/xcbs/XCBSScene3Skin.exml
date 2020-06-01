@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XCBSScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:xcbs="xcbs.*">
+	<e:Group id="resizeGroup" width="1280" height="720" y="0">
+		<e:Image source="xcbs_freegamebg_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="effectGroup" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="gameGroup" left="0" right="0" top="0" bottom="0">
+			<e:Image source="xcbs_freegame_bg2_png" top="0" left="0" right="0" visible="false"/>
+			<e:Image source="xcbs_game_di_png" y="71.18" horizontalCenter="0"/>
+			<e:Group id="mulGroup" anchorOffsetX="0" anchorOffsetY="0" top="0" left="0" right="0">
+				<e:Image source="xcbs_freegame_star2_png" y="-5" horizontalCenter="387"/>
+				<e:Image source="xcbs_freegame_star1_png" y="-5" horizontalCenter="-377"/>
+				<e:Image source="xcbs_freegame_2x_png" y="10" horizontalCenter="-320"/>
+				<e:Image source="xcbs_freegame_3x_png" y="10" horizontalCenter="-160"/>
+				<e:Image source="xcbs_freegame_4x_png" y="10" horizontalCenter="0"/>
+				<e:Image source="xcbs_freegame_5x_png" y="10" horizontalCenter="160"/>
+				<e:Image source="xcbs_freegame_10x_png" y="10" horizontalCenter="320"/>
+			</e:Group>
+			<e:Image source="xcbs_gameline_png" y="233.36" horizontalCenter="-551"/>
+			<e:Image source="xcbs_gameline_png" y="233.36" horizontalCenter="549"/>
+			<xcbs:XCBSScroller id="scroller" width="966" height="540" horizontalCenter="0" x="157" scaleX="1" scaleY="1" y="81"/>
+			<e:Image id="commondi" source="xcbs_win_di_png" horizontalCenter="0.5" y="498" visible="false"/>
+			<e:BitmapLabel id="commomScore" width="478" height="76" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" text="123214" textAlign="center" letterSpacing="5" y="529" font="xcbs_wingold2_fnt" visible="false"/>
+		</e:Group>
+		<e:Group id="freewinGroup" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" bottom="0">
+			<e:Image source="xcbs_freegame_dibg_png" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Image source="xcbs_freegame_logo_png" horizontalCenter="-442" y="16"/>
+			<e:Image source="xcbs_freegame_winnum_png" horizontalCenter="123" y="16"/>
+			<e:BitmapLabel id="freeTimesLabel" width="245.76" height="50.3" anchorOffsetX="0" anchorOffsetY="0" y="20" horizontalCenter="-205" font="xcbs_freewinnum_fnt" text="0" textAlign="center"/>
+			<e:BitmapLabel id="winNumLabel" width="338.18" height="48.79" anchorOffsetX="0" anchorOffsetY="0" y="21" horizontalCenter="400" text="0" font="xcbs_freewinnum_fnt" textAlign="center"/>
+		</e:Group>
+		<e:Group id="totalwinGroup" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+			<e:Image source="xcbs_totalwin_png" horizontalCenter="0" y="48"/>
+			<e:BitmapLabel id="freeTotalWin" width="479.09" height="74.54" y="415.08" anchorOffsetX="0" anchorOffsetY="0" font="xcbs_totalwinnum_fnt" text="88888.88" textAlign="center" horizontalCenter="-0.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

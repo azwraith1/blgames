@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaiCaoCMSkin" width="68" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="coinImage" cacheAsBitmap="true" touchEnabled="false" horizontalCenter="0" verticalCenter="4.5" source="baicao_cm_1_png"/>
+	<e:Label id="scoreLabel11" text="0" x="29.6" y="50.2" size="26" strokeColor="0x0a1115" anchorOffsetX="0" width="66" textAlign="center" textColor="0xffffff" height="26" fontFamily="SimHei" visible="false"/>
+	<e:Image id="kImage" source="blackj_cm_5_png" y="0" cacheAsBitmap="true" touchEnabled="false" x="0" visible="false"/>
+	<e:BitmapLabel id="scoreLabel"  font="baicao_chouma_fnt" text="1" scaleX="1" scaleY="1" horizontalCenter="0" letterSpacing="-3" verticalCenter="0"/>
+
+</e:Skin>

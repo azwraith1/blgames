@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SGWSIconSkin" width="142" height="151" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon" source="sgws_icon_1_png" scaleX="0.5" scaleY="0.5" y="0"/>
+</e:Skin>

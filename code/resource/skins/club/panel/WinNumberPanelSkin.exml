@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WinNumberPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+        <e:Rect id="rects" fillColor="0x000000" fillAlpha="0.7" scaleX="1" scaleY="1" left="0" right="0" top="0"
+                bottom="0" />
+			<e:Group id="dbGrouplun" x="576" y="232" visible="false"/>
+			<e:Image source="kuang1_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+			<e:Group horizontalCenter="0" verticalCenter="0">
+				<e:Group id="dbGroup" x="280" y="80"/>
+				<e:Group x="20" y="15">
+					<ns1:WinNumberGroup id="group4" width="105" height="131" x="0" y="0" skinName="WinNumberGroupSkin"/>
+					<ns1:WinNumberGroup id="group3" width="105" height="131" x="10" y="10" skinName="WinNumberGroupSkin"/>
+					<ns1:WinNumberGroup id="group2" width="105" height="131" x="20" y="20" skinName="WinNumberGroupSkin"/>
+					<ns1:WinNumberGroup id="group1" width="105" height="131" x="30" y="30" skinName="WinNumberGroupSkin"/>
+					<ns1:WinNumberGroup id="group0" width="105" height="131" x="40" y="40" skinName="WinNumberGroupSkin"/>
+					<e:layout>
+					<e:HorizontalLayout gap="-4"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+    </e:Group>
+</e:Skin>

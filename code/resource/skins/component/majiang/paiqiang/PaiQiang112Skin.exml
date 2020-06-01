@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="majiang.PaiQiang112Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="854" height="527">
+	<e:Image id="n3" source="mj_des_top_png" scaleX="0.9" horizontalCenter="0" top="-8"/>
+	<e:Image id="n4" source="mj_des_left_png" scaleY="0.9" verticalCenter="-22" horizontalCenter="-329"/>
+	<e:Image id="n2" source="mj_des_right_png" scaleY="0.9" verticalCenter="-24" horizontalCenter="328.5"/>
+	<e:Image id="n1" source="mj_des_bottom_png" horizontalCenter="0" bottom="22" width="640"/>
+	<e:Group id="mineGroup" anchorOffsetX="0" anchorOffsetY="0" width="554" height="57" horizontalCenter="0" bottom="24" locked="true">
+		<e:Image id="pai28" x="0.7" y="-9" source="mine_qiang_32_png"/>
+		<e:Image id="pai26" x="38.7" y="-9" source="mine_qiang_30_png"/>
+		<e:Image id="pai24" x="76.7" y="-9" source="mine_qiang_28_png"/>
+		<e:Image id="pai22" x="114.7" y="-9" source="mine_qiang_26_png"/>
+		<e:Image id="pai20" x="153.7" y="-8.67" source="mine_qiang_24_png"/>
+		<e:Image id="pai18" x="191.7" y="-8.67" source="mine_qiang_22_png"/>
+		<e:Image id="pai16" x="230.7" y="-9" source="mine_qiang_20_png"/>
+		<e:Image id="pai14" x="269.7" y="-9" source="mine_qiang_18_png"/>
+		<e:Image id="pai2" x="499.35" y="-9" source="mine_qiang_6_png"/>
+		<e:Image id="pai4" x="461.03" y="-9" source="mine_qiang_8_png"/>
+		<e:Image id="pai6" x="423.36" y="-9" source="mine_qiang_10_png"/>
+		<e:Image id="pai8" x="384.69" y="-9" source="mine_qiang_12_png"/>
+		<e:Image id="pai10" x="346.36" y="-9" source="mine_qiang_14_png"/>
+		<e:Image id="pai12" x="308.03" y="-9" source="mine_qiang_16_png"/>
+		<e:Image id="pai1" x="501" y="-22" source="mine_qiang_1_png"/>
+		<e:Image id="pai3" x="462.5" y="-22" source="mine_qiang_3_png"/>
+        <e:Image id="pai5" y="-22" source="mine_qiang_5_png" x="424"/>
+        <e:Image id="pai7" y="-22" source="mine_qiang_7_png" x="385.5"/>
+        <e:Image id="pai9" y="-22" source="mine_qiang_9_png" x="346.7"/>
+        <e:Image id="pai11" y="-22" source="mine_qiang_11_png" x="308.5"/>
+        <e:Image id="pai13" y="-22" source="mine_qiang_13_png" x="269.5"/>
+        <e:Image id="pai15" y="-22" source="mine_qiang_15_png" x="230.5"/>
+		<e:Image id="pai27" y="-22" source="mine_qiang_27_png" left="-1"/>
+		<e:Image id="pai25" y="-22" source="mine_qiang_25_png" left="37"/>
+		<e:Image id="pai23" y="-22" source="mine_qiang_23_png" left="75"/>
+		<e:Image id="pai21" y="-22" source="mine_qiang_21_png" left="113"/>
+		<e:Image id="pai19" y="-22" source="mine_qiang_19_png" x="152"/>
+		<e:Image id="pai17" y="-22" source="mine_qiang_17_png" x="191.5"/>
+	</e:Group>
+	<e:Group id="leftGroup" anchorOffsetY="0" verticalCenter="-33.5" width="67" height="348" horizontalCenter="-302.5">
+		<e:Image id="pai56" x="1.99" source="left_qiang_26_png" y="-15.8"/>
+		<e:Image id="pai54" x="-1.61" source="left_qiang_24_png" y="7"/>
+		<e:Image id="pai52" x="-5.61" source="left_qiang_22_png" y="29.5" locked="true"/>
+		<e:Image id="pai50" x="-8.83" source="left_qiang_20_png" y="52.6"/>
+		<e:Image id="pai48" x="-12.83" source="left_qiang_18_png" y="75.86"/>
+		<e:Image id="pai46" x="-17" source="left_qiang_16_png" y="99.3"/>
+		<e:Image id="pai44" x="-21.01" source="left_qiang_14_png" y="123.8"/>
+		<e:Image id="pai42" x="-25.01" source="left_qiang_12_png" y="148.8"/>
+		<e:Image id="pai40" x="-29.51" source="left_qiang_10_png" y="173.8"/>
+		<e:Image id="pai38" x="-33.51" source="left_qiang_8_png" y="200.8"/>
+		<e:Image id="pai36" x="-38.17" source="left_qiang_6_png" y="227.2"/>
+		<e:Image id="pai34" x="-42.33" source="left_qiang_4_png" y="254.6"/>
+		<e:Image id="pai32" source="left_qiang_2_png" x="-47.5" y="282.12"/>
+		<e:Image id="pai30" source="left_qiang_2_png" x="-52.82" y="311.46"/>
+		<e:Image id="pai55" x="-0.91" source="left_qiang_25_png" y="-27.89"/>
+		<e:Image id="pai53" x="-4.5" source="left_qiang_23_png" y="-5.09"/>
+		<e:Image id="pai51" x="-7.5" source="left_qiang_21_png" y="17.41"/>
+		<e:Image id="pai49" x="-11.5" source="left_qiang_19_png" y="38.99"/>
+		<e:Image id="pai47" x="-15.5" source="left_qiang_17_png" y="62.25"/>
+		<e:Image id="pai45" x="-19.5" source="left_qiang_15_png" y="85.69"/>
+		<e:Image id="pai43" x="-23.51" source="left_qiang_13_png" y="110.19"/>
+		<e:Image id="pai41" x="-28.18" source="left_qiang_11_png" y="135.19"/>
+		<e:Image id="pai39" x="-32.01" source="left_qiang_9_png" y="161.71"/>
+		<e:Image id="pai37" x="-36.68" source="left_qiang_7_png" y="188.71"/>
+		<e:Image id="pai35" x="-40.67" source="left_qiang_5_png" y="215.11"/>
+		<e:Image id="pai33" x="-46.17" source="left_qiang_3_png" y="242.51"/>
+		<e:Image id="pai31" source="left_qiang_1_png" x="-50.67" y="270.03"/>
+		<e:Image id="pai29" source="left_qiang_1_png" x="-56" y="298.05"/>
+	</e:Group>
+	<e:Group id="topGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" horizontalCenter="-0.5" top="-22" width="554" height="57">
+		<e:Image id="pai58" x="0.7" y="-9" source="mine_qiang_32_png"/>
+		<e:Image id="pai60" x="38.7" y="-9" source="mine_qiang_30_png"/>
+		<e:Image id="pai62" x="76.7" y="-9" source="mine_qiang_28_png"/>
+		<e:Image id="pai64" x="114.7" y="-9" source="mine_qiang_26_png"/>
+		<e:Image id="pai66" x="153.7" y="-8.67" source="mine_qiang_24_png"/>
+		<e:Image id="pai68" x="191.7" y="-8.67" source="mine_qiang_22_png"/>
+		<e:Image id="pai70" x="230.7" y="-9" source="mine_qiang_20_png"/>
+		<e:Image id="pai72" x="269.7" y="-9" source="mine_qiang_18_png"/>
+		<e:Image id="pai84" x="499.35" y="-9" source="mine_qiang_6_png"/>
+		<e:Image id="pai82" x="461.03" y="-9" source="mine_qiang_8_png"/>
+		<e:Image id="pai80" x="423.36" y="-9" source="mine_qiang_10_png"/>
+		<e:Image id="pai78" x="384.69" y="-9" source="mine_qiang_12_png"/>
+		<e:Image id="pai76" x="346.36" y="-9" source="mine_qiang_14_png"/>
+		<e:Image id="pai74" x="308.03" y="-9" source="mine_qiang_16_png"/>
+		<e:Image id="pai83" x="501" y="-22" source="mine_qiang_1_png"/>
+		<e:Image id="pai81" x="462.5" y="-22" source="mine_qiang_3_png"/>
+		<e:Image id="pai79" y="-22" source="mine_qiang_5_png" x="424"/>
+		<e:Image id="pai77" y="-22" source="mine_qiang_7_png" x="385.5"/>
+		<e:Image id="pai75" y="-22" source="mine_qiang_9_png" x="346.7"/>
+		<e:Image id="pai73" y="-22" source="mine_qiang_11_png" x="308.5"/>
+		<e:Image id="pai71" y="-22" source="mine_qiang_13_png" x="269.5"/>
+		<e:Image id="pai69" y="-22" source="mine_qiang_15_png" x="230.5"/>
+		<e:Image id="pai57" y="-22" source="mine_qiang_27_png" left="-1"/>
+		<e:Image id="pai59" y="-22" source="mine_qiang_25_png" left="37"/>
+		<e:Image id="pai61" y="-22" source="mine_qiang_23_png" left="75"/>
+		<e:Image id="pai63" y="-22" source="mine_qiang_21_png" left="113"/>
+		<e:Image id="pai65" y="-22" source="mine_qiang_19_png" x="152"/>
+		<e:Image id="pai67" y="-22" source="mine_qiang_17_png" x="191.5"/>
+	</e:Group>
+	<e:Group id="rightGroup" anchorOffsetY="0" scaleX="-1" width="67" height="348" verticalCenter="-17.5" horizontalCenter="305.5">
+		<e:Image id="pai86" x="5.99" y="-27.8" source="left_qiang_26_png"/>
+		<e:Image id="pai88" x="2.39" source="left_qiang_24_png" y="-5"/>
+		<e:Image id="pai90" x="-1.61" source="left_qiang_22_png" y="17.5"/>
+		<e:Image id="pai92" x="-4.83" source="left_qiang_20_png" y="40.6"/>
+		<e:Image id="pai94" x="-8.83" source="left_qiang_18_png" y="64.86"/>
+		<e:Image id="pai96" x="-14" source="left_qiang_16_png" y="88.3"/>
+		<e:Image id="pai98" x="-18.01" source="left_qiang_14_png" y="112.8"/>
+		<e:Image id="pai100" x="-22.01" source="left_qiang_12_png" y="137.8"/>
+		<e:Image id="pai102" x="-26.51" source="left_qiang_10_png" y="162.8"/>
+		<e:Image id="pai104" x="-30.51" source="left_qiang_8_png" y="189.8"/>
+		<e:Image id="pai106" x="-35.17" source="left_qiang_6_png" y="216.2"/>
+		<e:Image id="pai108" x="-39.33" source="left_qiang_4_png" y="243.6"/>
+		<e:Image id="pai110" source="left_qiang_2_png" x="-44.5" y="271.12"/>
+		<e:Image id="pai112" source="left_qiang_2_png" x="-48.84" y="297.47"/>
+		<e:Image id="pai85" x="2.09" source="left_qiang_25_png" y="-38.89"/>
+		<e:Image id="pai87" x="-1.5" source="left_qiang_23_png" y="-17.09"/>
+		<e:Image id="pai89" x="-4.5" source="left_qiang_21_png" y="5.41"/>
+		<e:Image id="pai91" x="-8.5" source="left_qiang_19_png" y="26.99"/>
+		<e:Image id="pai93" x="-12.5" source="left_qiang_17_png" y="50.25"/>
+		<e:Image id="pai95" x="-16.5" source="left_qiang_15_png" y="73.69"/>
+		<e:Image id="pai97" x="-20.51" source="left_qiang_13_png" y="98.19"/>
+		<e:Image id="pai99" x="-25.18" source="left_qiang_11_png" y="123.19"/>
+		<e:Image id="pai101" x="-29.01" source="left_qiang_9_png" y="149.71"/>
+		<e:Image id="pai103" x="-33.68" source="left_qiang_7_png" y="176.71"/>
+		<e:Image id="pai105" x="-37.67" source="left_qiang_5_png" y="203.11"/>
+		<e:Image id="pai107" x="-43.17" source="left_qiang_3_png" y="230.51"/>
+		<e:Image id="pai109" source="left_qiang_1_png" x="-47.67" y="258.03"/>
+		<e:Image id="pai111" source="left_qiang_1_png" x="-51.67" y="286.04"/>
+	</e:Group>
+</e:Skin>

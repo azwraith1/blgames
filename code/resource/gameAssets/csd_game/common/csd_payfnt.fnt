@@ -1,0 +1,13 @@
+{"file":"csd_payfnt.png","frames":{
+"0":{"x":49,"y":1,"w":22,"h":28,"offX":2,"offY":0,"sourceW":26,"sourceH":28},
+"1":{"x":94,"y":31,"w":17,"h":26,"offX":2,"offY":1,"sourceW":21,"sourceH":28},
+"2":{"x":25,"y":31,"w":21,"h":27,"offX":2,"offY":0,"sourceW":25,"sourceH":28},
+"3":{"x":73,"y":1,"w":21,"h":28,"offX":2,"offY":0,"sourceW":25,"sourceH":28},
+"4":{"x":1,"y":31,"w":22,"h":26,"offX":2,"offY":1,"sourceW":26,"sourceH":28},
+"5":{"x":48,"y":31,"w":21,"h":27,"offX":2,"offY":1,"sourceW":25,"sourceH":28},
+"6":{"x":1,"y":1,"w":22,"h":28,"offX":2,"offY":0,"sourceW":26,"sourceH":28},
+"7":{"x":71,"y":31,"w":21,"h":26,"offX":2,"offY":1,"sourceW":25,"sourceH":28},
+"8":{"x":96,"y":1,"w":21,"h":28,"offX":2,"offY":0,"sourceW":25,"sourceH":28},
+"9":{"x":25,"y":1,"w":22,"h":28,"offX":2,"offY":0,"sourceW":26,"sourceH":28},
+".":{"x":113,"y":31,"w":10,"h":9,"offX":2,"offY":18,"sourceW":14,"sourceH":28},
+" ":{"x":119,"y":1,"w":5,"h":5,"offX":0,"offY":0,"sourceW":7,"sourceH":28}}}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RotationLoadingShuSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="720" height="1280">
+		<e:Rect fillColor="0x000000" fillAlpha="0" left="0" top="0" right="0" bottom="0"/>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image source="loading_bg_png" scaleX="1" scaleY="1"/>
+			<e:Image id="rotationImage" alpha="1" scaleX="-1" scaleY="1" source="main_rotaions_png" anchorOffsetX="76.5" anchorOffsetY="76.5" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="progressLabel" text="0%" size="30" horizontalCenter="0" verticalCenter="0" textAlign="center" width="100"/>
+			<e:Button id="closeBtn" label="" left="187" top="12">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="loading_bg_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+
+
+	</e:Group>
+</e:Skin>

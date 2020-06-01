@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchXZDDSettlePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect left="0" top="0" bottom="0" right="0" fillAlpha="0.4"/>
+		<e:Group id="group1" verticalCenter="38" horizontalCenter="0">
+			<e:Image id="dbImage1" source="m_mj_over_k_2_png"/>
+			<e:Label id="nameLabel1" text="Label" y="16" anchorOffsetX="0" width="212.5" textAlign="center" stroke="1" strokeColor="0x92430b" x="86" textColor="0xfbf5db"/>
+			<e:Image id="rankImage1" source="m_mj_over_tt_png" x="289" y="147" visible="false"/>
+			<e:Scroller id="scroller1" width="345" height="97.33" y="52.34" anchorOffsetX="0" anchorOffsetY="0" x="20">
+			<e:Group id="contentGroup1" x="0.67" y="-1">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+			<e:BitmapLabel id="scoreLabel1" x="100.63" y="160.32" text="-0" anchorOffsetX="0" width="205" textAlign="center" letterSpacing="-4" font="m_mj_over_font2_fnt"/>
+		</e:Group>
+		<e:Group id="group2" horizontalCenter="403.5" verticalCenter="-76">
+			<e:Image source="m_mj_over_k_1_png" id="dbImage2"/>
+			<e:Label text="Label" y="16" anchorOffsetX="0" width="212.5" textAlign="center" textColor="0xDDDFFD" stroke="1" strokeColor="0x0E5E62" x="86" id="nameLabel2"/>
+			<e:Image source="m_mj_over_tt_png" x="289" y="147" id="rankImage2" visible="false"/>
+			<e:Scroller width="345" height="97.33" y="52.34" anchorOffsetX="0" anchorOffsetY="0" id="scroller2" x="20">
+			<e:Group x="0.67" y="-1" id="contentGroup2">
+				<e:layout>
+				<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+			<e:BitmapLabel x="100.63" y="160.32" font="m_mj_over_font1_fnt" text="0" anchorOffsetX="0" width="205" textAlign="center" letterSpacing="-4" id="scoreLabel2"/>
+		</e:Group>
+		<e:Group id="group3" verticalCenter="-213" horizontalCenter="0">
+			<e:Image source="m_mj_over_k_1_png" id="dbImage3"/>
+			<e:Label text="Label" y="16" anchorOffsetX="0" width="212.5" textAlign="center" textColor="0xDDDFFD" stroke="1" strokeColor="0x0E5E62" x="86" id="nameLabel3"/>
+			<e:Image source="m_mj_over_tt_png" x="289" y="147" id="rankImage3" visible="false"/>
+			<e:Scroller width="345" height="97.33" y="52.34" anchorOffsetX="0" anchorOffsetY="0" id="scroller3" x="20">
+			<e:Group x="0.67" y="-1" id="contentGroup3">
+				<e:layout>
+				<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+			<e:BitmapLabel x="100.63" y="160.32" font="m_mj_over_font1_fnt" text="0" anchorOffsetX="0" width="205" textAlign="center" letterSpacing="-4" id="scoreLabel3"/>
+		</e:Group>
+		<e:Group id="group4" horizontalCenter="-403.5" verticalCenter="-76">
+			<e:Image source="m_mj_over_k_1_png" id="dbImage4"/>
+			<e:Label text="Label" y="16" anchorOffsetX="0" width="212.5" textAlign="center" textColor="0xDDDFFD" stroke="1" strokeColor="0x0E5E62" x="86" id="nameLabel4"/>
+			<e:Image source="m_mj_over_tt_png" x="289" y="147" id="rankImage4" visible="false"/>
+			<e:Scroller width="345" height="97.33" y="52.34" anchorOffsetX="0" anchorOffsetY="0" id="scroller4" x="20">
+			<e:Group x="0.67" y="-1" id="contentGroup4">
+				<e:layout>
+				<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+			<e:BitmapLabel x="100.63" y="160.32" font="m_mj_over_font1_fnt" text="0" anchorOffsetX="0" width="205" textAlign="center" letterSpacing="-4" id="scoreLabel4"/>
+		</e:Group>
+		<e:Label id="textLabel" text="正在匹配玩家,请耐心等待..." size="34" textColor="0xfeee61" fontFamily="SimHei" bottom="143" horizontalCenter="0"/>
+		<e:Button id="enterBtn" label="" horizontalCenter="0" bottom="44">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="m_mj_over_btn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="timeLabel" text="(5)" textColor="0xfeee61" fontFamily="SimHei" horizontalCenter="139.5" bottom="67"/>
+	</e:Group>
+</e:Skin>

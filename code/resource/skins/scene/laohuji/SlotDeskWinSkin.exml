@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlotDeskWinSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="250">
+	<e:Group id="baseGroup" width="250" height="200" horizontalCenter="0">
+		<e:Group id="userGroup" left="0" right="0" top="0" bottom="0">
+			<e:Image id="userHead" width="40" height="40" horizontalCenter="-76" y="80" x="29" scaleX="1" scaleY="1"/>
+			<e:Label id="userName" text="Label" size="24" anchorOffsetX="0" width="105.5" textAlign="center" horizontalCenter="19" y="88" x="91" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="winGroup" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:BitmapLabel id="winGold" width="173" height="35" anchorOffsetX="0" anchorOffsetY="0" font="slot_hall_new_rank_fnt" text="1111" textAlign="left" horizontalCenter="35.5" y="83" letterSpacing="-3" x="70" scaleX="1" scaleY="1"/>
+			<e:Image source="slot_desk_win_gold_png" y="87" scaleX="1" scaleY="1" horizontalCenter="-76.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

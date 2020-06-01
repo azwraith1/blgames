@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaiCaoHallBarSkin" width="313" height="263" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Group touchThrough="false" touchEnabled="false" touchChildren="false" x="0" width="313" height="263">
+	<e:Image id="hallbarBg" source="ynbc_xc1_png" x="0" y="0" width="313" height="263"/>
+		<e:Group id="effcGroup"  scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" anchorOffsetX="0" anchorOffsetY="0">
+		</e:Group>
+	<e:BitmapLabel id="zhunruLabel" y="14" font="baicao_hall_difen_fnt" text="1000" right="77"/>
+	</e:Group>
+</e:Skin>

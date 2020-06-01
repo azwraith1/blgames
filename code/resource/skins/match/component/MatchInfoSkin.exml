@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchInfoSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" left="0" top="0" bottom="0" right="0">
+		<e:Rect id="maskRect" strokeAlpha="0" fillAlpha="0.6" scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0" width="1280" height="720" x="0" y="0"/>
+		<e:Group id="scaleGroup" horizontalCenter="0" verticalCenter="0" width="912" height="589" anchorOffsetX="456" anchorOffsetY="294.5">
+			<e:Image source="match_hall_xq_png"/>
+			<e:Group id="group1" width="841" height="301" x="38" y="162" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Label text="赛事名称:" x="178" y="39" textColor="0xdc6e44" fontFamily="SimHei" size="26"/>
+				<e:Image source="match_hall_bar_2_png" x="325" y="32"/>
+				<e:Label text="比赛时间:" x="178" y="106" textColor="0xDC6E44" fontFamily="SimHei" size="26"/>
+				<e:Image source="match_hall_bar_2_png" x="325" y="99"/>
+				<e:Label text="报名费用:" x="178" y="172" textColor="0xDC6E44" fontFamily="SimHei" size="26"/>
+				<e:Image source="match_hall_bar_2_png" x="325" y="165"/>
+				<e:Label text="参赛人数:" x="178" y="240" textColor="0xDC6E44" fontFamily="SimHei" size="26"/>
+				<e:Image source="match_hall_bar_2_png" x="325" y="232"/>
+				<e:Label id="label1" text="" x="355" y="41" textColor="0x935e3d" size="22" width="300" textAlign="center" height="22"/>
+				<e:Label id="label2" text="" x="355" y="108" textColor="0x935E3D" size="22" width="300" textAlign="center" height="22"/>
+				<e:Label id="label3" text="" x="330" y="174" textColor="0x935E3D" size="22" width="350" textAlign="center" height="22"/>
+				<e:Label id="label4" text="" x="355" y="241" textColor="0x935E3D" size="22" width="300" textAlign="center" height="22"/>
+			</e:Group>
+			<e:Group id="group3" width="841" height="311" y="158" anchorOffsetX="0" anchorOffsetY="0" x="36">
+				<e:Image source="match_hall_help_3_png" y="5" anchorOffsetX="0" width="839" x="3" anchorOffsetY="0" height="300"/>
+				<e:Image source="match_hall_help_jb_1_png" y="114" x="306"/>
+				<e:Image source="match_hall_help_jb_2_png" x="66.5" y="139"/>
+				<e:Image source="match_hall_help_jb_3_png" x="588.51" y="139"/>
+				<e:Image source="match_info_xf_png" x="106.5" y="58"/>
+				<e:Image source="match_info_xf_png" x="359.5" y="43.5"/>
+				<e:Image source="match_info_xf_png" x="628.51" y="58"/>
+				<e:BitmapLabel id="reward2" x="126.14" y="72.03" font="match_info_help_fnt4_fnt" text="0y" rotation="7.81" letterSpacing="-5" scaleX="0.6" scaleY="0.6" width="158" height="29" textAlign="center"/>
+				<e:BitmapLabel id="reward1" x="379.68" y="55.58" font="match_info_help_fnt4_fnt" text="0y" rotation="7.81" letterSpacing="-5" scaleX="0.6" scaleY="0.6" width="158.85" height="29" textAlign="center" anchorOffsetX="0"/>
+				<e:BitmapLabel id="reward3" x="647.86" y="72.09" font="match_info_help_fnt4_fnt" text="0y" rotation="7.81" letterSpacing="-5" scaleX="0.6" scaleY="0.6" width="158" height="29" textAlign="center"/>
+				<e:BitmapLabel id="countLabel2" x="101.01" y="186.33" font="match_info_help_fnt2_fnt" text="2" anchorOffsetX="0" width="122" textAlign="center"/>
+				<e:BitmapLabel id="countLabel1" x="354.84" y="177.99" font="match_info_help_fnt1_fnt" text="1" anchorOffsetX="0" width="122" textAlign="center"/>
+				<e:BitmapLabel id="countLabel3" x="625.97" y="187.33" font="match_info_help_fnt3_fnt" text="3" anchorOffsetX="0" width="122" textAlign="center"/>
+				<e:Scroller width="839.67" height="57.67" y="247" anchorOffsetX="0" anchorOffsetY="0" x="1">
+					<e:Group id="otherGroup" x="0" y="0.67">
+						<e:layout>
+							<e:TileLayout paddingLeft="60" horizontalGap="70"/>
+						</e:layout>
+					</e:Group>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="group2" width="841" height="301" x="38" y="162" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Scroller id="scroller" width="838.67" height="300" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group>
+						<e:Image id="contentImage" source="match_hall_help_wz_png" scaleX="0.83" scaleY="0.83" anchorOffsetX="0" anchorOffsetY="0" x="4"/>
+					</e:Group>
+				</e:Scroller>
+			</e:Group>
+			<e:Button id="enterBtn" label="" y="483.02" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_hall_bm_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="enterImage" source="match_hall_entered_png" y="464" x="324" visible="false"/>
+			<e:Button id="closeBtn" label="" x="862" y="-12">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_hall_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="tab1" label="" x="156.34" y="103">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_info_tab1_1_png" source.disabled="match_info_tab1_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="tab2" label="" y="103" x="357">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_info_tab2_1_png" source.disabled="match_info_tab2_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="tab3" label="" x="556.13" y="103">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="match_info_tab3_1_png" source.disabled="match_info_tab3_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

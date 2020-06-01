@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SNYXScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:snyx="snyx.*">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image source="xnyx_free_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Group left="0" right="0" top="0" bottom="0">
+			<e:Image source="xnyx_free_mask_png" horizontalCenter="0" y="-3.04" x="0" scaleX="1" scaleY="1"/>
+			<snyx:SNYXScroller id="scroller" width="837.5" height="465" y="94.24" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Image source="snyx_free_mask_png" scaleX="0.5" scaleY="0.5" y="493" horizontalCenter="4"/>
+		</e:Group>
+		<e:Group id="roleAniGroup" right="0" left="0" top="0" bottom="0">
+			<e:Image id="commondi" source="snyx_wingold_bg_png" y="488" horizontalCenter="0" x="472" scaleX="1" scaleY="1" visible="false"/>
+			<e:BitmapLabel id="commomScore" width="596" height="76" y="493" font="snyx_wingold1_fnt_fnt" text="11111.111" scaleX="0.5" scaleY="0.5" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" horizontalCenter="0" x="491" visible="false"/>
+		</e:Group>
+		<e:Group left="0" right="0" bottom="0">
+			<e:Image source="xnyx_free_bg2_png" horizontalCenter="0" y="0"/>
+			<e:Image source="xnyx_free_bg3_png" horizontalCenter="0" y="107"/>
+			<e:Image source="xnyx_freetimes_png" y="97" horizontalCenter="-270"/>
+			<e:BitmapLabel id="freeTimesLabel" width="123.03" height="42.74" y="92" anchorOffsetX="0" anchorOffsetY="0" font="snyx_free_fnt_fnt" text="20" horizontalCenter="-114.5"/>
+			<e:Image source="xnyx_freewin_png" y="97" horizontalCenter="124"/>
+			<e:BitmapLabel id="freewinLabel" width="279.09" height="38.19" x="856" y="92" anchorOffsetX="0" anchorOffsetY="0" font="snyx_free_fnt_fnt" text="888888.88"/>
+		</e:Group>
+		<e:Group id="totalwinGroup" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image source="snyx_totalwin_bg_png" y="92.05" horizontalCenter="0.5"/>
+			<e:Image source="snyx_totalwin_text_png" y="148.83" horizontalCenter="0"/>
+			<e:BitmapLabel id="freeTotalWin" width="1054.85" height="120" y="311.97" font="snyx_bigwin_fnt_fnt" text="888888.88" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" textAlign="center" letterSpacing="-30"/>
+		</e:Group>
+		<e:Group id="free2commGroup" touchChildren="false" touchEnabled="false" touchThrough="true" anchorOffsetX="640" anchorOffsetY="360" scaleX="0" width="1280" height="720" y="360" horizontalCenter="0" scaleY="0" x="640">
+			<e:Image source="snyx_2freebg_png" horizontalCenter="0" verticalCenter="0" scaleX="0.5" scaleY="0.5" x="110" y="90"/>
+			<e:Image source="snyx_2freetext_png" y="178" scaleX="0.5" scaleY="0.5" horizontalCenter="0.5" x="295"/>
+			<e:Image source="snyx_2freetext4_png" y="268" scaleX="0.5" scaleY="0.5" horizontalCenter="0.5" x="463"/>
+			<e:Image id="freetimeIma" source="snyx_free10_png" y="361" scaleX="0.5" scaleY="0.5" horizontalCenter="0.5" x="580"/>
+			<e:Image source="snyx_2freetext3_png" y="460" scaleX="0.5" scaleY="0.5" horizontalCenter="0.5" x="411"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

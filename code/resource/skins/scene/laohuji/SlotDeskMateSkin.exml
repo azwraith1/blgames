@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlotDeskMateSkin" currentState="common" xmlns:e="http://ns.egret.com/eui" xmlns:slot="slot.*" xmlns:w="http://ns.egret.com/wing"  states="common,win"  width="223" height.win="94">
+	<e:Group id="slotdeskGroup" horizontalCenter.common="0" verticalCenter.common="0" anchorOffsetY.win="0" height.win="94" width.win="223" horizontalCenter.win="0">
+		<e:Image source="slot_hall_deskbg_png" horizontalCenter="0" verticalCenter="0" visible.win="false"/>
+		<e:Group id="goldGroup" left.common="0" right.common="0" top.common="0" bottom.common="0" anchorOffsetY.win="0" height.win="95" width.win="223" horizontalCenter.win="0"/>
+		<slot:SlotDeskItem id="item" includeIn="win" y="20" skinName="SlotDeskMateItemSkin" horizontalCenter="0" visible="false"/>
+		<e:Group id="winGroup" includeIn="win" left="0" right="0" height="94" y="0">
+			<e:Image includeIn="win" horizontalCenter="-70" x="39" scaleX="1" scaleY="1" source="slot_desk_win_gold_png" y="50"/>
+			<e:BitmapLabel id="binwinGold" width="163" height="38" includeIn="win" anchorOffsetX="0" anchorOffsetY="0" font="slot_hall_new_rank_fnt" text="88888" letterSpacing="-5" textAlign="left" horizontalCenter="32" x="20" scaleX="1" scaleY="1" y="45"/>
+		</e:Group>
+		<e:Group id="slotDeskItenGroup" width="176" height="273" includeIn="common" y="50" anchorOffsetY="0" horizontalCenter="22.5">
+			<slot:SlotDeskItem id="item1" y="10" skinName="SlotDeskMateItemSkin" horizontalCenter="0"/>
+			<slot:SlotDeskItem id="item2" y="77" skinName="SlotDeskMateItemSkin" includeIn="common" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<slot:SlotDeskItem id="item3" y="144" skinName="SlotDeskMateItemSkin" includeIn="common" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<slot:SlotDeskItem id="item4" y="211" skinName="SlotDeskMateItemSkin" includeIn="common" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Group>
+		<e:Rect id="openrect" width="39" height="167" y="87" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" x.win="6" horizontalCenter.common="-86" visible.win="false"/>
+		<e:Image id="touchonImag" source="sgws_hall_desk_dack_png" left="5" verticalCenter="0" touchEnabled="false" visible.win="false"/>
+		<e:Image id="deskopen" includeIn="common" horizontalCenter="-81.5" verticalCenter="3.5" source="slot_hall_opendesk_png" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

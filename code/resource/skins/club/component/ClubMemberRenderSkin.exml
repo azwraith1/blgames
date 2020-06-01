@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMemberRenderSkin" width="694" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="club_mem_listkuang_png" x="0" y="0"/>
+	<e:Group x="28" y="3">
+		<e:Image source="club_list_headkuang_png" x="0" y="0"/>
+		<e:Image id="headerMask" x="3.6" y="3.2" anchorOffsetX="0" width="55.6" anchorOffsetY="0" height="56.8" source="main_hall_img_16_png"/>
+		<e:Image id="headerImage" y="3.17" width="97.89" height="98.76" source="common_header_json.hall_header_1_5_png" x="3.5" scaleX="0.57" scaleY="0.57" anchorOffsetY="0" anchorOffsetX="0"/>
+	</e:Group>
+ <e:Label id="nameLabel" text="我的名字" size="24" fontFamily="SimHei" textColor="0xfffcf7" y="24" x="102"/>
+
+	<e:Label id="playerType" text="王者房" anchorOffsetX="0"  anchorOffsetY="0" height="23" size="26"    textAlign="center" verticalAlign="middle" textColor="0xdce488" y="24" x="603"/>
+
+	<e:Label id="roomTime" text="最近登陆：2018.10.10 23:00:777" anchorOffsetX="0"  anchorOffsetY="0" size="24"    verticalAlign="middle" textAlign="center" height="23" fontFamily="SimHei" textColor="0xe4bc69" horizontalCenter="56" verticalCenter="-0.5"/>
+</e:Skin>

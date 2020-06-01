@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WSZWLoadingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="wszw_loadingbg_jpg"/>
+		<e:Group id="clickGroup" bottom="-2" horizontalCenter="0" visible="false">
+		<e:Image source="cbzz_loading_start_png" horizontalCenter="0" bottom="0"/>
+		<e:Image id="clickStart" source="cbzz_loading_starttext_png" horizontalCenter="0" bottom="12"/>
+		</e:Group>
+		<e:Image y="42" horizontalCenter="237" source="wszw_loading_logo_png"/>
+		<e:Image source="wszw_loading_tiger_png" y="0" horizontalCenter="-325"/>
+		<e:Image source="wszw_loadingbg4_png" y="212.37" horizontalCenter="192"/>
+		<e:Image source="wszw_loadingbg1_png" y="460.87" horizontalCenter="555.5"/>
+		<e:Image source="wszw_loadingbg2_png" y="261" right="0"/>
+		<e:Image source="wszw_loadingbg3_png" y="442" horizontalCenter="-546.5"/>
+		<e:Group id="loadingBarGroup" horizontalCenter="2.5" x="248" scaleX="1" scaleY="1" y="605">
+			<e:Image horizontalCenter="0" source="wszw_loading_bat_di_png"/>
+			<e:Image id="processBar" y="9.33" left="10" source="wszw_loading_bat_png" scale9Grid="7,2,916,12" width="0"/>
+			<e:BitmapLabel id="percentLabel" width="104" height="25" x="546.34" y="-27" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" text="0%" textAlign="left" letterSpacing="-3" font="wszw_loading_shuzi_fnt"/>
+		</e:Group>
+		<e:Image source="wszw_loadinging_png" horizontalCenter="-14" y="576"/>
+	</e:Group>
+	<e:Button id="quitBtn" label="" top="90" left="0" x="0" y="90" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="slot_back_btn1_png" source.down="slot_back_btn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

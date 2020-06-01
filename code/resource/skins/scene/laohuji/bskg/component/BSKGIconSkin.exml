@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BSKGIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="168" height="149">
+	<e:Image id="iconBg" source="bskg_icon_bg3_png" x="0" y="0"/>
+	<e:Image id="iconShadow" source="bskg_icon_3_bg_png" horizontalCenter="9" verticalCenter="0.5"/>
+	<e:Image id="icon" source="bskg_icon_3_png" horizontalCenter="0.15" verticalCenter="0"/>
+	<e:Image id="iconHead" source="bskg_icon_2_bg_png" horizontalCenter="-0.5" bottom="0" visible="false"/>
+	<e:Rect id="rect" fillAlpha="0.5" right="0" left="0" top="0" bottom="0" visible="false"/>
+</e:Skin>

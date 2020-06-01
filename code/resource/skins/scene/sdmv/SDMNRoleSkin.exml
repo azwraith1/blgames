@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SDMNRoleSkin" width="320" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" width="320" height="720" x="0" y="0" touchThrough="true" >
+		<e:Rect id="maskRect" left="7" right="7" top="0" bottom="20"/>
+		<e:Image id="roleBg" top="0" bottom="20" source="sdmn_freebg1_png" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

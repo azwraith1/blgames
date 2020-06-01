@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="SangongYZBtnSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image x="0" touchEnabled="false" source="sg_yz_bar_png"/>
+	<e:BitmapLabel id="labelDisplay11" text="x81" anchorOffsetY="0" anchorOffsetX="0" width="101" height="26" textAlign="center" letterSpacing="-3" font="sg_yz_fnt" x="5.33" y="33.68" visible="false"/>
+	<e:Label id="labelDisplay" text="x8" x="1" y="13" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="64" anchorOffsetX="0" width="91" size="40" textColor="0xffeaa3" fontFamily="SimHei" stroke="2" strokeColor="0x8d0101"/>
+</e:Skin>

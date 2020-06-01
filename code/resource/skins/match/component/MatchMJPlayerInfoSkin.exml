@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMJPlayerInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="m_xzdd_emoji_bg2_png"/>
+	<e:Image source="m_xzdd_emoji_bg3_png" x="4" y="2"/>
+	<e:Image source="m_xzdd_header_bg_png" x="14" y="6.5"/>
+	<e:Image id="headerImage" x="19.33" y="10.51" source="hall_header_1_1_png" anchorOffsetX="0" width="67.67" anchorOffsetY="0" height="69"/>
+	<e:Label id="nameLabel" text="****123(192.168.200.199)" x="104.36" y="23.78" size="15" textColor="0x935e3d"/>
+	<e:Label text="当前积分:" x="104.36" y="52.67" size="20" textColor="0x935E3D"/>
+	<e:Label id="scoreLabel" text="0" x="200.68" y="52.67" size="20" textColor="0xf57845" anchorOffsetX="0" width="79.67"/>
+	<e:Scroller id="scroller" width="270.67" height="80.67" x="11" y="92" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group id="emojiGroup" x="0.33">
+			<e:layout>
+				<e:HorizontalLayout paddingTop="5"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

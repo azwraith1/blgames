@@ -1,0 +1,10 @@
+var MAJIANG_WIN_FLAG = {
+    NONE: 0,
+    DISCARD: 1,
+    SELF_DRAWN: 2,
+    END4TH_TILE: 4,
+    ABOUT_KONG: 8,
+    WALL_LAST: 16,
+    WIN_FLAG_TH: 32,
+    WIN_FLAG_DH: 64,
+};

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaiCaoTimeBarSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:baicao="baicao.*">
+	<e:Group x="0" y="0">
+		<e:Image y="0" x="0" source="baicao_clock_png"/>
+		<e:Label id="timeLabel" text="10" y="19" size="24" bold="true" textColor="0xb65504" horizontalCenter="-90"/>
+		<e:Group x="53.8" y="13.6">
+			<e:Image source="baicao_progressbar_bg_png" x="0" y="0"/>
+			<e:Image id="progressBar" source="baicao_progressbar_bar_png" x="0.27" y="-0.67" anchorOffsetX="0" width="184"/>
+			<e:Rect id="progressBarMask" width="172" height="25.33" x="6.67" y="-0.33" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="1" fillColor="0xaa0f0f"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

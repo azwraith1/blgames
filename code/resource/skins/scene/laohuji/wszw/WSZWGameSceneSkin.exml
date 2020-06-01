@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WSZWGameSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:wszw="wszw.*">
+	<e:Group id="resizeGroup" width="1280" x="0" height="720" y="0">
+		<e:Image source="wszw_bg_jpg" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Group id="effectGroup" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="gameGroup" left="0" right="0" top="0" bottom="0">
+			<e:Group horizontalCenter="0" width="1280" height="720" verticalCenter="0">
+				<e:Image source="wszw_gamebg2_png" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+				<e:Group width="227.27" height="104.55" x="132.28" y="108.13" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image x="-1" y="13" source="wszw_payicon_1_png"/>
+				<e:Image x="32" y="13" source="wszw_payicon_1_png"/>
+				<e:Image x="67.5" y="13" source="wszw_payicon_1_png"/>
+					<e:BitmapLabel id="whiteTiger" width="136" height="31" font="wszw_wingold_fnt" text="50" anchorOffsetX="0" anchorOffsetY="0" letterSpacing="-7" verticalCenter="0.22500000000000142" x="108" textAlign="center"/>
+				</e:Group>
+				<e:Group width="227.27" height="104.55" x="132.28" y="220.18" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1">
+				<e:Image x="-1" y="13" source="wszw_payicon_2_png"/>
+				<e:Image x="32" y="13" source="wszw_payicon_2_png"/>
+				<e:Image x="67.5" y="13" source="wszw_payicon_2_png"/>
+					<e:BitmapLabel id="greenTiger" width="140" height="31" x="108" font="wszw_wingold_fnt" text="25" anchorOffsetX="0" anchorOffsetY="0" letterSpacing="-7" verticalCenter="0.22500000000000142" y="124.82" scaleX="1" scaleY="1" textAlign="center"/>
+				</e:Group>
+				<e:Group width="227.27" height="104.55" x="132.28" y="331.5" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1">
+				<e:Image x="-1" y="13" source="wszw_payicon_3_png"/>
+				<e:Image x="32" y="13" source="wszw_payicon_3_png"/>
+				<e:Image x="67.5" y="13" source="wszw_payicon_3_png"/>
+					<e:BitmapLabel id="redTiger" width="140" height="31" x="108" font="wszw_wingold_fnt" text="12.5" anchorOffsetX="0" anchorOffsetY="0" letterSpacing="-7" verticalCenter="0.22500000000000142" y="13.5" scaleX="1" scaleY="1" textAlign="center"/>
+				</e:Group>
+				<e:Group width="227.27" height="104.55" x="132.28" y="442.17" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1">
+				<e:Image x="-1" y="13" source="wszw_payicon_4_png"/>
+				<e:Image x="32" y="13" source="wszw_payicon_4_png"/>
+				<e:Image x="67.5" y="13" source="wszw_payicon_4_png"/>
+					<e:BitmapLabel id="anyTiger" width="141" height="31" x="108" font="wszw_wingold_fnt" text="2.5" anchorOffsetX="0" anchorOffsetY="0" letterSpacing="-7" verticalCenter="0.22500000000000142" y="-109.17000000000002" scaleX="1" scaleY="1" textAlign="center"/>
+					<e:Image source="wszw_gameicon4_png" x="13.719999999999999" scaleX="1" scaleY="1" verticalCenter="1.2250000000000014"/>
+				</e:Group>
+			</e:Group>
+			<e:Image source="wszw_kuang_png" y="24.66" horizontalCenter="117"/>
+			<wszw:WSZWScroller id="scroller" width="550" height="540" y="61" horizontalCenter="121"/>
+			<e:Rect id="maskRect" fillAlpha="0" width="550" height="540" y="61" horizontalCenter="121"/>
+			<e:Image source="wszw_kuang2_png" y="-16.98" scaleX="1" scaleY="1" horizontalCenter="121.5"/>
+			<e:Image source="wszw_logobg_png" y="-3.34" horizontalCenter="129.5"/>
+			<e:Image source="wszw_logo_png" y="-0.37" horizontalCenter="130.5"/>
+			<e:Image source="wszw_fenge_png" y="306" scaleX="1" scaleY="1" horizontalCenter="120"/>
+		</e:Group>
+		<e:Group id="bigwinAniGroup" left="0" right="0" top="0" bottom="0" touchEnabled="false" touchChildren="false" touchThrough="true">
+		</e:Group>
+		<e:Group id="bottomGroup" anchorOffsetY="0" bottom="0" height="117.33" left="0" right="0" x="0" y="602.67" scaleX="1" scaleY="1">
+			<e:Image source="ayls_dibg_png" scaleX="1" scaleY="1" anchorOffsetY="0" left="0" right="0" height="115" y="2.3299999999999983"/>
+			<e:Group left="12" bottom="2.329999999999984" anchorOffsetY="0" height="172.45">
+			<e:Button id="memuBtn" label="" y="113.42" scaleX="1" scaleY="1" horizontalCenter="0.5" name="menuBtn">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:cbzz="cbzz.*" xmlns:ayls="ayls.*" xmlns:zcjl="zcjl.*">
+					<e:Image width="100%" height="100%" source="ayls_menu1_png" source.down="ayls_menu2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="tipsBtn" label="" y="53.51" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="1" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:cbzz="cbzz.*" xmlns:ayls="ayls.*" xmlns:zcjl="zcjl.*">
+					<e:Image width="100%" height="100%" source="ayls_rule1_png" source.down="ayls_rule2_png" source.disabled="ayls_rule3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="menuGroup" width="51" height="120" x="7.57" y="-69.99" visible="false">
+				<e:Image x="0" y="0" source="ayls_menudi_png" width="51" anchorOffsetY="0" height="124"/>
+				<e:Button id="recordBtn" label="" y="70.33" horizontalCenter="0.5" name="recordbtn">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:cbzz="cbzz.*" xmlns:ayls="ayls.*" xmlns:zcjl="zcjl.*">
+					<e:Image width="100%" height="100%" source="ayls_award1_png" source.down="ayls_award2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="setingBtn" label="" y="19" horizontalCenter="0" name="setbtn">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:cbzz="cbzz.*" xmlns:ayls="ayls.*" xmlns:zcjl="zcjl.*">
+					<e:Image width="100%" height="100%" source="ayls_set1_png" source.down="ayls_set2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			</e:Group>
+			<e:Group width="186.67" height="107.67" anchorOffsetY="0" anchorOffsetX="0" bottom="0.3299999999999983" left="110">
+			<e:Image id="maxBet" x="30" y="14.81" source="ayls_bet1_png"/>
+			<e:Label text="X" x="88.5" y="27.97" anchorOffsetX="0" width="26.5" textColor="0xFF7C06"/>
+			<e:Label id="beishu" text="1" x="115" y="27.96" textColor="0xFF7C06"/>
+			<e:Label text="最大押注" x="44" y="76.64" textColor="0xB5AFAF" size="24"/>
+			</e:Group>
+			<e:Group width="200" height="105.33" anchorOffsetY="0" bottom="3.3299999999999983" left="327">
+			<e:Label id="playerGold" text="0" y="22.31" anchorOffsetX="0" width="193" textAlign="center" x="5" height="30"/>
+			<e:Label text="可用分数" y="76.64" textColor="0xB5AFAF" size="24" scaleX="1" scaleY="1" x="52.5"/>
+			</e:Group>
+			<e:Group width="200" height="103" anchorOffsetY="0" horizontalCenter="0" bottom="5.329999999999998">
+			<e:Image source="ayls_score_kuang_png" y="12" horizontalCenter="0"/>
+			<e:Label id="winNum" text="0" y="23" textColor="0xE6AA4A" size="24" anchorOffsetX="0" horizontalCenter="1" width="198" textAlign="center"/>
+			<e:Label text="赢得分数" y="76.64" textColor="0xB5AFAF" size="24" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group width="228" height="107" anchorOffsetY="0" anchorOffsetX="0" bottom="1.3299999999999983" right="248">
+			<e:Button id="subbet" label="" x="12" y="12" name="reduceBtn">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:cbzz="cbzz.*" xmlns:ayls="ayls.*" xmlns:zcjl="zcjl.*">
+					<e:Image width="100%" height="100%" source="ayls_sub1_png" source.down="ayls_sub2_png" source.disabled="ayls_sub3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="addbet" label="" x="177" y="12" name="addbtn">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:cbzz="cbzz.*" xmlns:ayls="ayls.*" xmlns:zcjl="zcjl.*">
+					<e:Image width="100%" height="100%" source="ayls_add1_png" source.down="ayls_add2_png" source.disabled="ayls_add3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="totalBet" text="0.5" x="60.34" y="22.5" anchorOffsetX="0" width="123.33" textAlign="center"/>
+			<e:Label text="总下注" x="75" y="76.64" textColor="0xB5AFAF" size="24"/>
+			</e:Group>
+			<e:Group id="spinGroup" width="200" height="214.67" bottom="-9.670000000000016" anchorOffsetY="0" right="-20">
+			<e:Image id="startBtn" y="-8.02" horizontalCenter="-2" source="wszw_spin_1_png"/>
+			<e:Button id="autoGameBtn" label="" y="164.26" horizontalCenter="0.5" name="autobtn">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:cbzz="cbzz.*" xmlns:ayls="ayls.*" xmlns:zcjl="zcjl.*">
+					<e:Image width="100%" height="100%" source="ayls_aut1_png" source.down="ayls_aut2_png" source.disabled="ayls_aut3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:BitmapLabel id="timesLabel" width="110" y="18" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-2" text="12" textAlign="center" touchEnabled="false" font="bscs_autotimes_fnt" visible="false"/>
+			</e:Group>
+			<e:Group id="betTtipsGroup0" bottom="104.32999999999998" right="250" visible="false">
+			<e:Image scaleX="1" scaleY="1" source="dntg_bet_max_tip_png"/>
+			<e:Label id="maxWinLabel0" text="" anchorOffsetX="0" left="0" width="235" anchorOffsetY="0" height="30" textAlign="center" verticalAlign="middle" size="20" textColor="0x000000" verticalCenter="-6.5"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="testGroup" width="1002.55" height="81.82" anchorOffsetX="0" y="16.91" anchorOffsetY="0" horizontalCenter="10.5" x="149" scaleX="1" scaleY="1" visible="false">
+			<e:EditableText id="pscen1" width="155" height="37" text="0" x="973.39" y="8.5" anchorOffsetY="0" anchorOffsetX="0" backgroundColor="0xFFFFFF" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0xFFFFFF" borderColor="0xFFFFFF" promptColor="0xFFFFFF" strokeColor="0xFFFFFF" visible="false"/>
+			<e:Button id="startBtn0" label="" anchorOffsetY="0" horizontalCenter="568.225" verticalCenter="92" x="1016" y="360" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:cbzz="cbzz.*" xmlns:sdmn="sdmn.*" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:ayls="ayls.*" xmlns:zcjl="zcjl.*">
+				<e:Image width="100%" height="100%" source="dntg_scene1_btn_start_png" source.down="dntg_scene1_btn_stop_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:EditableText id="spinresult" width="577" height="42" text="1,0,3,0,1:2,0,3,0,1:3,0,2,0,1" x="336" y="11.5" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" strokeColor="0xFFFFFF" textColor="0x000000"/>
+			<e:Label id="lable1" text="spinResult" x="164.5" y="14.5" scaleX="1" scaleY="1"/>
+			<e:Label id="lable2" text="spintype" x="842.28" y="8.5" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="quitBtn" label="" left="0" top="80" x="2" y="102" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:bskg="bskg.*" xmlns:rdsg="rdsg.*" xmlns:gdzw="gdzw.*" xmlns:ceby="ceby.*" xmlns:zcjl="zcjl.*">
+			<e:Image width="100%" height="100%" source="slot_back_btn1_png" source.down="slot_back_btn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:sdmn="sdmn.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

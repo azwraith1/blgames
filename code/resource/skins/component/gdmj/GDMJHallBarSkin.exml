@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GDMJHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="286" height="419">
+	<e:Group id="dbGroup" touchChildren="false" touchEnabled="false" touchThrough="false" horizontalCenter="0" verticalCenter="0"/>
+	<e:BitmapLabel id="dizhuLabel" x="69" y="330" text="dz:0" letterSpacing="-4" width="151.5" height="23" textAlign="center" anchorOffsetX="0" font="gdmj_dz_fnt"/>
+	<e:Label id="zhunruLabel" text="0" x="76" y="360.5" size="24" textColor="0xffe198" anchorOffsetX="0" width="137.5" textAlign="center"/>
+	<e:Label id="maLabel" text="一匹马" y="295.5" size="20" anchorOffsetX="0" width="137.5" textAlign="center" x="74" textColor="0x721902"/>
+</e:Skin>

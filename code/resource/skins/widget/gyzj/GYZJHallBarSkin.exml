@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GYZJHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dzmj_scene_db1_png" width="288" height="436" visible="false"/>
+	<e:Group id="dbGroup" touchChildren="false" touchEnabled="false" touchThrough="false" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="titleImage" source="dzmj_scene_tip1_png" y="272" horizontalCenter="0" visible="false"/>
+
+
+
+	<e:Label id="zhunRuLable" text="Labeldfasffds" y="326" size="24" bold="true" horizontalCenter="0.5" textColor="0xe8cb99" fontFamily="SimHei"/>
+	<e:Label id="diZhuTxt" text="底注：1233" size="22" horizontalCenter="1" top="66" fontFamily="SimHei" textColor="0xfff1df"/>
+	<e:Rect id="touchRect5" width="260" height="410.33" y="46.67" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" horizontalCenter="0"/>
+
+</e:Skin>

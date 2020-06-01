@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GYZJOverItemRenderSkin" width="280" height="25" xmlns:e="http://ns.egret.com/eui">
+    <e:Image id="lineImage" horizontalCenter="0" bottom="0"  source="gyzj_over_line_2_png"/>
+    <e:Label id="label1" text="本家" size="20" textColor="0x8fe8ee" y="1.25" left="30" />
+    <e:Label id="label2" text="对方的" size="20" textColor="0x8FE8EE" y="1.25"  x="91"/>
+    <e:Label id="label3" text="" size="20" textColor="0x8FE8EE" y="1.25" right="30" />
+</e:Skin>

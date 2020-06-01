@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HNMJHallBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="291" height="435">
+	<e:Group id="dbGroup" width="291" height="435" horizontalCenter="0">
+	</e:Group>
+
+
+
+
+	<e:Group id="contentGroup" width="291" y="285" height="67" x="0">
+		<e:Image source="hnmj_hall_dz_bar_png" y="-3" x="44" scaleX="1" scaleY="1"/>
+		<e:Image source="hnmj_hall_dz_png" x="77.5" y="5.480000000000018" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="dizhuLabel" x="129.5" y="8.980000000000018" text="606060" letterSpacing="-4" width="94" height="23" anchorOffsetX="0" font="hnmj_hall_xc_fnt" textAlign="center" scaleX="1" scaleY="1"/>
+		<e:Label id="zhunruLabel" text="0" x="135.5" y="42.14999999999998" size="24" anchorOffsetX="0" width="88.5" textAlign="center" textColor="0xffffff" scaleX="1" scaleY="1"/>
+		<e:Label text="准入:" x="77.5" y="41.14999999999998" size="24" anchorOffsetX="0" textAlign="left" textColor="0xFFFFFF" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

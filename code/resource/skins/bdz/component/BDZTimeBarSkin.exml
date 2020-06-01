@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BDZTimeBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="11" width="209">
+	<e:Image source="bdz_timebar3_png" x="0" y="0"/>
+	<e:Image source="bdz_timebar2_png" x="1" y="1"/>
+	<e:Group id="dbGroup" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="progressBar" source="bdz_timebar1_png" x="1.63" y="2" anchorOffsetX="0" width="205"/>
+	<e:Image id="pointImage" source="bdz_timebar4_png" x="207.64" y="3.17" anchorOffsetX="13" anchorOffsetY="18.5"/>
+</e:Skin>

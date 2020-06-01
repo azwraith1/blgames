@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubGainPanelSkinKR" width="1280" height="720" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0.7" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Group anchorOffsetX="0" height="623" width="1005" verticalCenter="21.5" horizontalCenter="23.5">
+			<e:Group x="0" y="4" scaleX="1" scaleY="1">
+				<e:Image source="club_mem_kuang_png" x="0"/>
+				<e:Image source="club_gain_pk_right_png" x="698" y="38"/>
+				<e:Image source="club_pk_png" x="219" y="37"/>
+				<e:Image x="448" y="17" source="club_gain_zj_kr_png"/>
+				<e:Image id="listBg" source="clug_gain_listbg_png" x="253" y="171"/>
+				<e:Group id="inComeGroup" x="313" y="575">
+					<e:Label text="lan:112||:" x="0" y="4.12" size="22" fontFamily="SimHei" textColor="0xff812d"/>
+					<e:Label text="lan:113||:" x="304.18" y="5.03" size="22" fontFamily="SimHei" textColor="0xFF812D"/>
+					<e:BitmapLabel id="clubIncomeTxt"   x="129.36" y="7.57" anchorOffsetX="0" anchorOffsetY="0" font="club_win_fnt" text="" letterSpacing="-7"/>
+					<e:BitmapLabel id="clubIncomeTotalTxt"  x="467.35" y="6.99" anchorOffsetX="0" anchorOffsetY="0" font="club_win_fnt" text="" letterSpacing="-7"/>
+				</e:Group>
+			</e:Group>
+				<e:Scroller id="scroller" width="691" height="370.52" y="184.48" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="105">
+					<e:List id="list"/>
+
+			</e:Scroller>
+			<e:Scroller width="232" height="405.73" y="172" x="16" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+				<e:Group id="tabItemGroup" anchorOffsetX="0" width="232" anchorOffsetY="0" height="408.76">
+					<e:layout>
+						<e:VerticalLayout gap="13.5"/>
+					</e:layout>
+	
+				</e:Group>
+			</e:Scroller>
+
+			<e:Group id="touchBtnGroup" x="362" y="112" rotation="359.56" anchorOffsetX="0" width="433.38" anchorOffsetY="0" height="72.72" scaleX="1" scaleY="1">
+				<e:Image source="clug_record_di_png" x="0.04" y="-4" scaleX="1" scaleY="1" width="421"/>
+				<e:Button id="personBtn" label="" x="-1.58" y="0.01">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="club_gain_personbtn_off_kr_png" source.down="club_gain_personbtn_on_kr_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="clubBtn" label="" x="205.16" y="0.04">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="club_gain_clubbtn_off_kr_png" source.down="club_gain_clubbtn_on_kr_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Button id="closeBtn" label="" right="11" verticalCenter="-248.5" x="921" y="16" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_gain_closebtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		
+	
+	</e:Group>
+</e:Skin>

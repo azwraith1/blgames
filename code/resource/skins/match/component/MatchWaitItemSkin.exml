@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchWaitItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="520" height="39">
+	<e:Image source="m_wait_img_2_png" y="0.4" x="210.6"/>
+	<e:Image id="rankImage" source="m_wait_1_png" x="13.8" y="1"/>
+	<e:Label id="contentLabel" text="0元" x="212.2" y="4.4" textColor="0xdc6e44" fontFamily="SimHei" anchorOffsetX="0" width="266.6" textAlign="center"/>
+	<e:Label id="rankLabel" text="第一名:" x="15.8" textColor="0xdc6e44" textAlign="right" anchorOffsetX="0" width="164.8" fontFamily="SimHei" size="28" y="6"/>
+</e:Skin>

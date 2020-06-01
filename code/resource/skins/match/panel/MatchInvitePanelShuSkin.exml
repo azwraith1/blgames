@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchInvitePanelShuSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="720" height="1280" x="0" y="0">
+		<e:Rect left="0" top="0" right="0" bottom="0" alpha="0.2"/>
+		<e:Group id="scaleGroup" verticalCenter="0" scaleX="0.8" scaleY="0.8" horizontalCenter="0" width="874" height="720">
+			<e:Image id="guangImage" source="invate_guang_png" horizontalCenter="0" verticalCenter="0" anchorOffsetX="403.5" anchorOffsetY="360"/>
+			<e:Image source="invate_bg_png" x="-33.75"/>
+			<e:Button id="closeBtn" label="" x="747.75" y="79">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="invate_close_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="enterBtn" label="" y="506" x="317">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="invate_enter_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

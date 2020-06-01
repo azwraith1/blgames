@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainHallSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="main_hall_bg_png"/>
+
+
+
+
+		<e:Group id="lineGroupDB" scaleX="1" scaleY="1" horizontalCenter="0" width="0" top="360" bottom="360"/>
+		<!--<e:Image source="bole_logo_png" top="14" right="480"/>-->
+
+		<e:Scroller id="gameScroller" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" bounces="false" height="499" verticalCenter="14.5" left="44" right="186" width="1025">
+			<e:Group id="gameGroup" width="807.7" anchorOffsetX="0" height="485" x="380.3" y="1.52" anchorOffsetY="0">
+
+			</e:Group>
+		</e:Scroller>
+		<e:Image y="0" source="main_hall_bg_left_png" left="0"/>
+		<e:Image right="0" source="main_hall_bg2_png"/>
+
+
+		<e:Group id="topGroup" top="0" left="0" right="0">
+
+			<e:Image source="main_hall_img_14_png" left="0" right="0" top="0"/>
+			<e:Button id="backHomeBtn" label="" left="19" top="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="main_hall_btn_exit_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group id="playerGroup" width="358.67" height="72" anchorOffsetY="0" anchorOffsetX="0" left="111" top="0">
+
+				<e:Image x="2.67" y="0.67" source="main_hall_img_15_png" scaleX="1"/>
+				<e:Image id="headerMask" x="5" y="4" width="68" height="66.22" source="main_hall_img_16_png" scaleX="0.9" scaleY="0.9" anchorOffsetY="0" anchorOffsetX="0"/>
+			<e:Image id="headerImage" x="5.65" y="3.98" source="hall_header_2_1_png" scaleX="0.58" scaleY="0.58"/>
+
+
+
+			<e:Label id="nameLabel" text="Label" x="91" y="23.83" size="20" fontFamily="Microsoft YaHei" textColor="0xe1cdcc"/>
+
+				<e:Group x="226.47" y="12.17">
+					<e:Image source="main_hall_img_9_png" x="26.6" y="2.66"/>
+					<e:Image source="main_hall_img_8_png" x="18.29" y="1.84"/>
+					<e:Group id="coinDB" x="39.44" y="20.28"/>
+
+					<e:Label id="goldLabel111" text="0000000" size="25" anchorOffsetX="0" width="191" textColor="0xf0dd41" textAlign="center" x="33.5" y="7.5" visible="false"/>
+					<e:Button id="rechargeBtn" label="" x="215.19" y="2.51">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="main_hall_img_7_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+					<e:BitmapLabel id="goldLabel"  y="9.83" font="main_hall_coin_fnt" text="585858" left="71"/>
+				</e:Group>
+			<e:Button id="headerBtn" label="" x="2.67" y="0.67" anchorOffsetX="0" width="71" anchorOffsetY="0" height="67" alpha="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_hall_img_15_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+
+			</e:Group>
+			<e:Image id="logoImage" horizontalCenter="91" top="15" scaleX="0.8" scaleY="0.8" source=""/>
+
+
+		</e:Group>
+
+		<e:Group id="personGroup" right="-1000" touchChildren="false" touchEnabled="false" touchThrough="true" verticalCenter="430"/>
+		<e:Image source="hall_tab_db_png" bottom="0" left="0" right="0"/>
+		<e:Image source="main_hall_btn_set_bg_png" bottom="5" left="29"/>
+		<e:Group id="btnGroup" bottom="0" height="88" left="0">
+			<e:Button id="settingBtn" label="" scaleX="1" scaleY="1" x="58.62" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="main_hall_btn_set_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="tabGroup" bottom="-4" right="94" width="986" height="81">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+			<ns1:GameMainHallTabItem x="8" y="25" skinName="GameMainTabItemSkin"/>
+			<ns1:GameMainHallTabItem x="18" y="35" skinName="GameMainTabItemSkin"/>
+			<ns1:GameMainHallTabItem x="28" y="45" skinName="GameMainTabItemSkin"/>
+			<ns1:GameMainHallTabItem x="38" y="55" skinName="GameMainTabItemSkin"/>
+		</e:Group>
+
+		<e:Button id="fullScreenBtn" label="" right="78" top="9">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="main_hall_img_11_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="images1" width="188" height="231" x="46" y="277" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+		<e:Group id="ycGroup" anchorOffsetX="0" anchorOffsetY="0" right="10" top="15"/>
+	</e:Group>
+	<w:Config id="1719c2cc3ab"/>
+</e:Skin>

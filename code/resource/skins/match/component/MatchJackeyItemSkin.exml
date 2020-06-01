@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchJackeyItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="dbImage" source="match_jackey_type_4_png"/>
+	<e:Image id="selectImage" source="match_jackey_type_bg_png" horizontalCenter="0" top="-3" visible="false"/>
+	<e:Image id="pointImage" source="match_jackey_select_png" y="319" x="122"/>
+	<e:BitmapLabel id="winLabel" y="131" font="match_jackey1_fnt" text="100000" letterSpacing="-4" horizontalCenter="0" width="250" textAlign="center"/>
+	<e:BitmapLabel id="needLabel" y="231.5" text="100000" letterSpacing="-4" horizontalCenter="43.5" textAlign="center" font="match_jackey2_fnt" width="110"/>
+	<e:Image id="touchRect" width="241" height="352" x="13" y="5" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

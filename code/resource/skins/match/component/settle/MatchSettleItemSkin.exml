@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchSettleItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="label1" text="" x="0" y="0" size="26" textColor="0xfbf5db" textAlign="left" stroke="1" strokeColor="0x92430b" width="345" height="26"/>
+	<e:Label id="label2" text="" y="0" size="26" textColor="0xFBF5DB" textAlign="right" stroke="1" strokeColor="0x92430B" width="345" right="0" height="26"/>
+</e:Skin>

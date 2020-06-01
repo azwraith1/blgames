@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WSZWAutoGameSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" x="0" height="720" y="0">
+		<e:Rect alpha="1" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" width="1280" x="0" y="0" fillAlpha="0.4"/>
+		<e:Group scaleX="1" scaleY="1" bottom="0" left="0" right="0" top="0">
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" source="wszw_auto_bg_png" y="68"/>
+			<e:Image source="wszw_auto_logobg_png" y="60" horizontalCenter="0"/>
+		<e:Image y="71.65" source="wszw_auto_logo_png" horizontalCenter="0"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="54" y="182" horizontalCenter="0">
+			<e:Button id="auto_5" label="" horizontalCenter="-339" y="-4">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="wszw_auto_5_png" source.down="wszw_auto_5_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_10" label="" horizontalCenter="-201" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="wszw_auto_10_png" source.down="wszw_auto_10_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_25" label="" horizontalCenter="-61" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="wszw_auto_25_png" source.down="wszw_auto_25_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_50" label="" horizontalCenter="76" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="wszw_auto_50_png" source.down="wszw_auto_50_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_100" label="" horizontalCenter="215" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="wszw_auto_100_png" source.down="wszw_auto_100_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_wuqiong" label="" horizontalCenter="353" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="wszw_auto_8_png" source.down="wszw_auto_8_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Image id="close_btn" top="160" y="89" scaleX="1" scaleY="1" source="wszw_auto_close_png" horizontalCenter="481"/>
+		<e:Group y="294.01" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="15.5" x="149" scaleX="1" scaleY="1" width="795">
+			<e:HSlider id="oneMax" width="250" x="244" y="13.09" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="28" skinName="WSZWHsliderSkin"/>
+			<e:HSlider id="totalAdd" width="250" height="28" x="244" y="71.87" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="WSZWHsliderSkin"/>
+			<e:HSlider id="totalWin" width="250" height="28" x="244" y="132" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="WSZWHsliderSkin"/>
+			<e:BitmapLabel id="max_num" text="000.00" x="660" y="14.67" anchorOffsetX="0" width="151.83" anchorOffsetY="0" height="27.33" scaleX="1" scaleY="1" textAlign="left" verticalAlign="middle" letterSpacing="-5" font="wszw_auto_num_fnt"/>
+			<e:BitmapLabel id="totalAdd_num" text="000000.0" x="663" y="74.81" anchorOffsetX="0" width="147.33" anchorOffsetY="0" height="27.33" textAlign="left" scaleX="1" scaleY="1" verticalAlign="middle" letterSpacing="-5" font="wszw_auto_num_fnt"/>
+			<e:BitmapLabel id="totalWin_num" text="00000" x="663" y="134.97" anchorOffsetX="0" width="154.66" anchorOffsetY="0" height="27.33" textAlign="left" scaleX="1" scaleY="1" verticalAlign="middle" letterSpacing="-5" font="wszw_auto_num_fnt"/>
+			<e:Image y="69.87" x="-13" source="wszw_auto_text3_png"/>
+			<e:Image y="127" x="-13" source="wszw_auto_text2_png"/>
+			<e:Image y="12.38" rotation="0" x="-45" scaleX="1" scaleY="1" source="wszw_auto_text1_png"/>
+		</e:Group>
+		<e:Button id="start_auto_play" label="" y="539.38" scaleX="1" scaleY="1" horizontalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="wszw_auto_start_png" source.down="wszw_auto_start_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+{"file":"luck7_wingold.png","frames":{
+".":{"x":119,"y":139,"w":57,"h":24,"offX":0,"offY":42,"sourceW":58,"sourceH":67},
+"0":{"x":60,"y":139,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67},
+"1":{"x":60,"y":1,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67},
+"2":{"x":119,"y":70,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67},
+"3":{"x":1,"y":70,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67},
+"4":{"x":60,"y":70,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67},
+"5":{"x":178,"y":1,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67},
+"6":{"x":178,"y":70,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67},
+"7":{"x":119,"y":1,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67},
+"8":{"x":1,"y":1,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67},
+"9":{"x":1,"y":139,"w":57,"h":67,"offX":0,"offY":0,"sourceW":58,"sourceH":67}}}

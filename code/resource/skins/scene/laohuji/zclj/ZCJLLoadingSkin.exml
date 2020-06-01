@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZCJLLoadingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="zcjl_loading_bg_jpg"/>
+		<e:Image source="zcjl_loading_bg6_png" y="199" horizontalCenter="50.5"/>
+		<e:Image source="zcjl_loading_bg4_png" y="125" horizontalCenter="272.5"/>
+		<e:Image source="zcjl_loading_bg5_png" y="76" horizontalCenter="-351"/>
+		<e:Group id="loadingBarGroup" horizontalCenter="2.5" x="248" scaleX="1" scaleY="1" verticalCenter="261">
+		<e:Image horizontalCenter="0" source="zcjl_loading_bar1_png"/>
+		<e:Image id="processBar" scale9Grid="13,3,704,25" y="0" left="0" source="zcjl_loading_bar2_png" width="0"/>
+			<e:BitmapLabel id="percentLabel" width="104" height="25" x="549" y="-27" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" text="0%" font="zcjl_loading_shuzi_fnt" textAlign="left" letterSpacing="-3"/>
+		</e:Group>
+		<e:Group id="clickGroup" bottom="-2" horizontalCenter="0" visible="false">
+		<e:Image source="cbzz_loading_start_png" horizontalCenter="0" bottom="0"/>
+		<e:Image id="clickStart" source="cbzz_loading_starttext_png" horizontalCenter="0" bottom="12"/>
+		</e:Group>
+		<e:Image y="54" horizontalCenter="0.5" source="zcjl_loading_logo_png"/>
+		<e:Image source="zcjl_loading_txt_png" y="575.65" horizontalCenter="0"/>
+		<e:Image source="zcjl_loading_bg3_png" y="250.34" horizontalCenter="-101"/>
+		<e:Image source="zcjl_loading_bg2_png" y="287.66" horizontalCenter="-100.5"/>
+		<e:Image source="zcjl_loading_bg1_png" y="241.67" horizontalCenter="264.5"/>
+	</e:Group>
+	<e:Button id="quitBtn" label="" top="90" left="0" x="0" y="90" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="slot_back_btn1_png" source.down="slot_back_btn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

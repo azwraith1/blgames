@@ -1,0 +1,13 @@
+{"file":"snyx_free_fnt.png","frames":{
+"0":{"x":33,"y":1,"w":30,"h":44,"offX":2,"offY":0,"sourceW":34,"sourceH":45},
+"1":{"x":55,"y":93,"w":21,"h":43,"offX":2,"offY":1,"sourceW":25,"sourceH":45},
+"2":{"x":29,"y":93,"w":24,"h":44,"offX":2,"offY":0,"sourceW":28,"sourceH":45},
+"3":{"x":1,"y":1,"w":30,"h":45,"offX":2,"offY":0,"sourceW":34,"sourceH":45},
+"4":{"x":91,"y":47,"w":27,"h":44,"offX":2,"offY":0,"sourceW":31,"sourceH":45},
+"5":{"x":62,"y":47,"w":27,"h":44,"offX":2,"offY":0,"sourceW":31,"sourceH":45},
+"6":{"x":65,"y":1,"w":30,"h":44,"offX":2,"offY":0,"sourceW":34,"sourceH":45},
+"7":{"x":1,"y":48,"w":26,"h":44,"offX":2,"offY":0,"sourceW":30,"sourceH":45},
+"8":{"x":33,"y":47,"w":27,"h":44,"offX":2,"offY":0,"sourceW":31,"sourceH":45},
+"9":{"x":97,"y":1,"w":28,"h":44,"offX":2,"offY":0,"sourceW":32,"sourceH":45},
+".":{"x":78,"y":93,"w":12,"h":16,"offX":2,"offY":28,"sourceW":16,"sourceH":45},
+" ":{"x":120,"y":47,"w":5,"h":5,"offX":0,"offY":0,"sourceW":10,"sourceH":45}}}

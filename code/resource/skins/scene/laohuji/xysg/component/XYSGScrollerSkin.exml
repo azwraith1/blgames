@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XYSGScrollerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:xysg="xysg.*" height="474">
+	<e:Scroller id="scroller" width="789" horizontalCenter="0" verticalCenter="0" height="474">
+		<e:Group id="itemGroup">
+			<xysg:XYSGScrollerItem id="item1" width="256" height="474" y="0"/>
+			<xysg:XYSGScrollerItem id="item2" width="256" height="474" x="265" y="0"/>
+			<xysg:XYSGScrollerItem id="item3" width="256" height="474" x="526" y="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

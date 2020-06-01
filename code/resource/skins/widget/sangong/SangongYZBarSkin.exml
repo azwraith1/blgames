@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SangongYZBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="btn0" label="" skinName="SangongYZBtnSkin" y="0" x="-1"/>
+	<e:Button id="btn1" label="" skinName="SangongYZBtnSkin" x="113" y="0"/>
+	<e:Button id="btn2" label="" skinName="SangongYZBtnSkin" x="227" y="0"/>
+	<e:Button id="btn3" label="" skinName="SangongYZBtnSkin" x="340" y="0"/>
+	<e:Button id="btn4" label="" skinName="SangongYZBtnSkin" x="453.5"/>
+
+
+
+
+</e:Skin>

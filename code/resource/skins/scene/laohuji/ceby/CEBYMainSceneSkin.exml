@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CEBYMainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ceby="ceby.*">
+	<e:Group id="resizeGroup" height="720" width="1280" x="0" y="0">
+		<ceby:CEBYScene1 id="scene1" left="0" right="0" top="0" bottom="0" skinName="CEBYScene1Skin" />
+		<ceby:CEBYScene3 id="scene3" left="0" right="0" top="-994" bottom="994" skinName="CEBYScene3Skin" visible="false" />
+		<ceby:CEBYScene2 id="scene2" skinName="CEBYScene2Skin" left="0" right="0" top="-274" bottom="720" />
+	</e:Group>
+</e:Skin>

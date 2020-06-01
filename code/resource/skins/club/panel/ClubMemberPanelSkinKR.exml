@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<e:Skin class="ClubMemberPanelSkinKR" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<e:Group id="resizeGroup" width="1280" height="720">
+		<e:Rect id="rects" fillColor="0x000000" fillAlpha="0.7" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Group verticalCenter="0" horizontalCenter="0.5">
+			<e:Group x="0" y="0">
+				<e:Image source="club_mem_kuang_png" x="0" y="0"/>
+				<e:Image source="club_gain_pk_right_png" x="683.92" y="24.43"/>
+				<e:Image source="club_pk_png" x="204.92" y="23.43"/>
+				<e:Image x="356" y="13" source="club_mem_toptxt_kr_png"/>
+			</e:Group>
+			<e:Group width="953" height="522" anchorOffsetX="0" anchorOffsetY="0" x="14" y="83">
+
+				<e:Group id="btnGroup" x="-3.99" y="10.28" anchorOffsetY="0" height="330">
+					<e:layout>
+						<e:VerticalLayout gap="0"/>
+					</e:layout>
+
+
+
+				</e:Group>
+				<e:Group x="242" y="21" anchorOffsetX="0" width="712" anchorOffsetY="0" height="489.39">
+				<e:Image id="clubListBg" source="club_mem_list_kuang_png" x="0" y="-8" scaleX="1" scaleY="1"/>
+				<ns1:ClubMemberGroup id="content1" width="694" height="500" y="0" horizontalCenter="0" skinName="ClubMemberListGroupSkinKR"/>
+				<ns1:ClubMemberGroup id="content2" width="400" height="400" x="0" y="0" skinName="ClubMemberCheckGroupSkin" visible="false"/>
+				<ns1:ClubMemberGroup id="content3" width="400" height="400" x="0" y="0" skinName="ClubMemberManageGroupSkin" visible="false"/>
+				</e:Group>
+				<e:Button id="closeBtn" label="" right="-30" x="902" scaleX="1" scaleY="1" top="-73">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_mem_closebtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GDMJOverItemRendererSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="280" height="25">
+	<e:Image id="lineImage" source="gdmj_over_line_2_png" horizontalCenter="0" bottom="0"/>
+	<e:Label id="label1" text="" size="20" textColor="0x8fe8ee" y="1.25" left="30"/>
+	<e:Label id="label2" text="" size="20" textColor="0x8FE8EE" y="1.25" horizontalCenter="0"/>
+	<e:Label id="label3" text="" size="20" textColor="0x8FE8EE" y="1.25" right="30"/>
+</e:Skin>

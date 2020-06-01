@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="clubButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source.down="rbw_help_xz_png" source="club_mem_np_png"/>
+	<e:Label text="玩家" horizontalCenter="0.5" verticalCenter="-5"/>
+
+</e:Skin>

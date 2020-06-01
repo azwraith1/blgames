@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchWaitPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" height="720" x="0" y="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="match_wait_bg_jpg" locked="true"/>
+		<e:Image source="match_wait_mask_png" top="0" left="0" bottom="0" right="0" scale9Grid="19,11,114,73" locked="true"/>
+		<e:Image source="m_wait_img_4_png" left="0" top="0" right="0" bottom="0" locked="true"/>
+		<e:Label id="tipLabel1" text="请耐心等待,距比赛开始还有" size="40" textColor="0x4bb30c" bottom="134" bold="true" fontFamily="SimHei" horizontalCenter="0"/>
+		<e:Label id="titleLabel" text="赛事名称" size="58" bold="true" fontFamily="SimHei" top="81" horizontalCenter="0" textColor="0xf6e682" stroke="1" strokeColor="0xec7244"/>
+		<e:Label id="timeLabel" text="00:00" size="40" textColor="0x4BB30C" bottom="65" horizontalCenter="1" fontFamily="SimHei" width="200" textAlign="center" height="40" anchorOffsetX="100" anchorOffsetY="20"/>
+		<e:Button id="backBtn" label="" left="29" top="22">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_fh_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="tipGroup" horizontalCenter="0" top="160">
+			<e:Image source="m_wait_img_1_png" y="0" anchorOffsetX="0" width="800" scale9Grid="124,2,8,44" x="0" scaleX="1" scaleY="1"/>
+			<e:Label id="textLabel" text="当前进入比赛人数      人,还需     人即可开赛" size="32" bold="true" fontFamily="SimHei" strokeColor="0xEC7244" scaleX="1" scaleY="1" y="8" horizontalCenter="0.5" textColor="0xe7d6b5"/>
+			<e:Label id="totalLabel" text="0" y="8" size="32" textColor="0x67c62e" anchorOffsetX="0" width="94" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="-47" visible="false"/>
+			<e:Label id="needLabel" text="0" y="8" size="32" textColor="0x67C62E" anchorOffsetX="0" width="83" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="155.5" visible="false"/>
+		</e:Group>
+		<e:Image source="m_wait_img_3_png" horizontalCenter="0" verticalCenter="18"/>
+		<e:Scroller id="scroller" width="520" height="218" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="24" horizontalCenter="0">
+			<e:Group id="contentGroup" y="1" x="0" anchorOffsetY="0" height="218">
+				<e:layout>
+					<e:VerticalLayout gap="20"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

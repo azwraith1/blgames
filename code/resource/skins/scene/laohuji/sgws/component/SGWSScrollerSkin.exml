@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SGWSScrollerSkin" width="770" height="453" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:sgws="sgws.*">
+	<e:Scroller id="scroller" width="770" height="453" x="0">
+		<e:Group id="itemGroup">
+		<sgws:SGWSScrollerItem id="item1" width="142" height="453" x="0" y="0"/>
+		<sgws:SGWSScrollerItem id="item2" width="142" height="453" x="157" y="0" scaleX="1" scaleY="1"/>
+		<sgws:SGWSScrollerItem id="item3" width="142" height="453" x="314" y="0" scaleX="1" scaleY="1"/>
+		<sgws:SGWSScrollerItem id="item4" width="142" height="453" x="471" scaleX="1" scaleY="1"/>
+		<sgws:SGWSScrollerItem id="item5" width="142" height="453" x="628" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Rect id="itemrect1" width="142" height="453" x="0" y="0" fillAlpha="0.5" visible="false"/>
+	<e:Rect id="itemrect2" width="142" height="453" x="157" y="0" fillAlpha="0.5" visible="false"/>
+	<e:Rect id="itemrect3" width="142" height="453" x="314" y="0" fillAlpha="0.5" visible="false"/>
+	<e:Rect id="itemrect4" width="142" height="453" x="471" y="0" fillAlpha="0.5" visible="false"/>
+	<e:Rect id="itemrect5" width="142" height="453" x="628" y="0" fillAlpha="0.5" scaleX="1" scaleY="1" visible="false"/>
+</e:Skin>

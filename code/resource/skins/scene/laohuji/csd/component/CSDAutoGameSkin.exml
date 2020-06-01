@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CSDAutoGameSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" x="0" height="720" y="0">
+		<e:Rect alpha="1" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" width="1280" x="0" y="0" fillAlpha="0.4"/>
+		<e:Group scaleX="1" scaleY="1" bottom="0" left="0" right="0" top="0">
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" source="csy_auto_bg_png" y="40.73"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="54" y="156.73" horizontalCenter="41">
+			<e:Button id="auto_5" label="" horizontalCenter="-339" y="-4">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="csy_auto_5_1_png" source.down="csy_auto_5_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_10" label="" horizontalCenter="-201" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="csy_auto_10_2_png" source.down="csy_auto_10_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_25" label="" horizontalCenter="-61" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="csy_auto_25_2_png" source.down="csy_auto_25_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_50" label="" horizontalCenter="76" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="csy_auto_50_2_png" source.down="csy_auto_50_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_100" label="" horizontalCenter="215" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="csy_auto_100_2_png" source.down="csy_auto_100_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_wuqiong" label="" horizontalCenter="353" verticalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="csy_auto_8_2_png" source.down="csy_auto_8_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Image id="close_btn" top="62" y="89" scaleX="1" scaleY="1" horizontalCenter="461" source="csy_auto_close_png"/>
+		<e:Group y="268.74" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="15.5" x="149" scaleX="1" scaleY="1" width="795" height="194">
+			<e:HSlider id="oneMax" width="250" x="258" y="15.09" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="28" skinName="CSDHSliderSkin"/>
+			<e:HSlider id="totalAdd" width="250" height="28" x="258" y="78.87" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="CSDHSliderSkin"/>
+			<e:HSlider id="totalWin" width="250" height="28" x="258" y="140" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="CSDHSliderSkin"/>
+			<e:BitmapLabel id="max_num" text="00000" x="714.35" y="13.67" anchorOffsetX="0" width="151.83" anchorOffsetY="0" height="27.33" scaleX="1" scaleY="1" textAlign="left" verticalAlign="middle" letterSpacing="-5" font="csy_autosetfnt_fnt"/>
+			<e:BitmapLabel id="totalAdd_num" text="000000.0" x="715" y="77.81" anchorOffsetX="0" width="147.33" anchorOffsetY="0" height="27.33" textAlign="left" scaleX="1" scaleY="1" verticalAlign="middle" letterSpacing="-5" font="csy_autosetfnt_fnt"/>
+			<e:BitmapLabel id="totalWin_num" text="00000" x="717" y="139.97" anchorOffsetX="0" width="154.66" anchorOffsetY="0" height="27.33" textAlign="left" scaleX="1" scaleY="1" verticalAlign="middle" letterSpacing="-5" font="csy_autosetfnt_fnt"/>
+			<e:Image y="77.85" x="-19" source="csy_auto_text2_png"/>
+			<e:Image y="141.63" x="-18" source="csy_auto_text3_png"/>
+			<e:Image y="12.38" rotation="0" x="-38.5" scaleX="1" scaleY="1" source="csy_auto_text1_png"/>
+		</e:Group>
+		<e:Button id="start_auto_play" label="" y="514.11" scaleX="1" scaleY="1" horizontalCenter="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="csy_auto_startbtn_png" source.down="csy_auto_startbtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

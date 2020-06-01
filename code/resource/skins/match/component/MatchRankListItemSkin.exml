@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchRankListItemSkin" width="955" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="69">
+	<e:Image id="dbImage" source="match_rank_db1_png" x="0" y="0" scale9Grid="16,15,96,35" width="955"/>
+	<e:Image id="rankImage" source="match_rank_icon1_png" x="61.67" y="2"/>
+	<e:Image source="match_rank_header_png" x="340.34" y="3.6"/>
+	<e:Image id="headerImage" x="345.34" y="7.5" width="53" height="53" source="common_header_json.hall_header_2_5_png"/>
+	<e:Label id="nameLabel" text="Label" x="419.67" y="20.5" textColor="0x8e3a05" size="28"/>
+	<e:Label id="rankLabel" text="1000" x="27.53" y="21.1" textColor="0x8E3A05" size="34" anchorOffsetX="0" width="123.67" textAlign="center"/>
+	<e:Label id="scoreLabel" text="0" x="754.35" y="20" size="28" anchorOffsetX="0" width="199" textAlign="center" textColor="0xdc6344" stroke="1" strokeColor="0xfffdf3"/>
+	<e:Image id="ttImage" source="match_rank_tt_png" x="169.2" y="6.6"/>
+</e:Skin>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AYLSScene3Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" left="0" right="0" top="0" bottom="0">
+		<e:Image source="ayls_freegame_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="gameGroup" left="0" right="0" top="0" bottom="0">
+		<ayls:AYLSScroller id="scroller" xmlns:ayls="ayls.*" width="855" height="429" scaleX="1" scaleY="1" horizontalCenter="5.5" verticalCenter="3.5"/>
+		<e:Group id="winLineGroup" width="854.66" height="425.33" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="5.5" x="218" scaleX="1" scaleY="1" verticalCenter="8.5"/>
+		<e:Image source="ayls_scroller_kuang_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Group id="bottomGroup" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0">
+			<e:Image source="aysl_freegame_di_png" scaleX="1" scaleY="1"/>
+			<e:Image source="ayls_freetime_text_png" horizontalCenter="-232.5" bottom="14" x="305" y="47.999999999999886" scaleX="1" scaleY="1"/>
+			<e:Image source="ayls_freewin_text_png" bottom="14" horizontalCenter="84.5" x="621" y="47.999999999999886" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="freeTimesLabel" width="192.52" height="69.14" x="480.24000000000007" y="44.95999999999992" anchorOffsetX="0" anchorOffsetY="0" font="ayls_wingold_mid_fnt" scaleX="0.7" scaleY="0.7" text="0" letterSpacing="-10" textAlign="center"/>
+			<e:BitmapLabel id="winNumLabel" width="362.42" height="73.24" x="810.3600000000001" y="43.51999999999987" anchorOffsetX="0" anchorOffsetY="0" letterSpacing="-10" textAlign="center" text="0" font="ayls_wingold_mid_fnt" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Image source="ayls_title_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-264.5"/>
+		</e:Group>
+		<e:Group id="effectGroup1" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="totalGroup" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect fillAlpha="0.5" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="ayls_totalwin_kuang_png" horizontalCenter="0.5" verticalCenter="-22"/>
+		<e:Image source="ayls_totalwin_title_png" horizontalCenter="144" verticalCenter="-156.5"/>
+		<e:Image source="ayls_totalwin_2_png" verticalCenter="-90.5" horizontalCenter="143"/>
+		<e:BitmapLabel id="totalwinLable" width="1024.55" height="148.79" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="151" verticalCenter="23" text="" letterSpacing="-10" textAlign="center" font="ayls_bigwin_gold_fnt" scaleX="0.5" scaleY="0.5"/>
+		</e:Group>
+		<e:Group id="freegetFreeGroup" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

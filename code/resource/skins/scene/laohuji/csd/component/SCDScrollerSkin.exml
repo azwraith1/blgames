@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SCDScrollerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:csd="csd.*">
+	<e:Scroller id="scroller" width="774" horizontalCenter="0" verticalCenter="0" height="525">
+		<e:Group id="itemGroup">
+			<csd:CSDScrollerItem id="item1" width="240" height="525" x="0" y="0"/>
+			<csd:CSDScrollerItem id="item2" width="240" height="525" x="267" y="0"/>
+			<csd:CSDScrollerItem id="item3" width="240" height="525" x="534" y="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

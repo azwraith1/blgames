@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlackJHallBarSkinVN" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="606" height="218">
+	<e:Group id="dbGroup" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+	<e:Group id="fenGroup" width="315" height="114" x="265" y="49" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="false">
+		<e:Image id="difenImage" x="36.9" y="16" scaleX="1" scaleY="1" source="blackj_hall_bar_df1_vn_png"/>
+		<e:BitmapLabel id="bottomScore" x="116.80000000000001" y="-8.600000000000001" font="blackj_hall_score4_fnt" text="1000" letterSpacing="-25" textAlign="center" width="200" scaleX="1" scaleY="1"/>
+		<e:Label id="zhunruLabel" text="30000" x="163.8" y="83.5" stroke="2" strokeColor="0x253ca2" size="24" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" width="70"/>
+		<e:Image id="zhunruImage" x="82.3" y="73.5" source="blackj_hall_bar_zr1_vn_png"/>
+	</e:Group>
+</e:Skin>

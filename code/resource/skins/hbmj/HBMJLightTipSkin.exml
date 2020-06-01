@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HBMJLightTipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:majiang="majiang.*" xmlns:w="http://ns.egret.com/wing" width="200" height="150">
+	<e:Button id="tipBtn" label="" y="1" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="hbmj_game_tip_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<majiang:HuTipsScrollerBar id="tipScroller" y="64.56" skinName="HuTipsScrollerBarSkin" horizontalCenter="0.5"/>
+</e:Skin>

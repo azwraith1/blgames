@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubTableDiFenSetSkin" width="186" height="230" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="club_difenbg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Group x="28.5" y="19">
+		<e:TextInput id="chujiTxt" width="132" height="41" x="0" y="0" skinName="ClubTextInputDifenSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:TextInput id="zhongJiTxt" width="132" height="41" x="0" y="46.336666666666666" skinName="ClubTextInputDifenSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:TextInput id="gaoJiTxt" width="132" height="41" x="0" y="93.66333333333333" skinName="ClubTextInputDifenSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:TextInput id="zhiZhunTxt" width="132" height="41" x="0" y="139.5" skinName="ClubTextInputDifenSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XYSGAutoGameSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" width="1280" x="0" height="720" y="0">
+		<e:Rect alpha="1" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" width="1280" x="0" y="0" fillAlpha="0.4"/>
+		<e:Group scaleX="1" scaleY="1" bottom="0" left="0" right="0" top="0">
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" y="40.73" source="xysg_autobg_png"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" y="156.73" horizontalCenter="0">
+			<e:Button id="auto_5" label="" horizontalCenter="-217" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="xysg_auto_5_png" source.down="xysg_auto_5_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_10" label="" horizontalCenter="-79" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="xysg_auto_10_png" source.down="xysg_auto_10_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_25" label="" horizontalCenter="61" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="xysg_auto_25_png" source.down="xysg_auto_25_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_50" label="" horizontalCenter="198" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="xysg_auto_50_png" source.down="xysg_auto_50_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_100" label="" horizontalCenter="-77" y="71.22">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="xysg_auto_100_png" source.down="xysg_auto_100_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto_wuqiong" label="" horizontalCenter="61" y="71.22">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="xysg_auto_8_png" source.down="xysg_auto_8_1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Image id="close_btn" y="94.53" scaleX="1" scaleY="1" horizontalCenter="355.5" source="xysg_auto_close_png"/>
+		<e:Group y="308.74" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="15.5" x="149" scaleX="1" scaleY="1" width="795" height="217">
+			<e:HSlider id="oneMax" width="250" x="255.34" y="30.07" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="28" skinName="XYSGHSliderSkin"/>
+			<e:HSlider id="totalAdd" width="250" height="28" x="255.34" y="93.85" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="XYSGHSliderSkin"/>
+			<e:HSlider id="totalWin" width="250" height="28" x="255.34" y="154.98" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="XYSGHSliderSkin"/>
+			<e:BitmapLabel id="max_num" text="00000" x="649.02" y="30" anchorOffsetX="0" width="151.83" anchorOffsetY="0" height="27.33" scaleX="1" scaleY="1" textAlign="left" verticalAlign="middle" letterSpacing="-15" font="xysg_autoset_fnt_fnt"/>
+			<e:BitmapLabel id="totalAdd_num" text="000000.0" x="647.04" y="94.14" anchorOffsetX="0" width="147.33" anchorOffsetY="0" height="27.33" textAlign="left" scaleX="1" scaleY="1" verticalAlign="middle" letterSpacing="-15" font="xysg_autoset_fnt_fnt"/>
+			<e:BitmapLabel id="totalWin_num" text="00000" x="649.02" y="156.3" anchorOffsetX="0" width="154.66" anchorOffsetY="0" height="27.33" textAlign="left" scaleX="1" scaleY="1" verticalAlign="middle" letterSpacing="-15" font="xysg_autoset_fnt_fnt"/>
+			<e:Image y="94.16" x="14.31" source="xysg_auto_text2_png"/>
+			<e:Image y="157.94" x="15.34" source="xysg_auto_text3_png"/>
+			<e:Image y="28.69" rotation="0" x="0.11" scaleX="1" scaleY="1" source="xysg_auto_text1_png"/>
+		</e:Group>
+		<e:Button id="start_auto_play" label="" y="514.11" scaleX="1" scaleY="1" horizontalCenter="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="xysg_auto_start_png" source.down="xysg_auto_start_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+			<e:Image source="xysg_auto_logo_png" y="42.6" horizontalCenter="0.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

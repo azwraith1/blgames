@@ -1,0 +1,13 @@
+{"file":"luck7_autonum.png","frames":{
+".":{"x":112,"y":30,"w":12,"h":12,"offX":2,"offY":14,"sourceW":16,"sourceH":27},
+"0":{"x":96,"y":1,"w":21,"h":27,"offX":2,"offY":0,"sourceW":25,"sourceH":27},
+"1":{"x":94,"y":30,"w":16,"h":26,"offX":2,"offY":0,"sourceW":20,"sourceH":27},
+"2":{"x":25,"y":30,"w":21,"h":26,"offX":2,"offY":0,"sourceW":25,"sourceH":27},
+"3":{"x":73,"y":1,"w":21,"h":27,"offX":2,"offY":0,"sourceW":25,"sourceH":27},
+"4":{"x":1,"y":30,"w":22,"h":25,"offX":2,"offY":1,"sourceW":26,"sourceH":27},
+"5":{"x":48,"y":30,"w":21,"h":26,"offX":2,"offY":1,"sourceW":25,"sourceH":27},
+"6":{"x":25,"y":1,"w":22,"h":27,"offX":2,"offY":0,"sourceW":26,"sourceH":27},
+"7":{"x":71,"y":30,"w":21,"h":25,"offX":2,"offY":1,"sourceW":25,"sourceH":27},
+"8":{"x":1,"y":1,"w":22,"h":27,"offX":2,"offY":0,"sourceW":26,"sourceH":27},
+"9":{"x":49,"y":1,"w":22,"h":27,"offX":2,"offY":0,"sourceW":26,"sourceH":27},
+" ":{"x":119,"y":1,"w":4,"h":5,"offX":0,"offY":0,"sourceW":4,"sourceH":27}}}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlackJRecordRendererSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="28" width="630">
+	<e:Label id="roomId" text="-22333" anchorOffsetX="0" width="118" anchorOffsetY="0" height="23" size="20"    verticalAlign="middle" textAlign="center" x="0" textColor="0xfbf8d7" verticalCenter="0"/>
+	<e:Label id="roomType" text="Lĩnh vực cao quý" x="96.93" anchorOffsetX="0"  anchorOffsetY="0"  size="20"    verticalAlign="middle" textColor="0xffffff" width="213.4" textAlign="center" verticalCenter="0"/>
+	<e:Label id="roomMoney" text="-80" x="267.04" anchorOffsetX="0" width="128" anchorOffsetY="0" height="23" size="20"    verticalAlign="middle" textAlign="center" textColor="0xffffff" verticalCenter="0"/>
+	<e:Label id="roomTime" text="2018-10-10 23:00:00" anchorOffsetX="0" width="230" anchorOffsetY="0" size="20"    verticalAlign="middle" textAlign="center" height="23" textColor="0xffffff" x="400" verticalCenter="0"/>
+</e:Skin>

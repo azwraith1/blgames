@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlotRankPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="resizeGroup" left="0" right="0" top="0" bottom="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.4"/>
+		<e:Image source="slot_hall_new_panel_bg_png" y="69" horizontalCenter="0"/>
+		<e:Image id="closeBtn" source="slot_hall_new_panel_close_png" horizontalCenter="407" top="88"/>
+		<e:Image source="slot_hall_new_ranktitle_png" y="92.08" horizontalCenter="0"/>
+		<e:Image source="slot_hall_new_randi_png" y="206.8" horizontalCenter="0" anchorOffsetX="0" width="872.24"/>
+		<e:Button id="todayRank" label="" y="156" horizontalCenter="-332">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="slot_hall_new_ranktoday1_png" source.down="slot_hall_new_ranktoday2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="historyRank" label="" y="156" horizontalCenter="-127" currentState="down">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="slot_hall_new_rankhistory_1_png" source.down="slot_hall_new_rankhistory2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="890.91" height="39.39" y="205" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image source="slot_hall_new_rankrank_png" x="83.36" verticalCenter="0"/>
+			<e:Image source="slot_hall_new_rankplayer_png" x="371.89" verticalCenter="0.3049999999999997"/>
+			<e:Image source="slot_hall_new_rankwin_png" x="676" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="rankListGroup" width="875.75" height="306.06" y="255" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Scroller id="rankScroller" width="875.75" height="306.06" y="0" horizontalCenter="0">
+				<e:List id="rankscrollerGroup"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="myGroup" width="871.21" height="59.11" y="569.32" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5">
+			<e:Image id="myRankImag" source="slot_hall_new_rankmyrank_png" left="74" verticalCenter="0" visible="false"/>
+			<e:BitmapLabel id="myrank" width="106.36" height="38.18" anchorOffsetX="0" anchorOffsetY="0" font="slot_hall_new_owngold_fnt" text="" textAlign="center" horizontalCenter="-310" y="10"/>
+			<e:Image id="myHead" horizontalCenter="-124.5" width="54" height="54" y="3"/>
+			<e:Label id="myName" text="" textColor="0xfab58b" size="24" y="18" horizontalCenter="11.5"/>
+			<e:Image source="slot_hall_new_gold_png" horizontalCenter="273.395" y="10"/>
+			<e:Label id="myGold" text="0" anchorOffsetX="0" width="133.09" textColor="0xfab58b" size="24" textAlign="center" y="18" horizontalCenter="290"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

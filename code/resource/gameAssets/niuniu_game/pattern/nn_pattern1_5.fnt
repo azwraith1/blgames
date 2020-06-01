@@ -1,0 +1,8 @@
+{"file":"nn_pattern1_5.png","frames":{
+"牛":{"x":0,"y":0,"w":38,"h":38,"offX":2,"offY":0,"sourceW":42,"sourceH":38},
+"一":{"x":0,"y":38,"w":38,"h":13,"offX":2,"offY":12,"sourceW":42,"sourceH":38},
+"二":{"x":75,"y":35,"w":38,"h":34,"offX":2,"offY":2,"sourceW":42,"sourceH":38},
+"三":{"x":75,"y":0,"w":38,"h":35,"offX":2,"offY":1,"sourceW":42,"sourceH":38},
+"四":{"x":38,"y":36,"w":36,"h":35,"offX":2,"offY":1,"sourceW":40,"sourceH":38},
+"五":{"x":38,"y":0,"w":37,"h":36,"offX":2,"offY":1,"sourceW":41,"sourceH":38},
+" ":{"x":113,"y":0,"w":5,"h":5,"offX":0,"offY":0,"sourceW":12,"sourceH":38}}}

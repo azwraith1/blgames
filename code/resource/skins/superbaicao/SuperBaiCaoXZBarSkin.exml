@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuperBaiCaoXZBarSkin"  xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:smart="smart.*" width="720">
+	<ns1:CoinComponent id="coin1" y="0.25" skinName="SuperBaiCaoCMSkin" x="175"/>
+	<ns1:CoinComponent id="coin2" y="0.25" skinName="SuperBaiCaoCMSkin" x="267"/>
+	<ns1:CoinComponent id="coin3" y="0.25" horizontalCenter="49" skinName="SuperBaiCaoCMSkin"/>
+	<ns1:CoinComponent id="coin4" y="-0.25" horizontalCenter="141" skinName="SuperBaiCaoCMSkin"/>
+	<smart:ButtonNew id="genZhuBtn" label="" x="559.32" y="15.48" skinName="NewButtonSkin">
+	</smart:ButtonNew>
+</e:Skin>

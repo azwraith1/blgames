@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AYLSScrollerSkin" width="855" height="429" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ayls="ayls.*">
+	<e:Scroller id="scroller" width="855" height="429" y="0">
+		<e:Group id="itemGroup">
+			<ayls:AYLSScrollerItem id="item1" width="171" height="429" x="0" y="0"/>
+			<ayls:AYLSScrollerItem id="item2" width="171" height="429" x="171" y="0" scaleX="1" scaleY="1"/>
+			<ayls:AYLSScrollerItem id="item3" width="171" height="429" x="342" y="0"/>
+			<ayls:AYLSScrollerItem id="item4" width="171" height="429" x="513" y="0"/>
+			<ayls:AYLSScrollerItem id="item5" width="171" height="429" x="684" y="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

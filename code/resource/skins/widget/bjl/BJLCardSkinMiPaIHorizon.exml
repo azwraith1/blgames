@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BJLCardSkinMiPaIHorizon" width="435.08" height="552" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="testqq" x="0" y="0" width="438" height="556" anchorOffsetY="0" anchorOffsetX="0" rotation="0">
+		<e:Rect id="mask" width="436.06" height="637.37" x="0" y="-386.32" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Image id="beiImage" width="130" height="185" source="zjh_pai_b_png" y="0" scaleX="2" scaleY="2" anchorOffsetX="0" anchorOffsetY="0" rotation="90" x="415.76"/>
+		<e:Group id="zhengGroup" height="185" y="250.16" scaleX="2.1" scaleY="2.1" anchorOffsetX="0" anchorOffsetY="0" rotation="90" x="415.15">
+			<e:Image id="zhengImg" x="0" scaleX="1" scaleY="1" width="130" height="185" source="zjh_pai_m_png" y="-4.33"/>
+			<e:BitmapLabel id="valueLabel" x="8.99" y="9" text="8" scaleX="0.5" scaleY="0.5" anchorOffsetX="0" font="zjh_poker_blcak_fnt" visible="false"/>
+			<e:Image id="bigColorImg" scaleX="0.5" scaleY="0.5" source="zjh_big_3_png" right="10" bottom="10"/>
+			<e:Image id="smallColorImg" x="8.66" y="53.83" scaleX="0.15" scaleY="0.15" source="zjh_big_3_png" visible="false"/>
+		</e:Group>
+
+
+
+		<e:Rect id="touchRec" width="406.48" height="616.85" x="14.3" y="-366.13" anchorOffsetX="0" anchorOffsetY="0" strokeAlpha="0" fillAlpha="0"/>
+
+
+	</e:Group>
+</e:Skin>

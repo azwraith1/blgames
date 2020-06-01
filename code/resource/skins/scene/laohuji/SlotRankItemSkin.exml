@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlotRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="1,2,3,4" >
+	<e:Image source="slot_hall_new_rank_itemdi1_png" horizontalCenter="0" verticalCenter="0" source.2="slot_hall_new_rank_itemdi2_png" source.3="slot_hall_new_rank_itemdi3_png" source.4="slot_hall_new_rank_itemdi4_png"/>
+	<e:Image id="userHead" width="54" height="54" y="4" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-124.5"/>
+	<e:Label id="userName" text="李梦禅" anchorOffsetX="0" width="190" textColor="0xfffb66" size="24" horizontalCenter="11.5" y="18"/>
+	<e:Label id="userGold" text="-100" anchorOffsetX="0" width="177" anchorOffsetY="0" height="28" horizontalCenter="290" y="16" size="26" textColor="0xfec500"/>
+	<e:BitmapLabel id="userRank" width="83" height="35" includeIn="4" anchorOffsetX="0" anchorOffsetY="0" text="12" font="slot_hall_new_owngold_fnt" horizontalCenter="-310" textAlign="center" y="13"/>
+</e:Skin>

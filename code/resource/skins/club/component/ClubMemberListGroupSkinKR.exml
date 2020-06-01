@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMemberListGroupSkinKR" width="694" height="500" xmlns:e="http://ns.egret.com/eui"  xmlns:ns1="*">
+<e:Group id="itemGroup" width="694" height="400.27" x="-3" y="0.09" anchorOffsetX="0" anchorOffsetY="0">
+	<e:layout>
+		<e:VerticalLayout/>
+	</e:layout>
+
+
+
+
+
+	<ns1:ClubMemberList width="694" height="72" x="109" y="154" skinName="ClubMemberRenderSkin"/>
+	<ns1:ClubMemberList width="694" height="72" x="119" y="164" skinName="ClubMemberRenderSkin"/>
+	<ns1:ClubMemberList width="694" height="72" x="129" y="174" skinName="ClubMemberRenderSkin"/>
+	<ns1:ClubMemberList width="694" height="72" x="139" y="184" skinName="ClubMemberRenderSkin"/>
+	<ns1:ClubMemberList width="694" height="72" x="149" y="194" skinName="ClubMemberRenderSkin"/>
+
+	</e:Group>
+	<e:Group x="381.69" y="430.33" anchorOffsetX="0" width="303" anchorOffsetY="0" height="45.67">
+		<e:Button id="prePageBtn" label="" left="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_mem_prepage_kr_png"/>
+				<e:Label id="labelDisplay" textColor="0x652701" size="24" horizontalCenter="0" verticalCenter="-2.5"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="nextPageBtn" label="" scaleX="1" scaleY="1" right="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_mem_nextpage_kr_png"/>
+				<e:Label id="labelDisplay" textColor="0x652701" size="24" horizontalCenter="0" verticalCenter="-2.5"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="prePageLable" text="上一页" size="24" textColor="0x652701" left="20" verticalCenter="-2.835000000000001" visible="false"/>
+		<e:Label id="currentDivMax" text="" scaleX="1" scaleY="1" size="24" textColor="0xfce484" horizontalCenter="0" verticalCenter="0.16499999999999915"/>
+		<e:Label id="nextPageLable" text="下一页" size="24" textColor="0x652701" right="23" verticalCenter="-2.835000000000001" width="72" visible="false"/>
+	</e:Group>
+</e:Skin>

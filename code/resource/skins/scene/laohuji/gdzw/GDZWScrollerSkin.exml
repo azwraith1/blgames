@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GDZWScrollerSkin" width="783" height="568" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gdzw="gdzw.*" >
+	<w:Config id="16c474c690d" ></w:Config>
+	<e:Scroller id="scroller" width="783" height="568" y="0">
+		<e:Group id="itemGroup" height="606" width="810">
+			<gdzw:GDZWScrollerItem id="item1" width="151" height="568" x="0" y="0"/>
+			<gdzw:GDZWScrollerItem id="item2" width="151" height="568" x="158" y="0"/>
+			<gdzw:GDZWScrollerItem id="item3" width="151" height="568" x="316" y="0"/>
+			<gdzw:GDZWScrollerItem id="item4" width="151" height="568" x="474" y="0"/>
+			<gdzw:GDZWScrollerItem id="item5" width="151" height="568" x="632" y="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>
